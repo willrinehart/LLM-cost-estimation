@@ -1,0 +1,78 @@
+{
+  "persona": "Financial Services Compliance Manager",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 180,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulation Analysis",
+      "description": "Analyze the RAISE Act to understand compliance requirements and implications for the organization.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for establishing a compliance framework."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a comprehensive compliance framework that addresses the transparency requirements and employee rights outlined in the RAISE Act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires collaboration with HR and legal teams."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Develop training programs for employees on the new AI compliance requirements and ethical usage.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training effectiveness is crucial for compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Auditing",
+      "description": "Establish monitoring and auditing processes to ensure ongoing compliance with the RAISE Act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Regular audits are necessary to mitigate compliance risks."
+    },
+    {
+      "id": "task5",
+      "name": "Reporting Mechanism Implementation",
+      "description": "Implement a reporting mechanism for violations and employee concerns related to AI usage.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Essential for fostering a culture of accountability."
+    },
+    {
+      "id": "task6",
+      "name": "Communication Strategy",
+      "description": "Develop a communication strategy to inform stakeholders about compliance measures and updates related to the RAISE Act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "low",
+      "notes": "Clear communication is vital for stakeholder engagement."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with transparency requirements could result in legal penalties.",
+    "Inadequate training may lead to misuse of AI technologies, increasing operational risks."
+  ],
+  "confidence_level": "high"
+}
