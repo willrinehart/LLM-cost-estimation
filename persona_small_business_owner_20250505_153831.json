@@ -1,0 +1,816 @@
+[
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 90,
+    "annual_ongoing_hours": 30,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Reading and understanding the new regulation requirements for AI and its implications on the business",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 2,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task is crucial as misunderstanding the regulation can lead to non-compliance"
+      },
+      {
+        "id": "task2",
+        "name": "Identify AI Usage",
+        "description": "Identify if and how the business uses AI, and if these uses fall under the new regulation",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires a good understanding of the business processes and the technology used"
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Plan",
+        "description": "Develop a plan to ensure the business's AI usage is compliant with the new regulation",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task may require external legal and technical expertise due to the complexity of the regulation and the technology involved"
+      },
+      {
+        "id": "task4",
+        "name": "Implement Compliance Plan",
+        "description": "Implement the measures outlined in the compliance plan",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "This task involves making changes to the business's technology and processes, and may require technical expertise"
+      },
+      {
+        "id": "task5",
+        "name": "Monitor Compliance",
+        "description": "Regularly monitor and review the business's AI usage to ensure ongoing compliance with the regulation",
+        "first_year_hours": 5,
+        "ongoing_annual_hours": 3,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "low",
+        "notes": "This task involves ongoing oversight and may require both legal and technical expertise"
+      }
+    ],
+    "key_risks": [
+      "Risk of misunderstanding the regulation due to lack of legal expertise",
+      "Risk of non-compliance due to lack of technical expertise in AI",
+      "Risk of non-compliance due to insufficient resources for implementing and monitoring compliance"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 1
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 160,
+    "annual_ongoing_hours": 20,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Reading and understanding the implications and requirements of the regulation",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 0,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task is the starting point and will dictate the steps to take in the future"
+      },
+      {
+        "id": "task2",
+        "name": "Identifying AI usage",
+        "description": "Identifying if and how the business uses AI models",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 0,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task is crucial to determine if the regulation applies to the business"
+      },
+      {
+        "id": "task3",
+        "name": "Legal Consultation",
+        "description": "Consulting with a legal expert to understand the compliance requirements",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task is mandatory given the low familiarity with regulatory compliance"
+      },
+      {
+        "id": "task4",
+        "name": "Implementing Transparency Requirements",
+        "description": "Implementing processes to ensure transparency in AI model training and usage",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2",
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require technical expertise to understand AI models and implement transparency"
+      },
+      {
+        "id": "task5",
+        "name": "Training Employees",
+        "description": "Training employees on the new processes and their rights and obligations",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 0,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task is important to ensure all employees understand the new processes and their rights and obligations"
+      }
+    ],
+    "key_risks": [
+      "Lack of legal expertise to understand and implement the regulation",
+      "Lack of technical expertise to understand and implement AI transparency requirements",
+      "Potential resistance from employees to new processes"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 2
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 80,
+    "annual_ongoing_hours": 20,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Reading and understanding the implications of the RAISE act for the business",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "Without a legal team, the owner will need to spend time understanding the legal language and implications of the regulation."
+      },
+      {
+        "id": "task2",
+        "name": "Identifying the use of AI",
+        "description": "Identifying if and how the business uses AI frontier models",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 2,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "The owner may need to consult with a technical expert to understand if their business uses AI models."
+      },
+      {
+        "id": "task3",
+        "name": "Implementing Transparency Requirements",
+        "description": "Implementing the necessary transparency requirements for AI frontier model training and use",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Without a technical team, the owner will need to hire external help to implement these requirements."
+      },
+      {
+        "id": "task4",
+        "name": "Ensuring Employee Rights and Protections",
+        "description": "Ensuring the protections, rights and obligations of employees are in place as per the regulation",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 3,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "The owner will need to understand the HR implications of the regulation and implement necessary changes."
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to lack of legal and technical expertise",
+      "Risk of fines or penalties due to non-compliance",
+      "Risk of not fully understanding the regulation and its implications due to lack of legal expertise"
+    ],
+    "confidence_level": "low",
+    "simulation_number": 3
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 170,
+    "annual_ongoing_hours": 60,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Read and understand the new regulation requirements",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task may require more time due to the lack of a legal team and low familiarity with regulatory compliance"
+      },
+      {
+        "id": "task2",
+        "name": "Identify AI usage",
+        "description": "Identify if and how the business uses artificial intelligence models",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task may require external technical consultation"
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Plan",
+        "description": "Develop a plan to ensure compliance with the regulation",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task may require more time and external consultation due to the complexity of the regulation and lack of resources"
+      },
+      {
+        "id": "task4",
+        "name": "Implement Compliance Plan",
+        "description": "Implement the plan developed in Task 3",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "This task may require more time due to low resources"
+      },
+      {
+        "id": "task5",
+        "name": "Monitor and Update Compliance",
+        "description": "Regularly monitor and update compliance measures as needed",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task may require more time due to the need for ongoing compliance and potential changes in the regulation"
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to lack of legal and technical expertise",
+      "Risk of non-compliance due to low resources",
+      "Risk of penalties due to non-compliance"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 4
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 100,
+    "annual_ongoing_hours": 20,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the regulation",
+        "description": "Read and understand the implications of the new regulation",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task is crucial as misunderstanding the regulation could lead to non-compliance"
+      },
+      {
+        "id": "task2",
+        "name": "Identifying applicable business processes",
+        "description": "Identify which business processes involve the use of artificial intelligence models",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "Requires a good understanding of the business processes and the technology involved"
+      },
+      {
+        "id": "task3",
+        "name": "Implementing transparency requirements",
+        "description": "Implement measures to ensure transparency in the training and use of AI models",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This could involve significant changes to the way AI models are trained and used"
+      },
+      {
+        "id": "task4",
+        "name": "Employee training",
+        "description": "Train employees on the new regulations and their responsibilities",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task1",
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "This is important to ensure that all employees understand the new regulations and their implications"
+      }
+    ],
+    "key_risks": [
+      "Risk of misunderstanding the regulation and failing to comply",
+      "Risk of not properly implementing the transparency requirements",
+      "Risk of employees not understanding their responsibilities"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 5
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 150,
+    "annual_ongoing_hours": 50,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understand the Regulation",
+        "description": "Read and understand the requirements of the new RAISE Act",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 2,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "This task could take longer without a legal background"
+      },
+      {
+        "id": "task2",
+        "name": "Assess AI Usage",
+        "description": "Assess whether the business currently uses or plans to use artificial intelligence models",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires technical knowledge of the business's operations"
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Procedures",
+        "description": "If applicable, develop procedures for transparency, employee protections, violations, and obligations as per the Act",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task could take longer and require outside expertise due to lack of legal team"
+      },
+      {
+        "id": "task4",
+        "name": "Train Employees",
+        "description": "Train relevant employees on new procedures and obligations under the Act",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 13,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires understanding of the new procedures and ability to communicate them effectively"
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to lack of legal and technical expertise",
+      "Risk of penalties if employees are not properly trained and do not adhere to the new procedures"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 6
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 80,
+    "annual_ongoing_hours": 20,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Read and understand the requirements of the RAISE Act",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task is crucial as misunderstanding the regulation may lead to non-compliance"
+      },
+      {
+        "id": "task2",
+        "name": "Identifying AI Systems",
+        "description": "Identify any AI systems in use that may be affected by this regulation",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 2,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires technical knowledge to correctly identify AI systems"
+      },
+      {
+        "id": "task3",
+        "name": "Implementing Transparency Requirements",
+        "description": "Implement changes to meet transparency requirements for AI model training and use",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires technical expertise and may require changes to existing systems"
+      },
+      {
+        "id": "task4",
+        "name": "Ensuring Employee Protections",
+        "description": "Implement changes to ensure protections, rights, and obligations of employees are met",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 3,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires understanding of HR policies and may require changes to existing policies"
+      }
+    ],
+    "key_risks": [
+      "Risk of misunderstanding the regulation due to lack of legal expertise",
+      "Risk of non-compliance due to lack of technical expertise to correctly implement changes",
+      "Risk of non-compliance due to lack of HR expertise to correctly implement changes to employee protections"
+    ],
+    "confidence_level": "low",
+    "simulation_number": 7
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 150,
+    "annual_ongoing_hours": 30,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the regulation",
+        "description": "Read and comprehend the regulation, focusing on how it applies to the business.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "Without a legal team, this task may be challenging and time consuming."
+      },
+      {
+        "id": "task2",
+        "name": "Assessing AI usage",
+        "description": "Assess if and how the business uses artificial intelligence frontier models.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires a good understanding of the business's technical operations."
+      },
+      {
+        "id": "task3",
+        "name": "Developing transparency protocols",
+        "description": "Develop protocols for transparency in AI training and use, including appropriate redactions.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task may require hiring external expertise due to its technical and legal complexity."
+      },
+      {
+        "id": "task4",
+        "name": "Training employees",
+        "description": "Train employees on the new protocols and their rights and obligations under the regulation.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires effective communication and training skills."
+      },
+      {
+        "id": "task5",
+        "name": "Monitoring compliance",
+        "description": "Regularly monitor and ensure compliance with the regulation.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires continuous effort and vigilance."
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to lack of legal and technical expertise",
+      "Risk of non-compliance due to inadequate training of employees"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 8
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 140,
+    "annual_ongoing_hours": 40,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Reading and interpreting the regulation text to understand the requirements",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "As the business owner has low familiarity with regulatory compliance, this task might take longer than usual. It might be beneficial to seek legal advice."
+      },
+      {
+        "id": "task2",
+        "name": "Identifying AI Usage",
+        "description": "Identifying if and how the business uses artificial intelligence models",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 2,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires a basic understanding of AI technologies."
+      },
+      {
+        "id": "task3",
+        "name": "Developing Compliance Plan",
+        "description": "Developing a plan to meet the transparency and protections requirements of the regulation",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task is critical to ensure the business is in compliance with the regulation. It might require hiring a consultant with expertise in AI and legal compliance."
+      },
+      {
+        "id": "task4",
+        "name": "Implementing Compliance Plan",
+        "description": "Implementing the measures outlined in the compliance plan",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "Implementation might require technical changes to the business's AI systems or processes."
+      },
+      {
+        "id": "task5",
+        "name": "Monitoring and Updating Compliance",
+        "description": "Regularly reviewing and updating the compliance plan and its implementation to ensure ongoing compliance",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 3,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task is important to ensure that the business remains in compliance as the regulation or business practices change."
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to lack of legal and technical expertise",
+      "Risk of penalties or sanctions due to non-compliance"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 9
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 120,
+    "annual_ongoing_hours": 30,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the regulation",
+        "description": "Review and understand the new law and its implications for the business",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "Without a legal team, the small business owner will need to spend considerable time understanding the new law."
+      },
+      {
+        "id": "task2",
+        "name": "Assessing AI usage",
+        "description": "Identify and document all instances of AI usage in the business",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "The owner will need to understand the technical aspects of the business to identify AI usage"
+      },
+      {
+        "id": "task3",
+        "name": "Implementing transparency requirements",
+        "description": "Implement and document the transparency requirements outlined in the law for each AI model",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task may require hiring or consulting with a technical expert to ensure compliance"
+      },
+      {
+        "id": "task4",
+        "name": "Employee training",
+        "description": "Train employees on the new law and their rights and obligations",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "low",
+        "notes": "This task can be performed by the owner or a designated employee"
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to lack of legal and technical expertise",
+      "Risk of penalties due to non-compliance with transparency requirements",
+      "Risk of employee dissatisfaction due to lack of training on their rights and obligations"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 10
+  }
+]

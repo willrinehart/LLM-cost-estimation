@@ -1,0 +1,66 @@
+name,persona,first_year_hours,first_year_hours,first_year_hours,first_year_hours,ongoing_annual_hours,ongoing_annual_hours,ongoing_annual_hours,ongoing_annual_hours
+,,mean,std,min,max,mean,std,min,max
+Assess AI Usage,Small Business Owner,20.0,,20,20,5.0,,5,5
+Assess Current AI Systems,Compliance Officer - Large Tech,200.0,,200,200,100.0,,100,100
+Assessing AI usage,Small Business Owner,30.0,0.0,30,30,7.5,3.5355339059327378,5,10
+Assessment of Current AI Models,Compliance Officer - Large Tech,80.0,,80,80,20.0,,20,20
+Audit Current Systems,Compliance Officer - Large Tech,200.0,,200,200,100.0,,100,100
+Audit and Reporting,Compliance Officer - Large Tech,50.0,,50,50,40.0,,40,40
+Audit and Review,Compliance Officer - Large Tech,50.0,,50,50,80.0,,80,80
+Compliance Monitoring,Compliance Officer - Large Tech,100.0,,100,100,80.0,,80,80
+Compliance Monitoring and Reporting,Compliance Officer - Large Tech,50.0,,50,50,100.0,,100,100
+Compliance Plan Development,Compliance Officer - Large Tech,200.0,,200,200,50.0,,50,50
+Develop Compliance Plan,Compliance Officer - Large Tech,151.42857142857142,79.67194642795572,60,300,38.57142857142857,31.847852585154218,10,100
+Develop Compliance Plan,Small Business Owner,40.0,14.142135623730951,30,50,10.0,0.0,10,10
+Develop Compliance Procedures,Small Business Owner,100.0,,100,100,30.0,,30,30
+Develop and Implement Compliance Plan,Compliance Officer - Large Tech,800.0,,800,800,200.0,,200,200
+Developing Compliance Plan,Small Business Owner,60.0,,60,60,10.0,,10,10
+Developing transparency protocols,Small Business Owner,50.0,,50,50,10.0,,10,10
+Development of Compliance Strategy,Compliance Officer - Large Tech,150.0,,150,150,20.0,,20,20
+Employee training,Small Business Owner,20.0,0.0,20,20,5.0,0.0,5,5
+Ensuring Employee Protections,Small Business Owner,20.0,,20,20,3.0,,3,3
+Ensuring Employee Rights and Protections,Small Business Owner,20.0,,20,20,3.0,,3,3
+Gap Analysis,Compliance Officer - Large Tech,150.0,50.0,100,200,56.666666666666664,40.414518843273804,20,100
+Identify AI Usage,Small Business Owner,20.0,,20,20,5.0,,5,5
+Identify AI usage,Small Business Owner,30.0,,30,30,10.0,,10,10
+Identify Affected Systems,Compliance Officer - Large Tech,50.0,,50,50,10.0,,10,10
+Identify Affected Systems and Processes,Compliance Officer - Large Tech,300.0,,300,300,50.0,,50,50
+Identify Impacted Systems,Compliance Officer - Large Tech,50.0,,50,50,15.0,,15,15
+Identifying AI Systems,Small Business Owner,10.0,,10,10,2.0,,2,2
+Identifying AI Usage,Small Business Owner,10.0,,10,10,2.0,,2,2
+Identifying AI usage,Small Business Owner,10.0,,10,10,0.0,,0,0
+Identifying applicable business processes,Small Business Owner,30.0,,30,30,5.0,,5,5
+Identifying the use of AI,Small Business Owner,10.0,,10,10,2.0,,2,2
+Implement Changes,Compliance Officer - Large Tech,400.0,,400,400,200.0,,200,200
+Implement Compliance Plan,Compliance Officer - Large Tech,283.3333333333333,213.69760566432808,100,600,165.0,193.36493994517207,20,500
+Implement Compliance Plan,Small Business Owner,37.5,17.67766952966369,25,50,15.0,7.0710678118654755,10,20
+Implementation of Compliance Plan,Compliance Officer - Large Tech,300.0,,300,300,200.0,,200,200
+Implementation of Compliance Strategy,Compliance Officer - Large Tech,200.0,,200,200,20.0,,20,20
+Implementing Compliance Plan,Small Business Owner,40.0,,40,40,20.0,,20,20
+Implementing Transparency Requirements,Small Business Owner,40.0,17.320508075688775,30,60,10.0,0.0,10,10
+Implementing transparency requirements,Small Business Owner,40.0,14.142135623730951,30,50,7.5,3.5355339059327378,5,10
+Interpretation of Regulation,Compliance Officer - Large Tech,100.0,0.0,100,100,35.0,21.213203435596427,20,50
+Legal Consultation,Small Business Owner,40.0,,40,40,10.0,,10,10
+Monitor Compliance,Compliance Officer - Large Tech,50.0,,50,50,30.0,,30,30
+Monitor Compliance,Small Business Owner,5.0,,5,5,3.0,,3,3
+Monitor and Audit,Compliance Officer - Large Tech,40.0,,40,40,30.0,,30,30
+Monitor and Report Compliance,Compliance Officer - Large Tech,300.0,,300,300,130.0,,130,130
+Monitor and Update Compliance,Small Business Owner,20.0,,20,20,15.0,,15,15
+Monitoring and Auditing,Compliance Officer - Large Tech,100.0,,100,100,95.0,,95,95
+Monitoring and Reporting,Compliance Officer - Large Tech,100.0,70.71067811865476,50,150,60.0,56.568542494923804,20,100
+Monitoring and Updating Compliance,Small Business Owner,10.0,,10,10,3.0,,3,3
+Monitoring compliance,Small Business Owner,20.0,,20,20,5.0,,5,5
+Regulation Analysis,Compliance Officer - Large Tech,50.0,,50,50,10.0,,10,10
+Regulation Understanding,Compliance Officer - Large Tech,100.0,,100,100,20.0,,20,20
+Risk Assessment,Compliance Officer - Large Tech,100.0,,100,100,50.0,,50,50
+Train Employees,Small Business Owner,20.0,,20,20,13.0,,13,13
+Training,Compliance Officer - Large Tech,100.0,,100,100,50.0,,50,50
+Training Employees,Small Business Owner,30.0,,30,30,0.0,,0,0
+Training employees,Small Business Owner,30.0,,30,30,5.0,,5,5
+Understand Regulation,Compliance Officer - Large Tech,20.0,,20,20,5.0,,5,5
+Understand and Interpret New Regulation,Compliance Officer - Large Tech,200.0,,200,200,20.0,,20,20
+Understand the Regulation,Small Business Owner,10.0,,10,10,2.0,,2,2
+Understanding the RAISE Act,Compliance Officer - Large Tech,40.0,,40,40,5.0,,5,5
+Understanding the Regulation,Compliance Officer - Large Tech,66.66666666666667,28.867513459481287,50,100,20.0,0.0,20,20
+Understanding the Regulation,Small Business Owner,18.333333333333332,4.0824829046386295,10,20,3.6666666666666665,2.1602468994692865,0,5
+Understanding the regulation,Small Business Owner,20.0,0.0,20,20,5.0,0.0,5,5
