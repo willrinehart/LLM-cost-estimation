@@ -1,0 +1,67 @@
+{
+  "persona": "Financial Services Compliance Manager",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 160,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Review and analyze the RAISE Act to identify compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Critical for understanding compliance obligations."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a compliance framework to address the requirements of the RAISE Act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Framework should include policies and procedures."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Develop and implement training programs for employees on AI safety and compliance.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be comprehensive to ensure understanding."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Auditing",
+      "description": "Establish processes for ongoing monitoring and auditing of AI systems for compliance.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Regular audits are essential to ensure compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Reporting Mechanisms",
+      "description": "Set up reporting mechanisms for compliance violations and employee rights under the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Important for transparency and accountability."
+    }
+  ],
+  "key_risks": [
+    "Potential non-compliance leading to legal penalties.",
+    "Insufficient training leading to employee misunderstandings of AI safety protocols."
+  ],
+  "confidence_level": "high"
+}

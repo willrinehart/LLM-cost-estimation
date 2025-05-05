@@ -1,0 +1,67 @@
+{
+  "persona": "Financial Services Compliance Manager",
+  "first_year_total_hours": 480,
+  "annual_ongoing_hours": 240,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE Act to understand its implications for the organization.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Critical for ensuring compliance with the new regulations."
+    },
+    {
+      "id": "task2",
+      "name": "Policy Development",
+      "description": "Develop or update internal policies to align with the RAISE Act requirements.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Policies must reflect the transparency and employee rights outlined in the Act."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Design",
+      "description": "Create training programs for employees on compliance with the RAISE Act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training is essential for understanding new obligations and rights."
+    },
+    {
+      "id": "task4",
+      "name": "Implementation of AI Safety Protocols",
+      "description": "Develop and implement safety protocols for AI model training and usage.",
+      "first_year_hours": 120,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Technical expertise is crucial for ensuring compliance with AI safety standards."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Reporting",
+      "description": "Establish systems for monitoring compliance and reporting violations.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Monitoring systems must be robust to detect and report any non-compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with the RAISE Act could result in legal penalties.",
+    "Inadequate training may lead to employee violations of the new regulations."
+  ],
+  "confidence_level": "high"
+}
