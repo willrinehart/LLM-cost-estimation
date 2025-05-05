@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand AI Regulation Requirements",
+      "description": "Review and comprehend the key aspects of the RAISE act, including definitions, transparency requirements, and employee obligations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential for compliance; may require consultation with a legal expert."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Transparency Protocols",
+      "description": "Create protocols for transparency in the training and use of AI models as per the regulation.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Technical expertise needed to ensure protocols are effective and compliant."
+    },
+    {
+      "id": "task3",
+      "name": "Establish Employee Rights and Protections",
+      "description": "Draft policies outlining employee rights and obligations concerning AI use.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "HR expertise is crucial to ensure compliance with employee rights."
+    },
+    {
+      "id": "task4",
+      "name": "Conduct Compliance Training for Staff",
+      "description": "Organize training sessions for employees on AI safety and compliance with the new regulations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "medium",
+      "notes": "Training is key to ensure that employees understand their roles under the new regulations."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor and Audit AI Practices",
+      "description": "Implement an ongoing monitoring and auditing process for AI usage to ensure compliance with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Requires technical expertise to set up effective monitoring systems."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with AI regulations leading to potential fines.",
+    "Insufficient training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand AI Regulation Requirements",
+      "description": "Review and comprehend the RAISE act to identify compliance obligations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "May need to consult with a legal expert for clarity."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Transparency Protocols",
+      "description": "Create protocols for transparency in AI model training and usage as per the regulation.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Technical expertise is crucial to ensure compliance."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Rights and Obligations Training",
+      "description": "Train employees on their rights and obligations under the new regulation.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Training materials may need to be developed or sourced."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Monitoring and Reporting Mechanisms",
+      "description": "Set up systems to monitor compliance and report any violations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Monitoring systems must be robust to prevent violations."
+    },
+    {
+      "id": "task5",
+      "name": "Conduct Regular Compliance Audits",
+      "description": "Perform audits to ensure ongoing compliance with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "high",
+      "notes": "Legal expertise is recommended to conduct thorough audits."
+    }
+  ],
+  "key_risks": [
+    "Failure to understand compliance requirements could lead to penalties.",
+    "Inadequate training and protocols may result in violations of employee rights."
+  ],
+  "confidence_level": "medium"
+}

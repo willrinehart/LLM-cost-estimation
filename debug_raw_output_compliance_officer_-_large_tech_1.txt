@@ -1,0 +1,67 @@
+{
+  "persona": "Compliance Officer - Large Tech",
+  "first_year_total_hours": 350,
+  "annual_ongoing_hours": 200,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE act to understand compliance requirements and implications for the organization.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Requires collaboration with legal team for interpretation."
+    },
+    {
+      "id": "task2",
+      "name": "Policy Development",
+      "description": "Develop internal policies that align with the RAISE act requirements regarding AI training and use.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Policies must be comprehensive to mitigate risks."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Create and implement a training program for employees regarding AI safety and compliance.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training materials must be regularly updated."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Auditing",
+      "description": "Establish a framework for ongoing monitoring and auditing of AI systems to ensure compliance.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Requires technical tools and legal oversight."
+    },
+    {
+      "id": "task5",
+      "name": "Reporting Mechanism",
+      "description": "Develop a reporting mechanism for violations and compliance issues related to AI use.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Must ensure confidentiality and protection of sensitive information."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with the RAISE act leading to potential fines and legal action.",
+    "Insufficient employee training resulting in misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}

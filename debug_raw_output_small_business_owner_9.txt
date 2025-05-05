@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Research AI Regulations",
+      "description": "Understand the new regulations regarding AI, including definitions and requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Important for ensuring compliance with the RAISE act."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Plan",
+      "description": "Create a detailed plan outlining how the business will comply with the AI regulations.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This plan will guide all compliance efforts."
+    },
+    {
+      "id": "task3",
+      "name": "Implement AI Training Protocols",
+      "description": "Establish training protocols for employees on responsible AI usage.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training is crucial to meet employee rights and obligations."
+    },
+    {
+      "id": "task4",
+      "name": "Monitor Compliance",
+      "description": "Regularly check and ensure that the business is adhering to AI regulations.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": [],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "medium",
+      "notes": "Ongoing monitoring is necessary to avoid violations."
+    },
+    {
+      "id": "task5",
+      "name": "Create Reporting Mechanism",
+      "description": "Set up a system for reporting any compliance issues or violations.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task4"],
+      "risk_level": "low",
+      "notes": "A reporting mechanism is essential for transparency."
+    }
+  ],
+  "key_risks": [
+    "Lack of understanding of AI regulations could lead to non-compliance.",
+    "Insufficient training may result in employee violations of AI usage protocols."
+  ],
+  "confidence_level": "medium"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Compliance Officer - Large Tech",
+  "first_year_total_hours": 300,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the RAISE act to identify compliance obligations and implications for the organization.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential for understanding the scope of compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a compliance framework that outlines policies and procedures to meet the regulation's requirements.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires collaboration across departments to ensure all aspects are covered."
+    },
+    {
+      "id": "task3",
+      "name": "Training Programs for Employees",
+      "description": "Design and implement training programs for employees on AI safety and compliance with the RAISE act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be tailored to various roles within the organization."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Auditing",
+      "description": "Establish a monitoring and auditing process to ensure ongoing compliance with the RAISE act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Regular audits are necessary to identify and mitigate compliance risks."
+    },
+    {
+      "id": "task5",
+      "name": "Documentation and Reporting",
+      "description": "Maintain documentation of compliance efforts and prepare reports as required by the regulation.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "low",
+      "notes": "Documentation must be thorough to support compliance claims."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with the RAISE act may result in legal penalties.",
+    "Inadequate training could lead to misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}

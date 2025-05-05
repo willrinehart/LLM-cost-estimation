@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand AI Regulations",
+      "description": "Review and comprehend the requirements of the RAISE act and its implications for the business.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "This is crucial for compliance and understanding the overall impact on operations."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Safety Protocols",
+      "description": "Create safety and security protocols that comply with transparency requirements.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require consultation with a technical expert to ensure protocols are adequate."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training on AI Usage",
+      "description": "Train employees on the proper use of AI systems and the associated rights and obligations.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Training must be comprehensive to prevent violations."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Redaction Procedures",
+      "description": "Establish procedures for appropriate redactions in reports to protect sensitive information.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Legal expertise may be needed to ensure compliance with confidentiality laws."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Violations",
+      "description": "Set up a system to monitor compliance with the RAISE act and identify any potential violations.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": [],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "medium",
+      "notes": "Regular monitoring is essential to mitigate risks and ensure adherence to regulations."
+    }
+  ],
+  "key_risks": [
+    "Failure to understand the regulatory requirements could lead to non-compliance.",
+    "Inadequate training may result in employee misuse of AI, leading to violations."
+  ],
+  "confidence_level": "medium"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Understand the specific requirements of the RAISE act related to AI models.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "This is essential for compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Safety Protocols",
+      "description": "Create safety protocols for the training and use of AI models as per the regulation.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May need technical expertise to ensure protocols are robust."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training on AI Use",
+      "description": "Train employees on the new AI protocols and their rights under the RAISE act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training should be comprehensive to mitigate risks."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Transparency Measures",
+      "description": "Establish measures to ensure transparency in AI model training and usage.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Technical expertise may be needed for implementation."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Update Practices",
+      "description": "Regularly monitor compliance with the RAISE act and update practices as needed.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": [],
+      "dependencies": ["task1", "task2", "task3", "task4"],
+      "risk_level": "medium",
+      "notes": "Ongoing monitoring is crucial for compliance."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with the RAISE act could lead to legal penalties.",
+    "Inadequate training of employees may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

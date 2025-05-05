@@ -1,0 +1,78 @@
+{
+  "persona": "Healthcare Administrator",
+  "first_year_total_hours": 220,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE act to identify compliance requirements.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Important for ensuring all compliance aspects are understood."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a strategy to meet the requirements outlined in the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires legal input to ensure all aspects are covered."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Develop and implement a training program for staff on AI safety and compliance.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must align with legal requirements."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Transparency Measures",
+      "description": "Establish protocols for transparency in AI model training and use.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Technical expertise is crucial to implement effective measures."
+    },
+    {
+      "id": "task5",
+      "name": "Compliance Audits",
+      "description": "Conduct regular audits to ensure compliance with the RAISE act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "high",
+      "notes": "Audits should be thorough to avoid potential violations."
+    },
+    {
+      "id": "task6",
+      "name": "Monitor Regulatory Changes",
+      "description": "Stay updated on any changes to the RAISE act or related regulations.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Ongoing monitoring is essential for continued compliance."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with the RAISE act may result in legal penalties.",
+    "Inadequate training may lead to misuse of AI technology."
+  ],
+  "confidence_level": "medium"
+}

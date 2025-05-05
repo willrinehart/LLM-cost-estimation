@@ -1,0 +1,78 @@
+{
+  "persona": "Compliance Officer - Large Tech",
+  "first_year_total_hours": 450,
+  "annual_ongoing_hours": 300,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE Act to understand compliance requirements and implications for AI models.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Essential to ensure all compliance aspects are covered."
+    },
+    {
+      "id": "task2",
+      "name": "Training Program Development",
+      "description": "Develop training materials and programs for employees on compliance with the RAISE Act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Training must be tailored to specific roles in AI development."
+    },
+    {
+      "id": "task3",
+      "name": "Implementation of Transparency Requirements",
+      "description": "Establish protocols for transparency in AI model training and usage as mandated by the RAISE Act.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Technical implementation requires close collaboration with AI teams."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Rights and Protections Review",
+      "description": "Review and update policies regarding employee rights and obligations related to AI use.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Ensure alignment with state and federal labor laws."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Reporting Mechanisms",
+      "description": "Develop mechanisms for monitoring compliance and reporting violations under the RAISE Act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Includes creating dashboards and reporting tools for compliance tracking."
+    },
+    {
+      "id": "task6",
+      "name": "Audit and Review Process",
+      "description": "Establish an audit process to ensure ongoing compliance with the RAISE Act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task5"],
+      "risk_level": "medium",
+      "notes": "Regular audits are critical for maintaining compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with the RAISE Act could lead to legal penalties.",
+    "Insufficient training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}

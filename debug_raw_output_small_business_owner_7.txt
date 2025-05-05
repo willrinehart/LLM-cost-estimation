@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 80,
+  "annual_ongoing_hours": 40,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Read and understand the new regulation regarding AI usage and training.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential for understanding compliance requirements."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Plan",
+      "description": "Create a plan outlining how the business will comply with the RAISE Act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require consultation with a legal expert."
+    },
+    {
+      "id": "task3",
+      "name": "Implement AI Training Protocols",
+      "description": "Establish protocols for training AI models in compliance with the regulation.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Technical expertise is crucial to ensure compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Training on AI Usage",
+      "description": "Train employees on the new AI protocols and compliance requirements.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training is essential to ensure all employees are aware of their obligations."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Update Policies",
+      "description": "Regularly review and update compliance policies as needed.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Ongoing monitoring will help maintain compliance."
+    }
+  ],
+  "key_risks": [
+    "Failure to understand compliance requirements could lead to violations.",
+    "Lack of resources may hinder the implementation of necessary protocols."
+  ],
+  "confidence_level": "medium"
+}

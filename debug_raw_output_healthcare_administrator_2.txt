@@ -1,0 +1,78 @@
+{
+  "persona": "Healthcare Administrator",
+  "first_year_total_hours": 300,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE act to identify compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Ensure all staff involved in AI understand the regulations."
+    },
+    {
+      "id": "task2",
+      "name": "Assess Current AI Models",
+      "description": "Evaluate existing AI models for compliance with the new transparency and safety requirements.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require external technical expertise for thorough assessment."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Compliance Protocols",
+      "description": "Create protocols to ensure AI models are compliant with the RAISE act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "Collaboration between legal and technical teams is crucial."
+    },
+    {
+      "id": "task4",
+      "name": "Train Staff on Compliance",
+      "description": "Conduct training sessions for staff on new compliance protocols and AI usage.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training materials should be updated annually."
+    },
+    {
+      "id": "task5",
+      "name": "Implement Monitoring Systems",
+      "description": "Set up systems to continuously monitor AI model compliance and performance.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Regular audits will be necessary to ensure ongoing compliance."
+    },
+    {
+      "id": "task6",
+      "name": "Document Compliance Efforts",
+      "description": "Maintain thorough documentation of compliance efforts and protocols for audits.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "medium",
+      "notes": "Documentation should be kept up-to-date for regulatory inspections."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could result in legal penalties.",
+    "Insufficient training may lead to misuse of AI models."
+  ],
+  "confidence_level": "medium"
+}

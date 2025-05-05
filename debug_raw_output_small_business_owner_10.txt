@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Read and understand the key provisions of the RAISE Act and how they apply to the business.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the regulation is crucial for compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Conduct AI Impact Assessment",
+      "description": "Evaluate how the business uses AI and identify necessary changes to align with the regulation.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This task may require outside help due to technical complexity."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Training Program",
+      "description": "Create a training program for employees on the responsible use of AI as per the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "medium",
+      "notes": "Training is essential for compliance and employee awareness."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Transparency Measures",
+      "description": "Establish protocols for transparency regarding AI usage and data handling.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Technical expertise may be needed to set up proper systems."
+    },
+    {
+      "id": "task5",
+      "name": "Document Compliance Procedures",
+      "description": "Create documentation outlining compliance procedures and protocols for AI use.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "medium",
+      "notes": "Documentation is crucial for demonstrating compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with AI regulations leading to potential fines.",
+    "Insufficient training leading to misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

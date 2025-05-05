@@ -1,0 +1,67 @@
+{
+  "persona": "Compliance Officer - Large Tech",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 160,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Review and analyze the RAISE Act to understand compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Essential for identifying compliance obligations."
+    },
+    {
+      "id": "task2",
+      "name": "Policy Development",
+      "description": "Develop internal policies to comply with the transparency requirements.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Policies must align with legal interpretations."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Design",
+      "description": "Design and implement training programs for employees on AI model safety and compliance.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training is critical for compliance and employee awareness."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Auditing",
+      "description": "Establish a system for monitoring AI model compliance and conducting regular audits.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "high",
+      "notes": "Ongoing audits are necessary to ensure compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Reporting Mechanism Setup",
+      "description": "Create a reporting mechanism for violations and employee concerns regarding AI use.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Reporting must be accessible and confidential."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with transparency requirements leading to legal penalties.",
+    "Inadequate training resulting in misuse of AI models."
+  ],
+  "confidence_level": "high"
+}

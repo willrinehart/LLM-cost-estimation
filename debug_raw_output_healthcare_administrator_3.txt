@@ -1,0 +1,67 @@
+{
+  "persona": "Healthcare Administrator",
+  "first_year_total_hours": 300,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Understand Regulation",
+      "description": "Thoroughly review the RAISE act to understand compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Ensure all relevant team members are briefed on the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework to ensure compliance with the RAISE act, including policies and procedures.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Consider involving external legal counsel for this task."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Develop training programs for staff on responsible AI use and compliance requirements.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training should be tailored to different roles within the organization."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Compliance Monitoring",
+      "description": "Establish a system for ongoing monitoring of compliance with the RAISE act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Monitoring tools may require technical expertise to implement."
+    },
+    {
+      "id": "task5",
+      "name": "Conduct Audits and Assessments",
+      "description": "Perform regular audits to assess compliance with the RAISE act and identify areas for improvement.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "high",
+      "notes": "Consider involving external auditors for unbiased assessments."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties and damage to reputation.",
+    "Insufficient training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

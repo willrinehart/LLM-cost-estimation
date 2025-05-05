@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand AI Regulation Requirements",
+      "description": "Review the RAISE act to understand compliance obligations regarding AI usage.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical to grasp the legal implications of the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Transparency Protocols",
+      "description": "Create protocols for transparency in AI model training and usage.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require hiring a consultant for technical guidance."
+    },
+    {
+      "id": "task3",
+      "name": "Establish Employee Rights and Protections",
+      "description": "Define and communicate employee rights regarding AI usage.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Essential for maintaining employee trust and compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Create Compliance Audit Procedures",
+      "description": "Develop procedures for regular audits to ensure compliance with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "high",
+      "notes": "May need legal assistance to ensure thoroughness."
+    },
+    {
+      "id": "task5",
+      "name": "Training for Employees on AI Usage",
+      "description": "Implement training programs for employees about responsible AI use.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "medium",
+      "notes": "Training materials may need to be developed with external help."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with AI regulations leading to legal penalties.",
+    "Insufficient employee training resulting in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

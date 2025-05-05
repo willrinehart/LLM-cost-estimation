@@ -1,0 +1,67 @@
+{
+  "persona": "Healthcare Administrator",
+  "first_year_total_hours": 180,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Analyze the RAISE act text to understand compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the regulation is crucial for effective compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework to ensure adherence to the RAISE act requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Involves collaboration with legal and IT departments."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Design and implement training for employees on AI usage and compliance.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "training"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training is essential to mitigate risks associated with AI."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Transparency Requirements",
+      "description": "Establish processes to meet transparency requirements outlined in the act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Technical expertise needed to integrate transparency measures."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Reporting",
+      "description": "Set up mechanisms to monitor ongoing compliance and prepare reports.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Regular monitoring is key to maintaining compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties.",
+    "Insufficient employee training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

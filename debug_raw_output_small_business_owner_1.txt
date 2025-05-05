@@ -1,0 +1,67 @@
+{
+  "persona": "Small Business Owner",
+  "first_year_total_hours": 150,
+  "annual_ongoing_hours": 100,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand AI Regulation Requirements",
+      "description": "Review and comprehend the key elements of the RAISE act, focusing on transparency requirements, employee rights, and obligations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "This is foundational for compliance; ensure to document findings."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Training Protocols",
+      "description": "Create training protocols for employees on the responsible use of AI models as per the regulation.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Consider consulting an HR professional for effective training."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Measures",
+      "description": "Establish measures to ensure transparency in AI model training and usage, including documentation and reporting.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require technical assistance to set up proper documentation."
+    },
+    {
+      "id": "task4",
+      "name": "Conduct Employee Rights Training",
+      "description": "Train employees on their rights and obligations under the RAISE act.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Important for maintaining a compliant workplace environment."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Compliance Monitoring",
+      "description": "Develop a system for ongoing monitoring and compliance checks related to AI usage.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Consider a simple software solution for tracking compliance."
+    }
+  ],
+  "key_risks": [
+    "Lack of understanding of complex AI regulations may lead to non-compliance.",
+    "Insufficient training may result in misuse of AI technologies by employees."
+  ],
+  "confidence_level": "medium"
+}

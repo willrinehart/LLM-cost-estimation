@@ -1,0 +1,78 @@
+{
+  "persona": "Healthcare Administrator",
+  "first_year_total_hours": 150,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE act to identify compliance requirements.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the regulation is crucial for subsequent tasks."
+    },
+    {
+      "id": "task2",
+      "name": "Identify Compliance Areas",
+      "description": "Determine specific areas of the regulation that impact current operations.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Legal expertise will help clarify compliance areas."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Compliance Plan",
+      "description": "Create a plan outlining steps to achieve compliance with the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "This plan will guide the implementation of compliance measures."
+    },
+    {
+      "id": "task4",
+      "name": "Staff Training on AI Use",
+      "description": "Implement training programs for staff on the responsible use of AI as per the regulation.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training is essential to ensure all staff are aware of compliance requirements."
+    },
+    {
+      "id": "task5",
+      "name": "Implement Monitoring Mechanisms",
+      "description": "Establish processes to monitor compliance with the RAISE act continuously.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Monitoring is necessary to ensure ongoing compliance and identify violations."
+    },
+    {
+      "id": "task6",
+      "name": "Evaluate Compliance and Reporting",
+      "description": "Regularly evaluate compliance status and prepare reports as required by the regulation.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4", "task5"],
+      "risk_level": "medium",
+      "notes": "Legal expertise may be needed for accurate reporting."
+    }
+  ],
+  "key_risks": [
+    "Failure to fully understand the regulation could lead to non-compliance.",
+    "Insufficient staff training on AI usage may result in violations."
+  ],
+  "confidence_level": "medium"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Healthcare Administrator",
+  "first_year_total_hours": 200,
+  "annual_ongoing_hours": 100,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly review the RAISE Act to understand compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the full scope of the regulation is crucial."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework detailing how the organization will comply with the RAISE Act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This framework will guide future compliance efforts."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Develop training materials for staff on AI safety and compliance.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training is essential for compliance and safety."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Compliance Measures",
+      "description": "Put in place the compliance measures outlined in the framework.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Implementation is critical to avoid violations."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Auditing",
+      "description": "Establish a system for ongoing monitoring and auditing of AI use.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Regular audits will help maintain compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with the RAISE Act could lead to legal penalties.",
+    "Insufficient training may result in improper use of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

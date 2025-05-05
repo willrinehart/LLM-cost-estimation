@@ -1,0 +1,67 @@
+{
+  "persona": "Healthcare Administrator",
+  "first_year_total_hours": 180,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Review and analyze the RAISE act to understand compliance requirements.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Legal team will assist in interpreting the act."
+    },
+    {
+      "id": "task2",
+      "name": "Policy Development",
+      "description": "Develop policies that align with the transparency requirements and employee rights outlined in the act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Collaboration with HR is essential for employee-related policies."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Implementation",
+      "description": "Create and implement training programs for staff regarding AI model use and compliance.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Training must be comprehensive to cover all aspects of the act."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Auditing",
+      "description": "Establish a monitoring and auditing process to ensure ongoing compliance with the act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Regular audits will help identify compliance gaps."
+    },
+    {
+      "id": "task5",
+      "name": "Reporting Mechanism Setup",
+      "description": "Set up a reporting mechanism for violations and employee concerns related to AI usage.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure the mechanism is user-friendly and confidential."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance leading to potential legal penalties.",
+    "Insufficient training leading to misuse of AI models."
+  ],
+  "confidence_level": "medium"
+}

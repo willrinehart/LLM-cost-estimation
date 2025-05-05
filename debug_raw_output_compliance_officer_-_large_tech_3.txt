@@ -1,0 +1,67 @@
+{
+  "persona": "Compliance Officer - Large Tech",
+  "first_year_total_hours": 240,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE Act to identify compliance requirements and implications for the organization.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential for understanding the scope of compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Policy Development",
+      "description": "Develop or update internal policies to align with the transparency and obligation requirements of the RAISE Act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Policies must be comprehensive to mitigate risks."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Design",
+      "description": "Design training programs for employees on responsible AI use and compliance with the RAISE Act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training effectiveness is critical for compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Implementation of Compliance Mechanisms",
+      "description": "Implement mechanisms for monitoring compliance with the RAISE Act, including audits and reporting structures.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Requires collaboration with IT and legal teams."
+    },
+    {
+      "id": "task5",
+      "name": "Ongoing Monitoring and Reporting",
+      "description": "Establish a process for ongoing monitoring of compliance and reporting to relevant stakeholders.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Continuous monitoring is essential for compliance."
+    }
+  ],
+  "key_risks": [
+    "Potential non-compliance leading to legal penalties and reputational damage.",
+    "Inadequate training leading to misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}
