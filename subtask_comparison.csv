@@ -1,11 +1,59 @@
 name,persona,first_year_hours,ongoing_annual_hours
-Develop Compliance Plan,Compliance Officer - Large Tech,150,30
-Employee Training,Small Business Owner,20,10
-Gap Analysis,Compliance Officer - Large Tech,100,20
+AI Audit,E-commerce Platform Manager,80,30
+Consulting External Legal Team,Manufacturing Plant Manager,60,20
+Creating Transparency Protocols,EdTech Startup Founder,60,20
+Develop Compliance Plan,Compliance Officer - Large Tech,100,20
+Develop Compliance Plan,Nonprofit Director,50,15
+Develop Compliance Plan,Pharmaceutical Research Director,200,50
+Develop Compliance Plan,Real Estate Developer,40,10
+Develop Transparency Protocols,Healthcare Administrator,80,20
+Develop Transparency Protocols,Hospitality Chain Owner,50,10
+Developing Compliance Plan,Financial Services Compliance Manager,150,30
+Employee Training,EdTech Startup Founder,80,20
+Employee Training,Healthcare Administrator,100,30
+Employee Training,Hospitality Chain Owner,80,20
+Employee Training,Small Business Owner,30,10
+Identify AI Applications,Real Estate Developer,30,10
+Identify AI Models,Pharmaceutical Research Director,100,20
+Identify AI Models in Use,Healthcare Administrator,60,10
+Identify AI Models in Use,Hospitality Chain Owner,30,10
+Identify Affected Systems,Compliance Officer - Large Tech,50,10
+Identify Applicable Areas,Nonprofit Director,30,10
+Identifying AI Models,EdTech Startup Founder,30,10
+Identifying AI Models,Financial Services Compliance Manager,100,20
+Identifying AI Models in Use,Manufacturing Plant Manager,80,30
 Identifying AI Models in Use,Small Business Owner,30,5
-Implement Compliance Plan,Compliance Officer - Large Tech,200,60
-Implementing Transparency Requirements,Small Business Owner,50,20
-Monitoring and Reporting,Compliance Officer - Large Tech,30,40
-Training and Education,Compliance Officer - Large Tech,80,40
-Understanding the Regulation,Compliance Officer - Large Tech,40,10
+Implement Compliance Plan,Compliance Officer - Large Tech,200,50
+Implement Compliance Plan,Nonprofit Director,20,10
+Implement Compliance Plan,Pharmaceutical Research Director,200,100
+Implement Compliance Plan,Real Estate Developer,20,10
+Implementation,Government Agency Director,100,50
+Implementing Compliance Plan,Financial Services Compliance Manager,150,20
+Implementing Transparency Requirements,Manufacturing Plant Manager,100,30
+Implementing Transparency Requirements,Small Business Owner,40,20
+Monitor and Report Compliance,Compliance Officer - Large Tech,30,15
+Monitor and Report Compliance,Pharmaceutical Research Director,50,20
+Monitor and Update Compliance Plan,Real Estate Developer,10,5
+Monitoring and Auditing,EdTech Startup Founder,30,20
+Monitoring and Compliance,Government Agency Director,40,40
+Monitoring and Reporting,Financial Services Compliance Manager,50,20
+Ongoing Compliance Monitoring,E-commerce Platform Manager,30,20
+Ongoing Compliance Monitoring,Healthcare Administrator,40,10
+Ongoing Compliance Monitoring,Hospitality Chain Owner,20,5
+Policy Development,E-commerce Platform Manager,60,20
+Policy Development,Government Agency Director,100,40
+Training,E-commerce Platform Manager,50,20
+Training Employees,Manufacturing Plant Manager,20,10
+Training and Education,Government Agency Director,120,60
+Understanding the RAISE Act,E-commerce Platform Manager,30,10
+Understanding the RAISE Act,Hospitality Chain Owner,20,5
+Understanding the Regulation,Compliance Officer - Large Tech,20,5
+Understanding the Regulation,EdTech Startup Founder,40,10
+Understanding the Regulation,Financial Services Compliance Manager,50,10
+Understanding the Regulation,Government Agency Director,40,10
+Understanding the Regulation,Healthcare Administrator,40,10
+Understanding the Regulation,Manufacturing Plant Manager,40,10
+Understanding the Regulation,Nonprofit Director,20,5
+Understanding the Regulation,Pharmaceutical Research Director,50,10
+Understanding the Regulation,Real Estate Developer,20,5
 Understanding the Regulation,Small Business Owner,20,5
