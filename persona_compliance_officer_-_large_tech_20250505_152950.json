@@ -1,0 +1,927 @@
+[
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 400,
+    "annual_ongoing_hours": 100,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Regulation Analysis",
+        "description": "Detailed review and analysis of the new regulation",
+        "first_year_hours": 80,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task will be led by the legal team"
+      },
+      {
+        "id": "task2",
+        "name": "Risk Assessment",
+        "description": "Identify potential risks to the company due to the new regulation",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require input from both legal and technical teams"
+      },
+      {
+        "id": "task3",
+        "name": "Policy Development",
+        "description": "Develop new policies and procedures to comply with the regulation",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical",
+          "hr"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require collaboration between legal, technical, and HR teams"
+      },
+      {
+        "id": "task4",
+        "name": "Training Program Development",
+        "description": "Develop a training program to educate employees about the new policies and procedures",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "This task will be led by the HR team"
+      },
+      {
+        "id": "task5",
+        "name": "Compliance Monitoring",
+        "description": "Establish a mechanism to monitor and ensure ongoing compliance",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require input from both legal and technical teams"
+      }
+    ],
+    "key_risks": [
+      "Non-compliance could lead to severe penalties",
+      "Lack of understanding of the regulation could lead to non-compliance",
+      "Insufficient training could lead to non-compliance"
+    ],
+    "confidence_level": "high",
+    "simulation_number": 1
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 1200,
+    "annual_ongoing_hours": 400,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Thoroughly read and understand the regulation and its implications for the company's AI models.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This is a crucial first step to ensure compliance with the regulation."
+      },
+      {
+        "id": "task2",
+        "name": "AI Audit",
+        "description": "Conduct an audit of all AI models used in the company to understand their training and usage.",
+        "first_year_hours": 400,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require collaboration with the technical team."
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Plan",
+        "description": "Develop a comprehensive plan to ensure compliance with the regulation, including necessary changes to AI training and usage.",
+        "first_year_hours": 300,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require input from both the legal and technical teams."
+      },
+      {
+        "id": "task4",
+        "name": "Implement Compliance Plan",
+        "description": "Implement the compliance plan, including any necessary changes to AI training and usage.",
+        "first_year_hours": 300,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require significant resources from the technical team."
+      },
+      {
+        "id": "task5",
+        "name": "Ongoing Compliance Monitoring",
+        "description": "Monitor compliance with the regulation on an ongoing basis, including regular audits of AI models.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 130,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task will require regular input from both the legal and technical teams."
+      }
+    ],
+    "key_risks": [
+      "Failure to comply with the regulation could result in significant penalties.",
+      "Changes to AI training and usage could impact the performance of AI models."
+    ],
+    "confidence_level": "high",
+    "simulation_number": 2
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 650,
+    "annual_ongoing_hours": 300,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding regulation",
+        "description": "Comprehend the new regulation and its implications for the company.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task is crucial as it lays the groundwork for all other tasks."
+      },
+      {
+        "id": "task2",
+        "name": "Identify impacted areas",
+        "description": "Identify the areas of the business that are impacted by the regulation.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "technical",
+          "business"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires understanding of both the business and technical aspects of the company."
+      },
+      {
+        "id": "task3",
+        "name": "Develop compliance plan",
+        "description": "Develop a plan to achieve compliance, including changes to systems, processes, and training.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "legal",
+          "technical",
+          "hr"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires collaboration between various teams and may need to be revised as the understanding of the regulation evolves."
+      },
+      {
+        "id": "task4",
+        "name": "Implement compliance plan",
+        "description": "Implement the changes identified in the compliance plan.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "technical",
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "This task is likely to be resource-intensive and may require external expertise."
+      },
+      {
+        "id": "task5",
+        "name": "Monitor and report compliance",
+        "description": "Monitor the company's compliance with the regulation and report to relevant stakeholders.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 90,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires ongoing effort and may require the development of new monitoring systems."
+      }
+    ],
+    "key_risks": [
+      "Failure to understand the regulation could result in non-compliance.",
+      "Failure to implement the compliance plan effectively could result in non-compliance.",
+      "Failure to monitor and report compliance could result in penalties."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 3
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 600,
+    "annual_ongoing_hours": 200,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the regulation",
+        "description": "Thoroughly read and understand the regulation requirements",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "This task is critical as it sets the foundation for all the other tasks"
+      },
+      {
+        "id": "task2",
+        "name": "Identify relevant AI models",
+        "description": "Identify which AI models in the company's operations are covered by this regulation",
+        "first_year_hours": 150,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task is crucial as it determines the scope of the compliance project"
+      },
+      {
+        "id": "task3",
+        "name": "Develop transparency requirements",
+        "description": "Develop and implement transparency requirements for the identified AI models",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 70,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task is complex and requires both technical and legal expertise"
+      },
+      {
+        "id": "task4",
+        "name": "Employee rights and obligations",
+        "description": "Define and communicate the rights and obligations of employees in relation to the AI models",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "This task involves HR and legal departments"
+      },
+      {
+        "id": "task5",
+        "name": "Audit and compliance reporting",
+        "description": "Establish a process for regular auditing and reporting to ensure ongoing compliance",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "This task is critical for maintaining compliance and avoiding penalties"
+      }
+    ],
+    "key_risks": [
+      "Failure to correctly identify all relevant AI models could result in non-compliance",
+      "Inadequate transparency requirements could lead to legal issues and reputational damage",
+      "Failure to properly communicate employee rights and obligations could lead to internal issues and potential violations"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 4
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 800,
+    "annual_ongoing_hours": 200,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Regulation Understanding",
+        "description": "Interpret and understand the implications of the RAISE act for the company.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task is crucial to ensure the company understands the legal requirements of the new regulation."
+      },
+      {
+        "id": "task2",
+        "name": "AI System Assessment",
+        "description": "Assess current AI systems and models for compliance with the new regulation.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires a deep understanding of the technical aspects of the company's AI systems."
+      },
+      {
+        "id": "task3",
+        "name": "Policy Development",
+        "description": "Develop new policies and procedures to ensure compliance with the RAISE act.",
+        "first_year_hours": 150,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "This task may require changes to existing policies and the development of new ones."
+      },
+      {
+        "id": "task4",
+        "name": "Training",
+        "description": "Train employees on the new policies and procedures.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "This task is crucial to ensure all employees understand the new policies and procedures."
+      },
+      {
+        "id": "task5",
+        "name": "Compliance Monitoring",
+        "description": "Monitor compliance with the new policies and procedures.",
+        "first_year_hours": 150,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "Ongoing monitoring is crucial to ensure continued compliance with the new regulation."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance with the new regulation could result in legal penalties.",
+      "Failure to properly train employees could lead to unintentional violations of the new regulation."
+    ],
+    "confidence_level": "high",
+    "simulation_number": 5
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 1500,
+    "annual_ongoing_hours": 500,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Review and understand the new AI safety and education regulation.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task requires a solid understanding of legal terminology and principles."
+      },
+      {
+        "id": "task2",
+        "name": "Identify Affected Systems",
+        "description": "Identify which of the company's AI models fall under the scope of this regulation.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires a strong understanding of the company's AI systems and models."
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Plan",
+        "description": "Develop a plan to ensure all identified AI models comply with the regulation.",
+        "first_year_hours": 300,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires coordination between the legal and technical teams."
+      },
+      {
+        "id": "task4",
+        "name": "Implement Compliance Plan",
+        "description": "Implement the compliance plan across all affected AI models.",
+        "first_year_hours": 600,
+        "ongoing_annual_hours": 200,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires significant technical work to update and modify AI models."
+      },
+      {
+        "id": "task5",
+        "name": "Training and Education",
+        "description": "Train employees on the new regulation and the changes made to AI models.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires the development and delivery of training materials."
+      },
+      {
+        "id": "task6",
+        "name": "Audit and Review",
+        "description": "Conduct regular audits to ensure ongoing compliance and review the compliance plan as needed.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires regular check-ins and updates to ensure compliance."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance with the regulation could result in legal penalties.",
+      "Failure to properly train employees could lead to misuse of AI models."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 6
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 600,
+    "annual_ongoing_hours": 200,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review and Interpretation of Regulation",
+        "description": "Detailed review and interpretation of the new RAISE Act to understand the requirements and implications for the business.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task is crucial to understand the requirements of the new law and its implications for the business."
+      },
+      {
+        "id": "task2",
+        "name": "Audit Existing AI Models",
+        "description": "Conduct an audit of existing AI models to assess compliance with the new law.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require significant technical expertise and may require the involvement of external experts."
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Protocol",
+        "description": "Develop a protocol to ensure ongoing compliance with the new law, including appropriate redactions and protections for trade secrets and confidential information.",
+        "first_year_hours": 150,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require collaboration between the legal and technical teams to ensure the protocol adequately protects the company's interests while ensuring compliance."
+      },
+      {
+        "id": "task4",
+        "name": "Training",
+        "description": "Provide training to all relevant staff on the new law and the company's compliance protocol.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "This task will require the development of training materials and the organization of training sessions."
+      },
+      {
+        "id": "task5",
+        "name": "Ongoing Monitoring and Reporting",
+        "description": "Establish a system for ongoing monitoring of compliance and reporting to relevant authorities as required.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 60,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task will require the development of a robust monitoring and reporting system, and may require the involvement of external experts."
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to misunderstanding or misinterpretation of the new law.",
+      "Risk of data breaches or leaks of confidential information during the compliance process."
+    ],
+    "confidence_level": "high",
+    "simulation_number": 7
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 800,
+    "annual_ongoing_hours": 200,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review and Interpret Regulation",
+        "description": "Thoroughly review the new regulation and interpret its implications for the organization's AI models",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This will need to be done in close collaboration with both the in-house and external legal teams"
+      },
+      {
+        "id": "task2",
+        "name": "Identify Affected Systems",
+        "description": "Identify and document all AI models and systems within the organization that will be impacted by the regulation",
+        "first_year_hours": 150,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require close coordination with technical teams and stakeholders across the organization"
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Plan",
+        "description": "Develop a detailed plan for bringing the identified systems into compliance with the regulation",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require iterative feedback from both legal and technical teams"
+      },
+      {
+        "id": "task4",
+        "name": "Implement Compliance Plan",
+        "description": "Implement the compliance plan across the organization's systems, involving necessary revisions, updates, or retirements of AI models",
+        "first_year_hours": 300,
+        "ongoing_annual_hours": 70,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require significant resources and coordination across multiple teams"
+      },
+      {
+        "id": "task5",
+        "name": "Monitor and Report Compliance",
+        "description": "Establish ongoing monitoring and reporting mechanisms to ensure continued compliance and to address any potential issues or violations",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task will require the development of new reporting protocols and potentially the use of compliance tracking software"
+      }
+    ],
+    "key_risks": [
+      "Failure to identify all affected systems could lead to non-compliance",
+      "Inadequate resources for implementation could delay compliance",
+      "Lack of ongoing monitoring could lead to unnoticed non-compliance"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 8
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 1200,
+    "annual_ongoing_hours": 400,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Regulation Interpretation",
+        "description": "Interpreting the regulation and understanding its implications for the business",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task requires a deep understanding of legal language and the ability to interpret how the regulation applies to our specific business practices."
+      },
+      {
+        "id": "task2",
+        "name": "Policy Development",
+        "description": "Developing or updating policies to ensure compliance with the regulation",
+        "first_year_hours": 300,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires a combination of legal and technical expertise to ensure that policies are both compliant and feasible."
+      },
+      {
+        "id": "task3",
+        "name": "Training Development",
+        "description": "Developing training materials and programs to educate employees on the new policies and procedures",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires expertise in training and education, as well as a good understanding of the new policies and procedures."
+      },
+      {
+        "id": "task4",
+        "name": "Implementation",
+        "description": "Implementing the new policies and procedures, including any necessary changes to systems or processes",
+        "first_year_hours": 400,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires technical expertise to ensure that the new policies and procedures are properly implemented in our systems and processes."
+      },
+      {
+        "id": "task5",
+        "name": "Monitoring and Auditing",
+        "description": "Monitoring compliance with the new policies and procedures, and conducting regular audits to ensure ongoing compliance",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires both legal and technical expertise to ensure that we are consistently meeting the requirements of the regulation."
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to misunderstanding or misinterpretation of the regulation",
+      "Risk of non-compliance due to inadequate training or lack of understanding among employees",
+      "Risk of non-compliance due to technical issues or failures in the implementation of new policies and procedures"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 9
+  },
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 2000,
+    "annual_ongoing_hours": 500,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Compliance officer will read, understand and interpret the regulation and its implications on the company.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "This task is crucial as understanding the regulation will guide the implementation of compliance measures."
+      },
+      {
+        "id": "task2",
+        "name": "Conducting a Gap Analysis",
+        "description": "Identify areas where the company is not in compliance with the new regulation.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task will help identify areas that need immediate attention to meet the regulatory requirements."
+      },
+      {
+        "id": "task3",
+        "name": "Developing Compliance Procedures",
+        "description": "Develop procedures and controls to ensure compliance with the regulation.",
+        "first_year_hours": 500,
+        "ongoing_annual_hours": 100,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "It is crucial to develop comprehensive procedures that cover all aspects of the regulation."
+      },
+      {
+        "id": "task4",
+        "name": "Implementing Compliance Procedures",
+        "description": "Implement the developed procedures and controls throughout the organization.",
+        "first_year_hours": 1000,
+        "ongoing_annual_hours": 200,
+        "requires_expertise": [
+          "technical",
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "This task involves training employees, updating systems, and monitoring implementation."
+      },
+      {
+        "id": "task5",
+        "name": "Monitoring and Reporting",
+        "description": "Regularly monitor the effectiveness of implemented procedures and report to relevant stakeholders.",
+        "first_year_hours": 250,
+        "ongoing_annual_hours": 140,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task is ongoing and essential to ensure continued compliance and identify any areas of concern early."
+      }
+    ],
+    "key_risks": [
+      "Failure to understand and interpret the regulation correctly could lead to non-compliance.",
+      "Inadequate gap analysis could result in overlooked areas of non-compliance.",
+      "Poorly developed or implemented procedures could lead to continued non-compliance.",
+      "Failure to monitor and report could result in non-compliance going unnoticed."
+    ],
+    "confidence_level": "high",
+    "simulation_number": 10
+  }
+]
