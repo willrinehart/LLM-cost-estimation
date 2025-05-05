@@ -1,0 +1,181 @@
+[
+  {
+    "persona": "Compliance Officer - Large Tech",
+    "first_year_total_hours": 600,
+    "annual_ongoing_hours": 200,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Detailed review and understanding of the new regulation, its implications, and requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "This task is crucial as it sets the foundation for all other tasks."
+      },
+      {
+        "id": "task2",
+        "name": "Gap Analysis",
+        "description": "Perform a gap analysis to identify areas where the company is not in compliance with the new regulation.",
+        "first_year_hours": 100,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires a deep understanding of both the regulation and the company's current practices."
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Plan",
+        "description": "Develop a plan to address the gaps identified in the gap analysis.",
+        "first_year_hours": 150,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical",
+          "management"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires a strategic approach and careful planning."
+      },
+      {
+        "id": "task4",
+        "name": "Implement Compliance Plan",
+        "description": "Implement the compliance plan across the organization.",
+        "first_year_hours": 200,
+        "ongoing_annual_hours": 60,
+        "requires_expertise": [
+          "technical",
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires coordination across multiple teams and departments."
+      },
+      {
+        "id": "task5",
+        "name": "Training and Education",
+        "description": "Train employees on the new regulation and the changes implemented.",
+        "first_year_hours": 80,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task is crucial to ensure employees understand the new regulation and their responsibilities."
+      },
+      {
+        "id": "task6",
+        "name": "Monitoring and Reporting",
+        "description": "Monitor compliance with the new regulation and report to the relevant authorities as required.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "This task is ongoing and requires regular attention."
+      }
+    ],
+    "key_risks": [
+      "Failure to fully understand the regulation could lead to non-compliance.",
+      "Failure to properly implement the compliance plan could lead to non-compliance.",
+      "Failure to adequately train employees could lead to non-compliance."
+    ],
+    "confidence_level": "high"
+  },
+  {
+    "persona": "Small Business Owner",
+    "first_year_total_hours": 120,
+    "annual_ongoing_hours": 40,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understanding the Regulation",
+        "description": "Read and understand the regulation, focusing on its implications for the business",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "high",
+        "notes": "This task requires a good understanding of legal language and concepts, which the business owner may not have. Legal consultation might be needed."
+      },
+      {
+        "id": "task2",
+        "name": "Identifying AI Models in Use",
+        "description": "Identify any AI models currently in use within the business",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires a technical understanding of AI models, which the business owner may not have. Technical consultation might be needed."
+      },
+      {
+        "id": "task3",
+        "name": "Implementing Transparency Requirements",
+        "description": "Implement transparency requirements for AI model training and use",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This task requires both technical and legal expertise. Consultation might be needed."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training",
+        "description": "Train employees on the protections, rights, and obligations under the new regulation",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "This task requires an understanding of HR training methods and the ability to communicate legal concepts to non-experts."
+      }
+    ],
+    "key_risks": [
+      "Risk of non-compliance due to lack of legal and technical expertise",
+      "Risk of penalties due to non-compliance",
+      "Risk of business disruption during implementation of new requirements"
+    ],
+    "confidence_level": "medium"
+  }
+]
