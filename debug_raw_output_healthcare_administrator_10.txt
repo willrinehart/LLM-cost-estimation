@@ -1,0 +1,67 @@
+{
+  "persona": "Healthcare Administrator",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the RAISE Act to understand compliance requirements and implications for the organization.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Involves collaboration with the legal team to interpret the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Training Protocols",
+      "description": "Create protocols for the training and use of AI models that comply with transparency and safety requirements.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires input from technical staff and HR for employee training."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Employee Training Programs",
+      "description": "Design and implement training programs for employees on the use of AI and compliance with the RAISE Act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Must ensure all employees are aware of their rights and obligations."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Compliance Monitoring System",
+      "description": "Set up a system for ongoing monitoring of AI use and compliance with the RAISE Act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "May require specialized software tools for monitoring."
+    },
+    {
+      "id": "task5",
+      "name": "Create Documentation for Compliance",
+      "description": "Develop necessary documentation and reports to demonstrate compliance with the RAISE Act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Documentation must be thorough to avoid potential violations."
+    }
+  ],
+  "key_risks": [
+    "Failure to adequately train employees on AI use could lead to compliance violations.",
+    "Inadequate monitoring of AI systems may result in undiscovered breaches of regulations."
+  ],
+  "confidence_level": "medium"
+}
