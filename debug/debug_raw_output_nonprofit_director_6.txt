@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand Regulation Requirements",
+      "description": "Review and interpret the RAISE Act to understand compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "May need to consult with pro bono legal assistance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Safety Protocols",
+      "description": "Create safety and security protocols for the training and use of AI models.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Technical expertise is crucial for developing effective protocols."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training on AI Compliance",
+      "description": "Train employees on the new compliance requirements and safety protocols.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure materials are accessible and understandable for all staff."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Monitoring and Reporting Mechanisms",
+      "description": "Establish processes for monitoring compliance and reporting violations.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Involves both technical setup and legal oversight."
+    },
+    {
+      "id": "task5",
+      "name": "Conduct Regular Compliance Audits",
+      "description": "Perform audits to ensure ongoing compliance with the RAISE Act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "May require external legal assistance for thorough audits."
+    }
+  ],
+  "key_risks": [
+    "Limited understanding of legal requirements may lead to non-compliance.",
+    "Insufficient technical resources could hinder the development of safety protocols."
+  ],
+  "confidence_level": "medium"
+}

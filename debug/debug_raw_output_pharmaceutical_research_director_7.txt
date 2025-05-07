@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 450,
+  "annual_ongoing_hours": 200,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE act to identify compliance requirements and implications for the organization.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Involves understanding complex legal language and potential impacts on current AI models."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a compliance framework that outlines processes and controls to meet the RAISE act requirements.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Framework should be adaptable to changes in regulations or technology."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Design and implement a training program for employees on the use of AI and compliance with the RAISE act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training materials must be regularly updated to reflect regulatory changes."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Reporting Mechanism",
+      "description": "Establish a mechanism for ongoing monitoring and reporting of compliance with the RAISE act.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "This system should integrate with existing compliance monitoring tools."
+    },
+    {
+      "id": "task5",
+      "name": "Audit and Review Process",
+      "description": "Develop a process for regular audits and reviews of AI systems for compliance with the RAISE act.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "high",
+      "notes": "Audits should include both internal assessments and external reviews."
+    }
+  ],
+  "key_risks": [
+    "Potential non-compliance could lead to legal penalties or reputational damage.",
+    "Rapid changes in AI technology may outpace compliance efforts."
+  ],
+  "confidence_level": "high"
+}

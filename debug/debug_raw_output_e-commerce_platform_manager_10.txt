@@ -1,0 +1,67 @@
+{
+  "persona": "E-commerce Platform Manager",
+  "first_year_total_hours": 180,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly review the RAISE act to understand compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Initial understanding is crucial for all subsequent tasks."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a comprehensive strategy to align business operations with RAISE act requirements.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Involves collaboration with legal team for interpretation."
+    },
+    {
+      "id": "task3",
+      "name": "Implement AI Transparency Measures",
+      "description": "Establish protocols for transparency in AI training and usage as per the regulation.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Requires technical expertise to ensure systems are compliant."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Training on AI Compliance",
+      "description": "Develop and conduct training sessions for employees regarding their rights and obligations under the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be ongoing to ensure compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor for Violations",
+      "description": "Establish a monitoring system to detect and address any compliance violations.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Requires ongoing assessment and potential adjustments."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties and reputational damage.",
+    "Insufficient employee training may result in violations of employee rights."
+  ],
+  "confidence_level": "medium"
+}

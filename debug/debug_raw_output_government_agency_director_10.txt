@@ -1,0 +1,67 @@
+{
+  "persona": "Government Agency Director",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 160,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Interpret Regulation",
+      "description": "Analyze the RAISE act to understand all compliance requirements and implications for the agency.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for establishing baseline compliance requirements."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a comprehensive framework outlining how the agency will comply with the RAISE act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Framework must align with both legal standards and technical capabilities."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Design and implement training programs for staff on compliance with the RAISE act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training should cover AI safety and ethical considerations."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Monitoring Mechanisms",
+      "description": "Set up systems to monitor compliance with the RAISE act on an ongoing basis.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Monitoring systems must be robust to ensure continuous compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Reporting Procedures Development",
+      "description": "Create procedures for reporting compliance status and any violations as per the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Reporting must be clear and comply with state regulations."
+    }
+  ],
+  "key_risks": [
+    "Potential lack of understanding of AI technologies among staff leading to compliance issues.",
+    "Inadequate training could result in non-compliance and legal repercussions."
+  ],
+  "confidence_level": "medium"
+}

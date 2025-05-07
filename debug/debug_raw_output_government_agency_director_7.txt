@@ -1,0 +1,78 @@
+{
+  "persona": "Government Agency Director",
+  "first_year_total_hours": 500,
+  "annual_ongoing_hours": 300,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Interpret Regulation Text",
+      "description": "Thoroughly analyze the regulation text to understand compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for ensuring accurate compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework outlining how the agency will comply with the RAISE act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Framework must be adaptable as regulations evolve."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program for AI Use",
+      "description": "Develop and implement a training program for employees on AI safety and ethical use.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Training is essential for compliance and employee awareness."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Transparency Protocols",
+      "description": "Create protocols for ensuring transparency in AI model training and usage.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Transparency is a key requirement of the regulation."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Reporting",
+      "description": "Set up a system for ongoing monitoring of compliance and reporting violations.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Monitoring is essential to ensure long-term compliance."
+    },
+    {
+      "id": "task6",
+      "name": "Conduct Regular Audits",
+      "description": "Perform regular audits to ensure adherence to the compliance framework and transparency protocols.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task5"],
+      "risk_level": "medium",
+      "notes": "Audits help identify areas for improvement and ensure compliance."
+    }
+  ],
+  "key_risks": [
+    "Failure to adequately train employees may lead to non-compliance.",
+    "Inadequate monitoring could result in missed violations and penalties."
+  ],
+  "confidence_level": "high"
+}

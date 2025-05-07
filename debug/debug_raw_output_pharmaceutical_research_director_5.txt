@@ -1,0 +1,78 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 450,
+  "annual_ongoing_hours": 300,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE act to understand compliance requirements and implications for AI models used in pharmaceutical research.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for establishing a compliance framework."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Training Protocols",
+      "description": "Create training protocols for employees regarding the use of AI in compliance with the RAISE act.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Must align with defined transparency requirements."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Measures",
+      "description": "Establish measures for transparency in AI model training and usage as mandated by the regulation.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Essential to avoid violations of the act."
+    },
+    {
+      "id": "task4",
+      "name": "Compliance Monitoring",
+      "description": "Set up systems to monitor ongoing compliance with the RAISE act and related regulations.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Regular audits will be necessary to ensure adherence."
+    },
+    {
+      "id": "task5",
+      "name": "Risk Assessment",
+      "description": "Conduct risk assessments related to AI model usage and employee rights as outlined in the RAISE act.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Identify potential violations and mitigation strategies."
+    },
+    {
+      "id": "task6",
+      "name": "Employee Rights Training",
+      "description": "Train employees on their rights and obligations under the RAISE act, focusing on protections related to AI usage.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Important for maintaining a compliant workplace culture."
+    }
+  ],
+  "key_risks": [
+    "Potential non-compliance leading to legal penalties.",
+    "Insufficient employee training resulting in misuse of AI technology."
+  ],
+  "confidence_level": "high"
+}

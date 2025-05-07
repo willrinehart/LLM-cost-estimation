@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Familiarize with RAISE Act requirements",
+      "description": "Review and understand the requirements of the RAISE Act, including definitions and obligations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Limited legal expertise may hinder full understanding."
+    },
+    {
+      "id": "task2",
+      "name": "Assess current AI practices",
+      "description": "Evaluate the organization's current use of AI technologies against the RAISE Act requirements.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Technical expertise is crucial to accurately assess AI practices."
+    },
+    {
+      "id": "task3",
+      "name": "Develop compliance plan",
+      "description": "Create a detailed plan outlining how the organization will meet the RAISE Act requirements.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "Legal advice may be needed for compliance specifics."
+    },
+    {
+      "id": "task4",
+      "name": "Implement training programs",
+      "description": "Develop and conduct training for staff on the new compliance measures related to AI.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training may need to be updated annually."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor compliance",
+      "description": "Establish a process for ongoing monitoring of compliance with the RAISE Act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Regular assessments will be necessary to maintain compliance."
+    }
+  ],
+  "key_risks": [
+    "Lack of legal expertise may lead to non-compliance.",
+    "Insufficient training may result in improper use of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

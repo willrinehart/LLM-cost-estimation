@@ -1,0 +1,67 @@
+{
+  "persona": "Manufacturing Plant Manager",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Read and understand the RAISE Act and its implications for the manufacturing process.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential to grasp the legal requirements."
+    },
+    {
+      "id": "task2",
+      "name": "Conduct Compliance Gap Analysis",
+      "description": "Identify current practices and compare them against RAISE Act requirements to find gaps.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require external legal consultation."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Compliance Plan",
+      "description": "Create a detailed plan to address identified compliance gaps, including training and procedural changes.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Should involve collaboration with HR for training needs."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Training Programs",
+      "description": "Develop and execute training programs for employees on AI safety and compliance.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training effectiveness should be evaluated regularly."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Reporting",
+      "description": "Establish ongoing monitoring and reporting mechanisms for compliance with the RAISE Act.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Regular updates and adjustments may be needed."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with new regulations leading to legal penalties.",
+    "Insufficient training leading to employee non-compliance."
+  ],
+  "confidence_level": "medium"
+}

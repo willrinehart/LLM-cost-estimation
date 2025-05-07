@@ -1,0 +1,67 @@
+{
+  "persona": "Hospitality Chain Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Understand Regulation",
+      "description": "Thoroughly review the RAISE act to understand requirements and implications for the hospitality chain.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Initial understanding is crucial for compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Usage Policy",
+      "description": "Create a policy outlining how AI will be used within the organization in compliance with the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Legal consultation is essential to ensure compliance."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Training Programs",
+      "description": "Establish training programs for employees on the responsible use of AI and compliance with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be updated regularly as regulations evolve."
+    },
+    {
+      "id": "task4",
+      "name": "Audit AI Systems",
+      "description": "Conduct an audit of existing AI systems to ensure they meet the transparency and safety requirements outlined in the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Technical expertise is crucial for a thorough audit."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up mechanisms for reporting any violations or issues related to AI usage as per the RAISE act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Legal input is needed to ensure proper reporting procedures."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with AI transparency requirements could lead to legal penalties.",
+    "Inadequate training may result in misuse of AI systems, impacting customer trust."
+  ],
+  "confidence_level": "medium"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Manufacturing Plant Manager",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the RAISE act to understand compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "External legal consultation may be needed."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Training Program for AI Use",
+      "description": "Create a training program for employees on responsible AI usage.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Consider involving AI specialists for content."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Measures",
+      "description": "Establish protocols for transparency in AI model usage.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require technical audits and assessments."
+    },
+    {
+      "id": "task4",
+      "name": "Create Employee Rights and Protections Policy",
+      "description": "Draft policies outlining employee rights regarding AI use.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Legal review will be essential."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting and Compliance Mechanisms",
+      "description": "Set up processes for reporting violations and ensuring compliance.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "high",
+      "notes": "Regular audits may be necessary for compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with new regulations could result in penalties.",
+    "Insufficient training may lead to misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

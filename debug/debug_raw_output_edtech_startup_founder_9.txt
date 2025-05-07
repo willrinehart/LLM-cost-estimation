@@ -1,0 +1,67 @@
+{
+  "persona": "EdTech Startup Founder",
+  "first_year_total_hours": 180,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Thoroughly read and understand the RAISE act and its implications for the startup's AI models.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for ensuring compliance; may require legal consultation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework to ensure adherence to transparency requirements and employee protections outlined in the act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Needs legal input for accuracy and completeness."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Training Programs",
+      "description": "Establish training programs for employees regarding AI usage and compliance with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ongoing training is essential for compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Audit AI Models",
+      "description": "Conduct audits of AI models to ensure they comply with the safety and transparency requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Specialized expertise needed for technical audits."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanism",
+      "description": "Create a mechanism for reporting violations and ensuring accountability within the organization.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Legal guidance necessary to ensure compliance."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with the RAISE act could result in legal penalties.",
+    "Inadequate training may lead to misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

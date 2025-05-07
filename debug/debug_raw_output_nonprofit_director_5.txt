@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE Act to identify compliance requirements.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the regulation is crucial for compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a plan outlining how to meet the requirements set forth in the RAISE Act.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require legal consultation to ensure all aspects are covered."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Protocols",
+      "description": "Establish protocols to ensure transparency in AI model training and use.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Technical expertise is needed to set up and maintain protocols."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Training",
+      "description": "Conduct training sessions for employees on their rights and obligations under the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "HR expertise may be needed to develop training materials."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Reporting",
+      "description": "Set up a system to monitor compliance with the RAISE Act and report any violations.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "high",
+      "notes": "Legal expertise is critical for monitoring and reporting."
+    }
+  ],
+  "key_risks": [
+    "Lack of legal expertise may lead to non-compliance.",
+    "Insufficient training may result in employee violations."
+  ],
+  "confidence_level": "medium"
+}

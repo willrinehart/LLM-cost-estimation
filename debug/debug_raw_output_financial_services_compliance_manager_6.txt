@@ -1,0 +1,78 @@
+{
+  "persona": "Financial Services Compliance Manager",
+  "first_year_total_hours": 350,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Analyze Regulation Text",
+      "description": "Thoroughly review the RAISE Act to understand its requirements and implications for the organization.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for ensuring compliance with new regulations."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework that outlines how the organization will comply with the RAISE Act, including policies and procedures.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This framework will guide all future compliance efforts."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Develop training materials and programs for employees regarding the use of AI and compliance with the RAISE Act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training is vital to ensure all employees understand their obligations."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Compliance Monitoring System",
+      "description": "Set up a system for ongoing monitoring of compliance with the RAISE Act, including audits and reporting.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Monitoring is essential to identify and rectify compliance issues proactively."
+    },
+    {
+      "id": "task5",
+      "name": "Legal Review of Compliance Policies",
+      "description": "Engage the legal team to review the developed compliance policies and procedures to ensure they meet legal standards.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Legal review is crucial to avoid potential violations."
+    },
+    {
+      "id": "task6",
+      "name": "Stakeholder Communication",
+      "description": "Communicate compliance requirements and updates to all relevant stakeholders within the organization.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": ["task3"],
+      "risk_level": "low",
+      "notes": "Keeping stakeholders informed is important for organizational buy-in."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with the RAISE Act could result in legal penalties.",
+    "Inadequate training may lead to misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}

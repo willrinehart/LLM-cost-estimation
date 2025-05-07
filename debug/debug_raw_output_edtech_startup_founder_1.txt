@@ -1,0 +1,78 @@
+{
+  "persona": "EdTech Startup Founder",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the RAISE act to understand compliance requirements and implications for the business.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Ensure to involve legal counsel for clarity on complex terms."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework that outlines how the startup will meet the requirements set forth in the RAISE act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This will require collaboration between legal and technical teams."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Measures",
+      "description": "Establish processes for transparency in AI model training and usage as mandated by the act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "May require additional technical resources or training."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Training on AI Safety",
+      "description": "Conduct training sessions for employees on the new compliance protocols and AI safety measures.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training materials must be developed to ensure effective learning."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up systems for reporting compliance progress and any violations as required by the act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure reporting mechanisms are user-friendly for all stakeholders."
+    },
+    {
+      "id": "task6",
+      "name": "Continuous Compliance Monitoring",
+      "description": "Develop a plan for ongoing monitoring of compliance and updates to the framework as regulations evolve.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 35,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Regular audits may be necessary to ensure adherence."
+    }
+  ],
+  "key_risks": [
+    "Compliance failures could result in legal penalties.",
+    "Insufficient training may lead to improper use of AI models."
+  ],
+  "confidence_level": "medium"
+}

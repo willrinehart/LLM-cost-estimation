@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 200,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis of RAISE Act",
+      "description": "Analyze the RAISE Act to identify compliance requirements specific to the pharmaceutical industry.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for understanding compliance landscape."
+    },
+    {
+      "id": "task2",
+      "name": "Development of AI Training Protocols",
+      "description": "Create protocols for the training and use of AI models in compliance with the transparency requirements.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires collaboration with data scientists and AI specialists."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Rights and Obligations Training",
+      "description": "Develop training modules for employees regarding their rights and obligations under the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Essential for ensuring employee awareness and compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Implementation of Transparency Reporting",
+      "description": "Establish a system for reporting compliance with transparency requirements, including appropriate redactions.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Requires careful handling of sensitive information."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Auditing Compliance",
+      "description": "Set up ongoing monitoring and auditing processes to ensure compliance with the RAISE Act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Regular audits will help mitigate compliance risks."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with new regulations could lead to legal penalties.",
+    "Failure to properly train employees may result in misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}

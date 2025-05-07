@@ -1,0 +1,901 @@
+[
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 120,
+    "annual_ongoing_hours": 60,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review AI Regulation",
+        "description": "Thoroughly review the RAISE act to understand compliance requirements.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Essential for understanding compliance landscape."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Plan",
+        "description": "Create a detailed compliance plan outlining necessary steps to meet the RAISE act requirements.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Requires collaboration with the legal team."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Training Programs",
+        "description": "Set up training programs for employees on AI safety and compliance.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "hr",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must align with compliance requirements."
+      },
+      {
+        "id": "task4",
+        "name": "Monitor Compliance",
+        "description": "Establish a monitoring system to ensure ongoing compliance with the RAISE act.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Monitoring tools may require specialized software."
+      },
+      {
+        "id": "task5",
+        "name": "Conduct Regular Audits",
+        "description": "Perform regular audits to ensure adherence to compliance standards.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "Audits must be thorough to avoid violations."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance with the RAISE act could lead to legal penalties.",
+      "Insufficient training may result in employee errors regarding AI usage."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 1
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 150,
+    "annual_ongoing_hours": 80,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Text",
+        "description": "Analyze the RAISE act to understand its implications on existing AI practices.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Involves collaboration with legal team to ensure compliance."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework to ensure adherence to the transparency requirements and obligations outlined in the act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "May require additional insights from external consultants."
+      },
+      {
+        "id": "task3",
+        "name": "Employee Training Program",
+        "description": "Design and implement a training program for employees on AI safety and compliance.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Collaboration with HR and legal teams is essential."
+      },
+      {
+        "id": "task4",
+        "name": "Audit and Reporting Procedures",
+        "description": "Establish procedures for auditing AI practices and reporting compliance to regulatory bodies.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Requires legal validation of reporting formats."
+      },
+      {
+        "id": "task5",
+        "name": "Monitor Regulatory Changes",
+        "description": "Continuously monitor for updates or changes to the RAISE act and other relevant regulations.",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "low",
+        "notes": "Stay connected with legal team for timely updates."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance with new regulations could lead to penalties.",
+      "Insufficient employee training may result in misuse of AI technologies."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 2
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 120,
+    "annual_ongoing_hours": 80,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Requirements",
+        "description": "Analyze the RAISE act to identify compliance requirements related to AI usage in real estate.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Legal team may need to clarify ambiguous terms."
+      },
+      {
+        "id": "task2",
+        "name": "Develop AI Usage Policies",
+        "description": "Create internal policies for the training and use of AI models in accordance with the RAISE act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Policies must be aligned with legal interpretations."
+      },
+      {
+        "id": "task3",
+        "name": "Employee Training Program",
+        "description": "Design and implement a training program for employees on AI safety and compliance.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "hr",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training effectiveness should be regularly evaluated."
+      },
+      {
+        "id": "task4",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Set up systems for reporting compliance with AI usage and safety protocols.",
+        "first_year_hours": 15,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "low",
+        "notes": "Ensure that reporting is user-friendly."
+      },
+      {
+        "id": "task5",
+        "name": "Audit and Compliance Checks",
+        "description": "Conduct audits to ensure adherence to AI policies and identify potential violations.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "External legal team may be needed for audits."
+      }
+    ],
+    "key_risks": [
+      "Potential misinterpretation of regulatory requirements leading to non-compliance.",
+      "Insufficient training may result in employees not adhering to AI safety protocols."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 3
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 150,
+    "annual_ongoing_hours": 80,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review and Understand Regulation",
+        "description": "Thoroughly review the RAISE act to understand its implications for AI usage in real estate.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Critical for ensuring compliance."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Strategy",
+        "description": "Create a strategy to align AI practices with the RAISE act requirements.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Involves collaboration with the legal team."
+      },
+      {
+        "id": "task3",
+        "name": "Implement AI Transparency Measures",
+        "description": "Establish processes for transparency in AI model training and usage.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "May require specialized technical knowledge."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training on AI Compliance",
+        "description": "Conduct training sessions for employees on compliance and ethical use of AI.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Important for ensuring all team members are informed."
+      },
+      {
+        "id": "task5",
+        "name": "Monitor Compliance and Reporting",
+        "description": "Establish a monitoring system to ensure ongoing compliance with the RAISE act.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "Regular audits may be necessary."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance could lead to legal penalties.",
+      "Insufficient employee training may result in misuse of AI."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 4
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 220,
+    "annual_ongoing_hours": 100,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Requirements",
+        "description": "Analyze the RAISE Act to understand compliance requirements related to AI usage in real estate.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Ensure all team members are aware of compliance obligations."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Protocols",
+        "description": "Create internal protocols for AI usage, including safety and transparency requirements.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Protocols must align with both state and federal laws."
+      },
+      {
+        "id": "task3",
+        "name": "Employee Training on AI Policies",
+        "description": "Conduct training sessions for employees on the new AI protocols and their responsibilities.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training should be updated as regulations evolve."
+      },
+      {
+        "id": "task4",
+        "name": "Monitor Compliance and Reporting",
+        "description": "Establish a system for ongoing monitoring of AI usage and compliance with protocols.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Regular audits will be necessary to ensure compliance."
+      },
+      {
+        "id": "task5",
+        "name": "Legal Consultation for Compliance Issues",
+        "description": "Engage with external legal firm to address any compliance issues or questions that arise.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Legal advice will be crucial for navigating complex regulations."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance with evolving AI regulations could lead to legal penalties.",
+      "Insufficient training may lead to misuse of AI technologies by employees."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 5
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 240,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Regulatory Review",
+        "description": "Review the RAISE act and identify all compliance requirements relevant to the real estate sector.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Ensure all legal aspects are covered."
+      },
+      {
+        "id": "task2",
+        "name": "AI Model Assessment",
+        "description": "Evaluate existing AI models used in business operations to ensure compliance with the transparency requirements.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Specialized AI expertise may be required."
+      },
+      {
+        "id": "task3",
+        "name": "Employee Training Program",
+        "description": "Develop and implement a training program for employees regarding AI usage and compliance.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "Training materials should be updated regularly."
+      },
+      {
+        "id": "task4",
+        "name": "Compliance Documentation",
+        "description": "Prepare necessary documentation and reports to demonstrate compliance with the RAISE act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Documentation must be thorough to avoid penalties."
+      },
+      {
+        "id": "task5",
+        "name": "Monitoring and Auditing",
+        "description": "Establish a monitoring and auditing process to ensure ongoing compliance with the RAISE act.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task2",
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "Regular audits are crucial for compliance."
+      }
+    ],
+    "key_risks": [
+      "Potential non-compliance leading to legal penalties.",
+      "Inadequate training resulting in misuse of AI technologies."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 6
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 120,
+    "annual_ongoing_hours": 80,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Requirements",
+        "description": "Analyze the RAISE act to understand specific obligations and compliance requirements.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Critical to ensure compliance with new regulations."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Plan",
+        "description": "Create a detailed compliance plan outlining steps to meet the RAISE act requirements.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Requires collaboration with legal and technical teams."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Training for AI Usage",
+        "description": "Establish training programs for employees on responsible AI usage in line with the RAISE act.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "hr",
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must be comprehensive to cover all aspects of AI usage."
+      },
+      {
+        "id": "task4",
+        "name": "Conduct Regular Audits",
+        "description": "Set up a process for regular audits to ensure ongoing compliance with the RAISE act.",
+        "first_year_hours": 15,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Audits should be documented and findings reported."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Create reporting mechanisms for any violations or issues related to the RAISE act.",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "low",
+        "notes": "Essential for transparency and accountability."
+      }
+    ],
+    "key_risks": [
+      "Failure to comply with new regulations could lead to legal penalties.",
+      "Insufficient training may result in misuse of AI technologies."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 7
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 320,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review and Understand Regulation",
+        "description": "Thoroughly review the RAISE Act to understand compliance requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Involves collaboration with the external legal team."
+      },
+      {
+        "id": "task2",
+        "name": "Assess Current AI Usage",
+        "description": "Evaluate existing AI systems and practices against the new regulations.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "Requires technical assessment of AI models currently in use."
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Strategy",
+        "description": "Create a strategy to ensure compliance with the RAISE Act.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Must align with both legal requirements and company policies."
+      },
+      {
+        "id": "task4",
+        "name": "Implement Training Programs",
+        "description": "Design and implement training programs for staff on AI compliance.",
+        "first_year_hours": 70,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must be tailored to different roles within the organization."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Monitoring Mechanisms",
+        "description": "Set up systems to monitor ongoing compliance with the RAISE Act.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Monitoring systems should be adaptable to changes in AI regulations."
+      },
+      {
+        "id": "task6",
+        "name": "Prepare Reporting Framework",
+        "description": "Create a framework for reporting compliance status and issues.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task5"
+        ],
+        "risk_level": "high",
+        "notes": "Reporting must meet both internal and regulatory requirements."
+      }
+    ],
+    "key_risks": [
+      "Potential misinterpretation of regulatory requirements leading to non-compliance.",
+      "Insufficient training leading to employee errors in AI usage."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 8
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 150,
+    "annual_ongoing_hours": 80,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Regulatory Research",
+        "description": "Research the new RAISE act and its implications for AI use in real estate development.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Understanding the full scope of the regulation is critical."
+      },
+      {
+        "id": "task2",
+        "name": "Compliance Assessment",
+        "description": "Assess current AI practices against the requirements of the RAISE act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "May require technical evaluation of existing AI systems."
+      },
+      {
+        "id": "task3",
+        "name": "Develop Compliance Plan",
+        "description": "Create a detailed plan to ensure compliance with the RAISE act.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This plan will outline necessary changes and timelines."
+      },
+      {
+        "id": "task4",
+        "name": "Training Program Development",
+        "description": "Develop training programs for employees on compliance with AI regulations.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Training is crucial for ensuring employee awareness and compliance."
+      },
+      {
+        "id": "task5",
+        "name": "Monitoring and Reporting",
+        "description": "Establish a system for ongoing monitoring and reporting of compliance.",
+        "first_year_hours": 15,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Regular reports will be necessary to demonstrate compliance."
+      }
+    ],
+    "key_risks": [
+      "Failure to fully understand the RAISE act could lead to non-compliance.",
+      "Insufficient employee training may result in violations of the act."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 9
+  },
+  {
+    "persona": "Real Estate Developer",
+    "first_year_total_hours": 120,
+    "annual_ongoing_hours": 60,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review and Understand RAISE Act",
+        "description": "Thoroughly review the RAISE Act to understand compliance requirements.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Critical for understanding compliance obligations."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Strategy",
+        "description": "Create a strategy to meet the transparency requirements and employee protections outlined in the act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task is crucial for long-term compliance."
+      },
+      {
+        "id": "task3",
+        "name": "Implement AI Safety Protocols",
+        "description": "Establish safety and security protocols for AI model training and use.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Requires collaboration with technical teams."
+      },
+      {
+        "id": "task4",
+        "name": "Conduct Employee Training",
+        "description": "Train employees on their rights and obligations under the RAISE Act.",
+        "first_year_hours": 15,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training should be updated annually."
+      },
+      {
+        "id": "task5",
+        "name": "Monitor Compliance and Reporting",
+        "description": "Regularly monitor compliance with the RAISE Act and prepare necessary reports.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "Ongoing monitoring is essential for compliance."
+      }
+    ],
+    "key_risks": [
+      "Failure to comply with transparency requirements could lead to legal penalties.",
+      "Inadequate employee training may result in misunderstandings of rights and obligations."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 10
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 550,
+  "annual_ongoing_hours": 300,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Review of AI Models",
+      "description": "Conduct a thorough review of current AI models to ensure compliance with the RAISE act's definitions and requirements.",
+      "first_year_hours": 120,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Collaboration with legal counsel is essential for compliance interpretation."
+    },
+    {
+      "id": "task2",
+      "name": "Implementation of Transparency Protocols",
+      "description": "Develop and implement protocols for transparency in AI model training and usage as mandated by the regulation.",
+      "first_year_hours": 150,
+      "ongoing_annual_hours": 80,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Involvement of IT and data science teams is crucial."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Rights and Obligations Training",
+      "description": "Create and deliver training programs for employees regarding their rights and obligations under the new law.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Training materials must be regularly updated based on regulatory changes."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Compliance Audits",
+      "description": "Establish a process for ongoing monitoring and compliance audits of AI systems to ensure adherence to the RAISE act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Regular audits will help identify areas of non-compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Documentation of Compliance Efforts",
+      "description": "Maintain comprehensive documentation of all compliance efforts, including training, audits, and model reviews.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1", "task3"],
+      "risk_level": "medium",
+      "notes": "Documentation must be thorough to defend against potential legal challenges."
+    }
+  ],
+  "key_risks": [
+    "Potential non-compliance leading to legal repercussions.",
+    "Insufficient training leading to employee misunderstanding of their rights and obligations."
+  ],
+  "confidence_level": "high"
+}

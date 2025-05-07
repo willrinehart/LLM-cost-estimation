@@ -1,0 +1,78 @@
+{
+  "persona": "Financial Services Compliance Manager",
+  "first_year_total_hours": 520,
+  "annual_ongoing_hours": 300,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE Act and identify specific compliance requirements.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Critical for understanding compliance obligations."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a compliance framework that incorporates the requirements of the RAISE Act.",
+      "first_year_hours": 120,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Framework must be adaptable to future regulatory changes."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Design and implement training programs for employees on AI usage and compliance.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training effectiveness must be evaluated regularly."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Auditing",
+      "description": "Establish monitoring and auditing processes to ensure compliance with the RAISE Act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Regular audits will help identify compliance gaps."
+    },
+    {
+      "id": "task5",
+      "name": "Reporting Mechanisms",
+      "description": "Set up reporting mechanisms for compliance breaches and employee concerns.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Ensure confidentiality and protection for whistleblowers."
+    },
+    {
+      "id": "task6",
+      "name": "Stakeholder Engagement",
+      "description": "Engage with stakeholders to communicate compliance expectations and gather feedback.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "low",
+      "notes": "Important for fostering a culture of compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with the RAISE Act may lead to legal penalties.",
+    "Inadequate training could result in misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Real Estate Developer",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the RAISE act to identify compliance requirements related to AI usage in real estate.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Legal team may need to clarify ambiguous terms."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Usage Policies",
+      "description": "Create internal policies for the training and use of AI models in accordance with the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Policies must be aligned with legal interpretations."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Design and implement a training program for employees on AI safety and compliance.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training effectiveness should be regularly evaluated."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up systems for reporting compliance with AI usage and safety protocols.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "low",
+      "notes": "Ensure that reporting is user-friendly."
+    },
+    {
+      "id": "task5",
+      "name": "Audit and Compliance Checks",
+      "description": "Conduct audits to ensure adherence to AI policies and identify potential violations.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "high",
+      "notes": "External legal team may be needed for audits."
+    }
+  ],
+  "key_risks": [
+    "Potential misinterpretation of regulatory requirements leading to non-compliance.",
+    "Insufficient training may result in employees not adhering to AI safety protocols."
+  ],
+  "confidence_level": "medium"
+}

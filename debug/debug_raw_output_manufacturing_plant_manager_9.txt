@@ -1,0 +1,78 @@
+{
+  "persona": "Manufacturing Plant Manager",
+  "first_year_total_hours": 240,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Read and understand the RAISE Act to identify compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "This is foundational for all other tasks."
+    },
+    {
+      "id": "task2",
+      "name": "Identify AI Applications",
+      "description": "Determine which AI systems and models are in use within the manufacturing processes.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Requires collaboration with IT and engineering teams."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Training Program",
+      "description": "Create a training program for employees on the use and implications of AI technologies.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "Must ensure that training is comprehensive and compliant."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Transparency Measures",
+      "description": "Establish protocols for transparency in AI model training and usage.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "Legal consultation may be necessary to ensure compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance",
+      "description": "Set up a system to regularly monitor compliance with the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "medium",
+      "notes": "Regular audits may be needed to ensure ongoing compliance."
+    },
+    {
+      "id": "task6",
+      "name": "Document Compliance Processes",
+      "description": "Create documentation for compliance processes and training materials.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "low",
+      "notes": "Documentation should be clear and accessible to all employees."
+    }
+  ],
+  "key_risks": [
+    "Lack of understanding of the regulatory requirements may lead to non-compliance.",
+    "Insufficient training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

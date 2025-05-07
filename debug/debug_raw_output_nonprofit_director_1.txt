@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review AI Regulation Requirements",
+      "description": "Understand and summarize the key components of the RAISE act, focusing on transparency requirements and employee rights.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "This is critical for compliance and may require consultation with pro bono legal team."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework that outlines how the organization will comply with the requirements of the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires a clear understanding of both legal and technical aspects."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Training Programs",
+      "description": "Design and implement training programs for employees regarding the use of AI and compliance with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be updated regularly based on evolving AI technologies and regulations."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Monitoring Mechanisms",
+      "description": "Set up processes to monitor compliance with the RAISE act and evaluate the effectiveness of training programs.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Monitoring tools may require technical expertise to implement."
+    },
+    {
+      "id": "task5",
+      "name": "Document Compliance Efforts",
+      "description": "Maintain thorough documentation of compliance efforts, including training materials and monitoring results.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "low",
+      "notes": "Documentation is essential for demonstrating compliance."
+    }
+  ],
+  "key_risks": [
+    "Limited understanding of AI technologies may hinder compliance efforts.",
+    "Dependence on pro bono legal support may result in delays."
+  ],
+  "confidence_level": "medium"
+}

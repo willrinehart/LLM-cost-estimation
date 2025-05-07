@@ -1,0 +1,67 @@
+{
+  "persona": "Hospitality Chain Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE Act to identify compliance requirements.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "low",
+      "notes": "Important to have a clear understanding of the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Identify AI Systems in Use",
+      "description": "Compile a list of current AI systems used within the hospitality chain.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Requires input from IT department."
+    },
+    {
+      "id": "task3",
+      "name": "Assess Compliance with Transparency Requirements",
+      "description": "Evaluate current AI systems against the transparency requirements outlined in the regulation.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Legal team consultation may be necessary for interpretation."
+    },
+    {
+      "id": "task4",
+      "name": "Develop Employee Training Program",
+      "description": "Create a training program for employees regarding the use of AI and their rights under the RAISE Act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training must be compliant with new regulations."
+    },
+    {
+      "id": "task5",
+      "name": "Implement Compliance Monitoring Procedures",
+      "description": "Establish procedures to monitor ongoing compliance with the RAISE Act requirements.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Regular audits may be necessary to ensure compliance."
+    }
+  ],
+  "key_risks": [
+    "Potential non-compliance leading to fines or legal issues.",
+    "Insufficient employee training may lead to misuse of AI systems."
+  ],
+  "confidence_level": "medium"
+}

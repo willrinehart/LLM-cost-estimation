@@ -1,0 +1,67 @@
+{
+  "persona": "Manufacturing Plant Manager",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE Act and its implications for the manufacturing processes.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential for understanding compliance requirements."
+    },
+    {
+      "id": "task2",
+      "name": "Identify AI Systems in Use",
+      "description": "Catalog all artificial intelligence systems currently utilized in manufacturing operations.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["technical"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for establishing compliance scope."
+    },
+    {
+      "id": "task3",
+      "name": "Assess Compliance Gaps",
+      "description": "Evaluate current AI systems against the RAISE Act requirements to identify compliance gaps.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "May require external consultation for legal interpretation."
+    },
+    {
+      "id": "task4",
+      "name": "Develop Training Program",
+      "description": "Create a training program for employees on the responsible use of AI as per the regulation.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training must be tailored to specific AI applications in use."
+    },
+    {
+      "id": "task5",
+      "name": "Implement Compliance Measures",
+      "description": "Put in place necessary changes to operations and policies to ensure compliance with the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "high",
+      "notes": "Implementation may require technical adjustments and policy updates."
+    }
+  ],
+  "key_risks": [
+    "Potential misinterpretation of legal requirements leading to non-compliance.",
+    "Insufficient training leading to improper use of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

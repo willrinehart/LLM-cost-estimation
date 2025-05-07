@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 350,
+  "annual_ongoing_hours": 200,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE act and its implications for current AI practices in pharmaceuticals.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the nuances of the regulation is crucial for compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a comprehensive strategy to ensure compliance with the RAISE act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This involves collaboration with the legal team and relevant departments."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Develop and implement training programs for employees on AI safety and compliance.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be comprehensive to cover all aspects of the RAISE act."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Transparency Measures",
+      "description": "Establish protocols for transparency in AI model training and usage as required by the act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Special attention needed for data handling and reporting."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Reporting",
+      "description": "Set up a system for ongoing monitoring of compliance and reporting of any violations.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "high",
+      "notes": "Regular audits and updates are essential for compliance."
+    }
+  ],
+  "key_risks": [
+    "Potential non-compliance leading to legal penalties.",
+    "Inadequate training resulting in employee misunderstanding of AI safety protocols."
+  ],
+  "confidence_level": "high"
+}

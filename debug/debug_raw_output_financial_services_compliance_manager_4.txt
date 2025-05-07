@@ -1,0 +1,67 @@
+{
+  "persona": "Financial Services Compliance Manager",
+  "first_year_total_hours": 200,
+  "annual_ongoing_hours": 100,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE act to identify compliance requirements and implications for the organization.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Critical to understand the full scope of the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a compliance framework that incorporates the requirements of the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Framework must be adaptable to future changes in regulations."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Develop training materials and programs for staff on the use of AI models and compliance with the RAISE act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be comprehensive to ensure staff understanding."
+    },
+    {
+      "id": "task4",
+      "name": "Implementation of Compliance Measures",
+      "description": "Implement the compliance framework and training programs across the organization.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "medium",
+      "notes": "Requires coordination across multiple departments."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Reporting",
+      "description": "Establish a monitoring and reporting system to ensure ongoing compliance with the RAISE act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Regular audits will be necessary to maintain compliance."
+    }
+  ],
+  "key_risks": [
+    "Potential misinterpretation of regulatory requirements leading to non-compliance.",
+    "Inadequate training resulting in employee errors in AI model usage."
+  ],
+  "confidence_level": "high"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 150,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand AI Regulations",
+      "description": "Review and comprehend the new AI regulations to identify compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Low familiarity with regulatory compliance may hinder understanding."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Checklist",
+      "description": "Create a checklist based on the regulations to ensure all requirements are addressed.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "May require input from legal for accuracy."
+    },
+    {
+      "id": "task3",
+      "name": "Training Staff on AI Compliance",
+      "description": "Train staff on the new AI compliance requirements and best practices.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training materials may need to be developed."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Compliance Measures",
+      "description": "Put in place the necessary measures to comply with the AI regulations.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "high",
+      "notes": "Technical expertise may be needed for implementation."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Reporting",
+      "description": "Regularly monitor compliance with the AI regulations and prepare necessary reports.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": [],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Establish a system for ongoing monitoring."
+    }
+  ],
+  "key_risks": [
+    "Limited resources may lead to incomplete compliance.",
+    "Potential legal repercussions due to misunderstanding of regulations."
+  ],
+  "confidence_level": "medium"
+}

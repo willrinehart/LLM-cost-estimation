@@ -1,0 +1,67 @@
+{
+  "persona": "Government Agency Director",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 180,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and analyze the regulation text to understand compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Ensure understanding of definitions and obligations outlined in the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework outlining how the agency will comply with the RAISE act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Framework should include transparency requirements and employee obligations."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Develop training programs for staff on AI safety and compliance with the RAISE act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Training must cover the use of AI models and safety protocols."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Compliance Measures",
+      "description": "Put in place the necessary processes and systems to ensure compliance.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "high",
+      "notes": "This includes monitoring AI systems and ensuring appropriate redactions."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Reporting",
+      "description": "Establish a system for ongoing monitoring and reporting of compliance status.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Regular audits and updates to ensure continued compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance leading to penalties or legal challenges.",
+    "Insufficient training leading to misuse of AI systems."
+  ],
+  "confidence_level": "medium"
+}

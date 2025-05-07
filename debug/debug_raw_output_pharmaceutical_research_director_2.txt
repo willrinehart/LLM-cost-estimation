@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 480,
+  "annual_ongoing_hours": 240,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Compliance Assessment",
+      "description": "Evaluate current practices against the requirements of the RAISE Act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "high",
+      "notes": "Critical to identify gaps in compliance."
+    },
+    {
+      "id": "task2",
+      "name": "AI Model Review and Documentation",
+      "description": "Document AI models used and ensure they meet transparency requirements.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Ensure proper documentation to avoid legal issues."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program Development",
+      "description": "Create training materials focused on AI safety and compliance.",
+      "first_year_hours": 120,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Training must be comprehensive to mitigate risks."
+    },
+    {
+      "id": "task4",
+      "name": "Implementation of Safety Protocols",
+      "description": "Establish safety and security protocols for AI usage.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Ensure protocols are robust to protect sensitive information."
+    },
+    {
+      "id": "task5",
+      "name": "Ongoing Compliance Monitoring",
+      "description": "Regularly review compliance with the RAISE Act to ensure ongoing adherence.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1", "task4"],
+      "risk_level": "medium",
+      "notes": "Continuous monitoring is essential to adapt to regulatory changes."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties and reputational damage.",
+    "Inadequate training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}

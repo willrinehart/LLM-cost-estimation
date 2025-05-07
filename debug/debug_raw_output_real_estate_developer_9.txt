@@ -1,0 +1,67 @@
+{
+  "persona": "Real Estate Developer",
+  "first_year_total_hours": 150,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Research",
+      "description": "Research the new RAISE act and its implications for AI use in real estate development.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the full scope of the regulation is critical."
+    },
+    {
+      "id": "task2",
+      "name": "Compliance Assessment",
+      "description": "Assess current AI practices against the requirements of the RAISE act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require technical evaluation of existing AI systems."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Compliance Plan",
+      "description": "Create a detailed plan to ensure compliance with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "This plan will outline necessary changes and timelines."
+    },
+    {
+      "id": "task4",
+      "name": "Training Program Development",
+      "description": "Develop training programs for employees on compliance with AI regulations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training is crucial for ensuring employee awareness and compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Reporting",
+      "description": "Establish a system for ongoing monitoring and reporting of compliance.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Regular reports will be necessary to demonstrate compliance."
+    }
+  ],
+  "key_risks": [
+    "Failure to fully understand the RAISE act could lead to non-compliance.",
+    "Insufficient employee training may result in violations of the act."
+  ],
+  "confidence_level": "medium"
+}

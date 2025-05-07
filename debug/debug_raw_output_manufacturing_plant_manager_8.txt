@@ -1,0 +1,67 @@
+{
+  "persona": "Manufacturing Plant Manager",
+  "first_year_total_hours": 160,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE act to identify compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential for understanding the compliance landscape."
+    },
+    {
+      "id": "task2",
+      "name": "Identify AI Models in Use",
+      "description": "Catalog all AI models currently in use within the manufacturing process.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "May require input from IT or data science teams."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Transparency Protocols",
+      "description": "Create internal protocols to ensure transparency in AI model training and usage.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "Legal consultation may be necessary to align with regulations."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Training on AI Usage",
+      "description": "Implement training programs for employees on the responsible use of AI models.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training materials should be developed in accordance with new protocols."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up mechanisms for reporting violations and ensuring compliance.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Requires legal expertise to ensure compliance with reporting standards."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with new regulations could result in legal penalties.",
+    "Inadequate employee training may lead to misuse of AI models."
+  ],
+  "confidence_level": "medium"
+}

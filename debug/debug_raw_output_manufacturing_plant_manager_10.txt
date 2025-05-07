@@ -1,0 +1,78 @@
+{
+  "persona": "Manufacturing Plant Manager",
+  "first_year_total_hours": 200,
+  "annual_ongoing_hours": 100,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Understand Regulation",
+      "description": "Thoroughly read and comprehend the RAISE Act to identify compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Given low familiarity with regulatory compliance, this task is critical."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Training Program for AI Use",
+      "description": "Create a training program for employees on the responsible use of AI as per the regulation.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This requires collaboration with HR and technical teams."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Protocols",
+      "description": "Establish protocols for transparency in AI model training and usage as required by the regulation.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Technical expertise is needed to ensure compliance with transparency requirements."
+    },
+    {
+      "id": "task4",
+      "name": "Conduct Employee Rights Training",
+      "description": "Train employees on their rights and obligations under the RAISE Act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "HR involvement is necessary to ensure accurate information is provided."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms for Violations",
+      "description": "Create a system for reporting and addressing violations of the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Legal expertise is essential to ensure compliance and mitigate risks."
+    },
+    {
+      "id": "task6",
+      "name": "Regular Compliance Audits",
+      "description": "Conduct regular audits to ensure ongoing compliance with the RAISE Act.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task3", "task5"],
+      "risk_level": "medium",
+      "notes": "Legal consultation may be required for audit processes."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with the RAISE Act could lead to legal penalties.",
+    "Insufficient training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

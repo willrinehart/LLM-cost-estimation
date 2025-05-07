@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 500,
+  "annual_ongoing_hours": 300,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the new RAISE act and its implications for AI use in pharmaceutical research.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential for understanding compliance requirements."
+    },
+    {
+      "id": "task2",
+      "name": "Employee Training Program Development",
+      "description": "Develop training programs for employees on AI safety and compliance with the RAISE act.",
+      "first_year_hours": 120,
+      "ongoing_annual_hours": 80,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Training must be comprehensive to mitigate risks."
+    },
+    {
+      "id": "task3",
+      "name": "Establish Transparency Protocols",
+      "description": "Create protocols for documenting AI model training and usage in compliance with transparency requirements.",
+      "first_year_hours": 100,
+      "ongoing_annual_hours": 60,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Documentation is crucial for regulatory compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Audit and Compliance Checks",
+      "description": "Conduct regular audits to ensure compliance with the RAISE act and internal protocols.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Ongoing audits will help in maintaining compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Stakeholder Communication Strategy",
+      "description": "Develop a strategy for communicating changes and compliance measures to stakeholders.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "low",
+      "notes": "Effective communication is key to stakeholder engagement."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with new regulations could lead to legal penalties.",
+    "Inadequate training may result in improper use of AI technologies."
+  ],
+  "confidence_level": "high"
+}

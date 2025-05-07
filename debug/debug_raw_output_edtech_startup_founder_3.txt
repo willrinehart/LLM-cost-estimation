@@ -1,0 +1,67 @@
+{
+  "persona": "EdTech Startup Founder",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 160,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Research",
+      "description": "Research and interpret the RAISE act to understand compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Requires staying updated on any amendments or changes to the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a compliance framework that outlines how the startup will adhere to the RAISE act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This framework must be flexible to adapt to future changes in regulations."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Design and implement a training program for employees on AI safety and compliance.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be updated regularly as regulations evolve."
+    },
+    {
+      "id": "task4",
+      "name": "Audit and Monitoring Plan",
+      "description": "Establish a plan for regular audits and monitoring of AI systems to ensure compliance.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Involves technical assessments and legal reviews."
+    },
+    {
+      "id": "task5",
+      "name": "Documentation and Reporting",
+      "description": "Maintain proper documentation of compliance efforts and prepare reports as required by the regulation.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "administrative"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Documentation should be thorough and easily accessible for audits."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with evolving regulations could lead to legal penalties.",
+    "Inadequate employee training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

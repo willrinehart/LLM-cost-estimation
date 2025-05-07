@@ -1,0 +1,67 @@
+{
+  "persona": "Government Agency Director",
+  "first_year_total_hours": 350,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the new RAISE Act to identify compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical to understand the full scope of the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework outlining how the agency will comply with the RAISE Act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Framework must be adaptable to future changes in AI regulations."
+    },
+    {
+      "id": "task3",
+      "name": "Establish Training Programs",
+      "description": "Design and implement training programs for employees on AI safety and compliance.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be ongoing to ensure continuous compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Create Transparency Protocols",
+      "description": "Develop protocols for transparency in AI model training and usage.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Transparency is a key requirement of the RAISE Act."
+    },
+    {
+      "id": "task5",
+      "name": "Conduct Compliance Audits",
+      "description": "Regularly audit compliance with the RAISE Act and internal protocols.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "medium",
+      "notes": "Audits will help identify areas for improvement."
+    }
+  ],
+  "key_risks": [
+    "Potential non-compliance with the new regulations could lead to legal consequences.",
+    "Insufficient training may result in employees not understanding their responsibilities under the RAISE Act."
+  ],
+  "confidence_level": "high"
+}

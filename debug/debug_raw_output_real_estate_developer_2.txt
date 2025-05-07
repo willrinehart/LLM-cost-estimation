@@ -1,0 +1,67 @@
+{
+  "persona": "Real Estate Developer",
+  "first_year_total_hours": 150,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Analyze the RAISE act to understand its implications on existing AI practices.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Involves collaboration with legal team to ensure compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework to ensure adherence to the transparency requirements and obligations outlined in the act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require additional insights from external consultants."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Design and implement a training program for employees on AI safety and compliance.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Collaboration with HR and legal teams is essential."
+    },
+    {
+      "id": "task4",
+      "name": "Audit and Reporting Procedures",
+      "description": "Establish procedures for auditing AI practices and reporting compliance to regulatory bodies.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Requires legal validation of reporting formats."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Regulatory Changes",
+      "description": "Continuously monitor for updates or changes to the RAISE act and other relevant regulations.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "low",
+      "notes": "Stay connected with legal team for timely updates."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with new regulations could lead to penalties.",
+    "Insufficient employee training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

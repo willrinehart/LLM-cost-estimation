@@ -1,0 +1,67 @@
+{
+  "persona": "Manufacturing Plant Manager",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE act to identify compliance requirements.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "low",
+      "notes": "Essential for understanding the compliance landscape."
+    },
+    {
+      "id": "task2",
+      "name": "Identify AI Usage in Operations",
+      "description": "Assess how artificial intelligence is currently utilized in manufacturing processes.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Important to align AI usage with compliance requirements."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Training Program",
+      "description": "Create a training program for employees on the responsible use of AI as per the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Training is crucial for compliance and employee awareness."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Transparency Protocols",
+      "description": "Establish protocols for transparency in AI model training and usage.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Requires legal consultation to ensure compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Conduct Compliance Audits",
+      "description": "Regularly audit AI systems and processes for compliance with the RAISE act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Ongoing audits are necessary to maintain compliance."
+    }
+  ],
+  "key_risks": [
+    "Lack of understanding of AI compliance requirements may lead to violations.",
+    "Failure to implement adequate training could result in employee non-compliance."
+  ],
+  "confidence_level": "medium"
+}

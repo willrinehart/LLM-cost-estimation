@@ -1,0 +1,78 @@
+{
+  "persona": "Real Estate Developer",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Understand Regulation",
+      "description": "Thoroughly review the RAISE Act to understand compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Involves collaboration with the external legal team."
+    },
+    {
+      "id": "task2",
+      "name": "Assess Current AI Usage",
+      "description": "Evaluate existing AI systems and practices against the new regulations.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Requires technical assessment of AI models currently in use."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a strategy to ensure compliance with the RAISE Act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "Must align with both legal requirements and company policies."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Training Programs",
+      "description": "Design and implement training programs for staff on AI compliance.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Training must be tailored to different roles within the organization."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Monitoring Mechanisms",
+      "description": "Set up systems to monitor ongoing compliance with the RAISE Act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Monitoring systems should be adaptable to changes in AI regulations."
+    },
+    {
+      "id": "task6",
+      "name": "Prepare Reporting Framework",
+      "description": "Create a framework for reporting compliance status and issues.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3", "task5"],
+      "risk_level": "high",
+      "notes": "Reporting must meet both internal and regulatory requirements."
+    }
+  ],
+  "key_risks": [
+    "Potential misinterpretation of regulatory requirements leading to non-compliance.",
+    "Insufficient training leading to employee errors in AI usage."
+  ],
+  "confidence_level": "medium"
+}

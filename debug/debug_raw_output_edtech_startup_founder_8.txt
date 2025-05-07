@@ -1,0 +1,78 @@
+{
+  "persona": "EdTech Startup Founder",
+  "first_year_total_hours": 250,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE Act to identify compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "This is foundational to ensure all subsequent tasks are aligned with the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework outlining how the startup will meet the requirements of the RAISE Act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "The framework must be comprehensive to avoid future violations."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Requirements",
+      "description": "Establish processes for transparency in AI model training and usage as per the regulation.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "This is critical as non-compliance can lead to severe penalties."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Training on AI Compliance",
+      "description": "Develop and conduct training sessions for employees on compliance with the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Employees must be aware of their rights and obligations under the new law."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up internal reporting mechanisms for compliance violations or concerns.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "This is important for maintaining transparency and accountability."
+    },
+    {
+      "id": "task6",
+      "name": "Conduct Regular Audits",
+      "description": "Schedule and perform audits to ensure compliance with the RAISE Act on an ongoing basis.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "high",
+      "notes": "Audits are essential to identify potential compliance issues early."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance leading to legal penalties or fines.",
+    "Insufficient employee training resulting in violations."
+  ],
+  "confidence_level": "medium"
+}

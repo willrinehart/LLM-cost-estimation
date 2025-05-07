@@ -1,0 +1,67 @@
+{
+  "persona": "Real Estate Developer",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the RAISE act to understand specific obligations and compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical to ensure compliance with new regulations."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Plan",
+      "description": "Create a detailed compliance plan outlining steps to meet the RAISE act requirements.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires collaboration with legal and technical teams."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Training for AI Usage",
+      "description": "Establish training programs for employees on responsible AI usage in line with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "medium",
+      "notes": "Training must be comprehensive to cover all aspects of AI usage."
+    },
+    {
+      "id": "task4",
+      "name": "Conduct Regular Audits",
+      "description": "Set up a process for regular audits to ensure ongoing compliance with the RAISE act.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Audits should be documented and findings reported."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Create reporting mechanisms for any violations or issues related to the RAISE act.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "low",
+      "notes": "Essential for transparency and accountability."
+    }
+  ],
+  "key_risks": [
+    "Failure to comply with new regulations could lead to legal penalties.",
+    "Insufficient training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

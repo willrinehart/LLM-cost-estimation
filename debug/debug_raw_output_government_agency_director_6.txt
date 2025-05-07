@@ -1,0 +1,67 @@
+{
+  "persona": "Government Agency Director",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 200,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulatory Requirements",
+      "description": "Analyze the RAISE act to identify compliance obligations and implications for the agency.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical to understand compliance scope."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Training Program",
+      "description": "Create a training program for employees on AI safety and compliance based on the act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Specialized knowledge in AI and training methodologies needed."
+    },
+    {
+      "id": "task3",
+      "name": "Establish Transparency Protocols",
+      "description": "Set up protocols for transparency in AI model training and usage as per the act's requirements.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires collaboration with technical teams."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Employee Rights Protections",
+      "description": "Ensure employee rights and obligations are integrated into workplace policies.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Involves updating HR policies."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Reporting",
+      "description": "Establish a system for ongoing compliance monitoring and reporting of AI usage.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 100,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Requires ongoing evaluation and adjustments."
+    }
+  ],
+  "key_risks": [
+    "Inadequate training may lead to non-compliance.",
+    "Failure to establish effective transparency protocols could result in legal repercussions."
+  ],
+  "confidence_level": "high"
+}

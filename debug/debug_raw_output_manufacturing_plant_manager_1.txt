@@ -1,0 +1,67 @@
+{
+  "persona": "Manufacturing Plant Manager",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Understand the specific requirements of the RAISE Act and how they apply to manufacturing operations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "External legal consultation may be needed."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Plan",
+      "description": "Create a comprehensive plan detailing how the plant will meet the RAISE Act requirements.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Collaboration with legal and technical teams is essential."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Training Programs",
+      "description": "Establish training programs for employees on AI safety and compliance with the RAISE Act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training effectiveness should be regularly evaluated."
+    },
+    {
+      "id": "task4",
+      "name": "Monitor Compliance",
+      "description": "Set up a monitoring system to ensure ongoing compliance with the RAISE Act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Regular audits may be required."
+    },
+    {
+      "id": "task5",
+      "name": "Documentation and Reporting",
+      "description": "Maintain records of compliance activities and prepare necessary reports as required by the regulation.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1", "task4"],
+      "risk_level": "low",
+      "notes": "Documentation should be thorough to avoid penalties."
+    }
+  ],
+  "key_risks": [
+    "Lack of understanding of AI safety requirements may lead to non-compliance.",
+    "Insufficient training may result in employee errors in AI usage."
+  ],
+  "confidence_level": "medium"
+}

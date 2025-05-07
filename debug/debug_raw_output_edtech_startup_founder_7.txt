@@ -1,0 +1,67 @@
+{
+  "persona": "EdTech Startup Founder",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Research",
+      "description": "Conduct thorough research on the RAISE Act to understand all compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Critical for understanding the full scope of compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a comprehensive strategy outlining how the startup will comply with the RAISE Act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires alignment with business objectives and resource allocation."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Protocols",
+      "description": "Establish protocols for transparency in AI model training and usage as mandated by the RAISE Act.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Involves technical adjustments and potentially significant changes to product offerings."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Training",
+      "description": "Train employees on their rights and obligations under the RAISE Act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Essential for ensuring compliance and fostering a culture of responsibility."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Reporting",
+      "description": "Set up a system for ongoing monitoring of compliance and reporting violations if necessary.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Continuous monitoring is important to adapt to any regulatory changes."
+    }
+  ],
+  "key_risks": [
+    "Failure to fully understand regulatory requirements could lead to non-compliance.",
+    "Inadequate training of employees on their rights and obligations could result in violations."
+  ],
+  "confidence_level": "medium"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Hospitality Chain Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Understand the key components of the RAISE Act and its implications for the business.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Essential for compliance understanding."
+    },
+    {
+      "id": "task2",
+      "name": "Identify AI Systems in Use",
+      "description": "Catalog all AI systems currently in use within the hospitality chain.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Critical to determine compliance needs."
+    },
+    {
+      "id": "task3",
+      "name": "Develop Compliance Training Program",
+      "description": "Create a training program for employees on responsible AI use and compliance with the RAISE Act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "Training must be comprehensive to mitigate risks."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Transparency Measures",
+      "description": "Establish protocols for transparency in AI use as required by the regulation.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Failure to comply could result in penalties."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Update Policies",
+      "description": "Regularly review and update policies to ensure ongoing compliance with the RAISE Act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": [],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Continuous monitoring is essential."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties and reputational damage.",
+    "Inadequate training may result in misuse of AI systems."
+  ],
+  "confidence_level": "medium"
+}

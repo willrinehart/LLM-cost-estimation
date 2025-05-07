@@ -1,0 +1,67 @@
+{
+  "persona": "EdTech Startup Founder",
+  "first_year_total_hours": 150,
+  "annual_ongoing_hours": 100,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand Regulation Requirements",
+      "description": "Review the RAISE act to identify specific compliance requirements applicable to the startup.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "This task is crucial for establishing a compliance baseline."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Transparency Protocols",
+      "description": "Create protocols for transparency in AI model training and use, ensuring compliance with outlined requirements.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires input from both legal and technical teams to ensure feasibility."
+    },
+    {
+      "id": "task3",
+      "name": "Establish Employee Protections",
+      "description": "Draft policies and procedures that protect employee rights and obligations as per the regulation.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Collaboration with HR is essential to align with existing policies."
+    },
+    {
+      "id": "task4",
+      "name": "Implement Compliance Audits",
+      "description": "Set up a framework for regular compliance audits to ensure ongoing adherence to the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2", "task3"],
+      "risk_level": "medium",
+      "notes": "Audits should be scheduled quarterly to ensure continual compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Training and Awareness Programs",
+      "description": "Develop training materials and conduct sessions for employees on compliance with the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task3"],
+      "risk_level": "low",
+      "notes": "Training should be updated annually to reflect any changes in regulation."
+    }
+  ],
+  "key_risks": [
+    "Potential misinterpretation of regulatory requirements leading to non-compliance.",
+    "Insufficient training leading to employee unawareness of compliance protocols."
+  ],
+  "confidence_level": "medium"
+}

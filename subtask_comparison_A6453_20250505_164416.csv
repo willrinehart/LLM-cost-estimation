@@ -1,0 +1,415 @@
+name,persona,first_year_hours,first_year_hours,first_year_hours,first_year_hours,ongoing_annual_hours,ongoing_annual_hours,ongoing_annual_hours,ongoing_annual_hours
+,,mean,std,min,max,mean,std,min,max
+AI Model Assessment,Real Estate Developer,60.0,,60,60,30.0,,30,30
+AI Model Review and Documentation,Pharmaceutical Research Director,100.0,,100,100,60.0,,60,60
+Assess Compliance Gaps,Manufacturing Plant Manager,20.0,,20,20,10.0,,10,10
+Assess Compliance with Transparency Requirements,Hospitality Chain Owner,20.0,,20,20,10.0,,10,10
+Assess Current AI Models,Healthcare Administrator,60.0,,60,60,30.0,,30,30
+Assess Current AI Usage,Hospitality Chain Owner,20.0,,20,20,10.0,,10,10
+Assess Current AI Usage,Real Estate Developer,60.0,,60,60,20.0,,20,20
+Assess current AI practices,Nonprofit Director,30.0,,30,30,15.0,,15,15
+Audit AI Models,EdTech Startup Founder,40.0,,40,40,30.0,,30,30
+Audit AI Systems,E-commerce Platform Manager,20.0,,20,20,20.0,,20,20
+Audit AI Systems,Hospitality Chain Owner,25.0,,25,25,10.0,,10,10
+Audit and Compliance Checks,Compliance Officer - Large Tech,80.0,,80,80,40.0,,40,40
+Audit and Compliance Checks,Healthcare Administrator,30.0,,30,30,40.0,,40,40
+Audit and Compliance Checks,Pharmaceutical Research Director,70.0,,70,70,50.0,,50,50
+Audit and Compliance Checks,Real Estate Developer,30.0,,30,30,25.0,,25,25
+Audit and Monitoring Plan,EdTech Startup Founder,40.0,,40,40,30.0,,30,30
+Audit and Reporting Procedures,Real Estate Developer,25.0,,25,25,20.0,,20,20
+Audit and Review Process,Compliance Officer - Large Tech,50.0,,50,50,60.0,,60,60
+Audit and Review Process,Pharmaceutical Research Director,70.0,,70,70,60.0,,60,60
+Communication Strategy,Financial Services Compliance Manager,20.0,,20,20,10.0,,10,10
+Compliance Assessment,Real Estate Developer,40.0,,40,40,20.0,,20,20
+Compliance Audits,Healthcare Administrator,40.0,,40,40,30.0,,30,30
+Compliance Documentation,Pharmaceutical Research Director,50.0,,50,50,25.0,,25,25
+Compliance Documentation,Real Estate Developer,40.0,,40,40,20.0,,20,20
+Compliance Monitoring,Pharmaceutical Research Director,60.0,,60,60,50.0,,50,50
+Conduct AI Impact Assessment,Small Business Owner,20.0,,20,20,10.0,,10,10
+Conduct Audits and Assessments,Compliance Officer - Large Tech,100.0,,100,100,80.0,,80,80
+Conduct Audits and Assessments,Healthcare Administrator,50.0,,50,50,30.0,,30,30
+Conduct Compliance Audits,Government Agency Director,50.0,,50,50,30.0,,30,30
+Conduct Compliance Audits,Healthcare Administrator,25.0,,25,25,20.0,,20,20
+Conduct Compliance Audits,Hospitality Chain Owner,25.0,,25,25,25.0,,25,25
+Conduct Compliance Audits,Manufacturing Plant Manager,20.0,,20,20,20.0,,20,20
+Conduct Compliance Gap Analysis,Manufacturing Plant Manager,20.0,,20,20,5.0,,5,5
+Conduct Compliance Training for Staff,Small Business Owner,20.0,,20,20,10.0,,10,10
+Conduct Employee Rights Training,Hospitality Chain Owner,25.0,,25,25,15.0,,15,15
+Conduct Employee Rights Training,Manufacturing Plant Manager,25.0,,25,25,10.0,,10,10
+Conduct Employee Rights Training,Small Business Owner,15.0,,15,15,10.0,,10,10
+Conduct Employee Training,E-commerce Platform Manager,30.0,,30,30,10.0,,10,10
+Conduct Employee Training,Real Estate Developer,15.0,,15,15,10.0,,10,10
+Conduct Regular Audits,E-commerce Platform Manager,50.0,,50,50,30.0,,30,30
+Conduct Regular Audits,EdTech Startup Founder,25.0,10.0,20,40,31.25,6.2915286960589585,25,40
+Conduct Regular Audits,Government Agency Director,50.0,10.0,40,60,43.333333333333336,11.547005383792516,30,50
+Conduct Regular Audits,Real Estate Developer,20.0,7.0710678118654755,15,25,20.0,7.0710678118654755,15,25
+Conduct Regular Compliance Audits,E-commerce Platform Manager,25.0,7.0710678118654755,20,30,22.5,10.606601717798213,15,30
+Conduct Regular Compliance Audits,Hospitality Chain Owner,10.0,,10,10,25.0,,25,25
+Conduct Regular Compliance Audits,Nonprofit Director,20.0,,20,20,20.0,,20,20
+Conduct Regular Compliance Audits,Small Business Owner,25.0,,25,25,20.0,,20,20
+Conduct Regulatory Research,EdTech Startup Founder,40.0,,40,40,10.0,,10,10
+Conduct Risk Assessments,Compliance Officer - Large Tech,70.0,,70,70,40.0,,40,40
+Conduct Risk Assessments,Pharmaceutical Research Director,40.0,,40,40,20.0,,20,20
+Continuous Compliance Monitoring,EdTech Startup Founder,20.0,,20,20,35.0,,35,35
+Create Compliance Audit Procedures,Small Business Owner,25.0,,25,25,10.0,,10,10
+Create Documentation for Compliance,Healthcare Administrator,40.0,,40,40,10.0,,10,10
+Create Employee Rights and Protections Policy,Manufacturing Plant Manager,15.0,,15,15,10.0,,10,10
+Create Monitoring and Reporting System,E-commerce Platform Manager,80.0,,80,80,30.0,,30,30
+Create Reporting Mechanism,Small Business Owner,10.0,,10,10,5.0,,5,5
+Create Transparency Documentation,Hospitality Chain Owner,25.0,,25,25,15.0,,15,15
+Create Transparency Documentation,Nonprofit Director,20.0,,20,20,15.0,,15,15
+Create Transparency Protocols,Government Agency Director,50.0,,50,50,30.0,,30,30
+Develop AI Model Training Protocols,E-commerce Platform Manager,30.0,,30,30,20.0,,20,20
+Develop AI Safety Protocols,Nonprofit Director,30.0,,30,30,20.0,,20,20
+Develop AI Safety Protocols,Small Business Owner,30.0,0.0,30,30,15.0,0.0,15,15
+Develop AI Training Protocols,Healthcare Administrator,80.0,,80,80,30.0,,30,30
+Develop AI Training Protocols,Hospitality Chain Owner,30.0,0.0,30,30,12.5,3.5355339059327378,10,15
+Develop AI Training Protocols,Small Business Owner,30.0,,30,30,20.0,,20,20
+Develop AI Transparency Protocols,Small Business Owner,30.0,0.0,30,30,13.333333333333334,2.8867513459481287,10,15
+Develop AI Usage Policies,Real Estate Developer,30.0,,30,30,20.0,,20,20
+Develop AI Usage Policy,Hospitality Chain Owner,30.0,0.0,30,30,10.0,0.0,10,10
+Develop Compliance Checklist,Nonprofit Director,15.0,,15,15,5.0,,5,5
+Develop Compliance Framework,Compliance Officer - Large Tech,72.0,10.95445115010332,60,80,19.2,1.7888543819998315,16,20
+Develop Compliance Framework,E-commerce Platform Manager,56.0,16.73320053068151,40,80,18.0,8.366600265340756,10,30
+Develop Compliance Framework,EdTech Startup Founder,48.75,13.562026818605375,30,60,20.625,4.1726148019814016,15,30
+Develop Compliance Framework,Financial Services Compliance Manager,78.0,31.937438845342623,30,120,25.0,13.228756555322953,5,40
+Develop Compliance Framework,Government Agency Director,56.666666666666664,12.247448713915892,40,80,21.666666666666668,7.0710678118654755,15,40
+Develop Compliance Framework,Healthcare Administrator,45.0,10.0,40,60,15.0,5.773502691896258,10,20
+Develop Compliance Framework,Nonprofit Director,30.0,,30,30,10.0,,10,10
+Develop Compliance Framework,Pharmaceutical Research Director,90.0,14.142135623730951,80,100,35.0,7.0710678118654755,30,40
+Develop Compliance Framework,Real Estate Developer,30.0,,30,30,10.0,,10,10
+Develop Compliance Plan,Healthcare Administrator,30.0,,30,30,10.0,,10,10
+Develop Compliance Plan,Hospitality Chain Owner,23.333333333333332,5.773502691896257,20,30,8.333333333333334,2.8867513459481287,5,10
+Develop Compliance Plan,Manufacturing Plant Manager,30.0,0.0,30,30,13.333333333333334,2.886751345948129,10,15
+Develop Compliance Plan,Nonprofit Director,25.0,,25,25,10.0,,10,10
+Develop Compliance Plan,Real Estate Developer,28.333333333333332,2.886751345948128,25,30,13.333333333333334,2.8867513459481287,10,15
+Develop Compliance Plan,Small Business Owner,25.0,7.0710678118654755,20,30,10.0,0.0,10,10
+Develop Compliance Protocols,Healthcare Administrator,50.0,,50,50,20.0,,20,20
+Develop Compliance Protocols,Real Estate Developer,50.0,,50,50,20.0,,20,20
+Develop Compliance Strategy,E-commerce Platform Manager,43.333333333333336,15.275252316519468,30,60,15.0,5.0,10,20
+Develop Compliance Strategy,EdTech Startup Founder,60.0,,60,60,20.0,,20,20
+Develop Compliance Strategy,Healthcare Administrator,30.0,0.0,30,30,15.0,7.0710678118654755,10,20
+Develop Compliance Strategy,Nonprofit Director,20.0,4.08248290463863,15,25,8.75,2.5,5,10
+Develop Compliance Strategy,Pharmaceutical Research Director,80.0,,80,80,30.0,,30,30
+Develop Compliance Strategy,Real Estate Developer,36.666666666666664,11.547005383792515,30,50,13.333333333333334,2.8867513459481287,10,15
+Develop Compliance Training Program,Hospitality Chain Owner,25.0,,25,25,10.0,,10,10
+Develop Compliance Training Program,Pharmaceutical Research Director,80.0,,80,80,40.0,,40,40
+Develop Employee Training Program,Hospitality Chain Owner,25.0,,25,25,15.0,,15,15
+Develop Training Program,Government Agency Director,80.0,,80,80,40.0,,40,40
+Develop Training Program,Manufacturing Plant Manager,35.0,13.228756555322953,25,50,20.0,8.660254037844387,15,30
+Develop Training Program,Small Business Owner,30.0,,30,30,15.0,,15,15
+Develop Training Program for AI Use,Manufacturing Plant Manager,35.0,7.0710678118654755,30,40,20.0,0.0,20,20
+Develop Training Program for Employees,E-commerce Platform Manager,25.0,,25,25,15.0,,15,15
+Develop Training Programs,Manufacturing Plant Manager,25.0,,25,25,20.0,,20,20
+Develop Training Protocols,Pharmaceutical Research Director,100.0,,100,100,40.0,,40,40
+Develop Transparency Protocols,EdTech Startup Founder,30.0,,30,30,20.0,,20,20
+Develop Transparency Protocols,Hospitality Chain Owner,20.0,,20,20,10.0,,10,10
+Develop Transparency Protocols,Manufacturing Plant Manager,40.0,,40,40,20.0,,20,20
+Develop Transparency Protocols,Small Business Owner,20.0,,20,20,10.0,,10,10
+Develop compliance plan,Nonprofit Director,25.0,,25,25,10.0,,10,10
+Develop transparency protocols,Nonprofit Director,30.0,,30,30,15.0,,15,15
+Development of AI Training Protocols,Pharmaceutical Research Director,80.0,,80,80,50.0,,50,50
+Document Compliance Efforts,Healthcare Administrator,30.0,,30,30,10.0,,10,10
+Document Compliance Efforts,Nonprofit Director,15.0,,15,15,5.0,,5,5
+Document Compliance Procedures,Small Business Owner,15.0,,15,15,5.0,,5,5
+Document Compliance Processes,Manufacturing Plant Manager,20.0,,20,20,5.0,,5,5
+Documentation and Reporting,Compliance Officer - Large Tech,30.0,,30,30,20.0,,20,20
+Documentation and Reporting,E-commerce Platform Manager,10.0,,10,10,10.0,,10,10
+Documentation and Reporting,EdTech Startup Founder,30.0,,30,30,20.0,,20,20
+Documentation and Reporting,Manufacturing Plant Manager,10.0,,10,10,10.0,,10,10
+Documentation of Compliance Efforts,Government Agency Director,40.0,,40,40,20.0,,20,20
+Documentation of Compliance Efforts,Pharmaceutical Research Director,100.0,,100,100,60.0,,60,60
+Employee Rights Training,Pharmaceutical Research Director,50.0,,50,50,30.0,,30,30
+Employee Rights and Obligations Training,E-commerce Platform Manager,20.0,,20,20,15.0,,15,15
+Employee Rights and Obligations Training,Hospitality Chain Owner,15.0,,15,15,10.0,,10,10
+Employee Rights and Obligations Training,Pharmaceutical Research Director,65.0,49.49747468305833,30,100,30.0,14.142135623730951,20,40
+Employee Rights and Obligations Training,Small Business Owner,25.0,,25,25,10.0,,10,10
+Employee Rights and Protections Review,Compliance Officer - Large Tech,40.0,,40,40,20.0,,20,20
+Employee Training,EdTech Startup Founder,40.0,,40,40,20.0,,20,20
+Employee Training,Nonprofit Director,30.0,,30,30,20.0,,20,20
+Employee Training Program,Compliance Officer - Large Tech,50.0,0.0,50,50,33.333333333333336,5.773502691896258,30,40
+Employee Training Program,E-commerce Platform Manager,55.0,7.0710678118654755,50,60,35.0,7.0710678118654755,30,40
+Employee Training Program,EdTech Startup Founder,50.0,,50,50,20.0,,20,20
+Employee Training Program,Financial Services Compliance Manager,100.0,,100,100,60.0,,60,60
+Employee Training Program,Government Agency Director,80.0,,80,80,40.0,,40,40
+Employee Training Program,Healthcare Administrator,40.0,10.0,30,50,26.666666666666668,5.773502691896257,20,30
+Employee Training Program,Hospitality Chain Owner,22.5,3.5355339059327378,20,25,15.0,0.0,15,15
+Employee Training Program,Manufacturing Plant Manager,40.0,,40,40,30.0,,30,30
+Employee Training Program,Pharmaceutical Research Director,65.0,7.0710678118654755,60,70,45.0,7.0710678118654755,40,50
+Employee Training Program,Real Estate Developer,38.333333333333336,12.583057392117915,25,50,21.666666666666668,7.637626158259733,15,30
+Employee Training Program Development,Pharmaceutical Research Director,120.0,0.0,120,120,60.0,28.284271247461902,40,80
+Employee Training Programs,E-commerce Platform Manager,30.0,,30,30,20.0,,20,20
+Employee Training on AI Compliance,E-commerce Platform Manager,35.0,7.0710678118654755,30,40,30.0,0.0,30,30
+Employee Training on AI Compliance,EdTech Startup Founder,30.0,0.0,30,30,22.5,3.5355339059327378,20,25
+Employee Training on AI Compliance,Nonprofit Director,25.0,,25,25,15.0,,15,15
+Employee Training on AI Compliance,Real Estate Developer,20.0,,20,20,15.0,,15,15
+Employee Training on AI Ethics and Compliance,E-commerce Platform Manager,30.0,,30,30,40.0,,40,40
+Employee Training on AI Policies,Real Estate Developer,40.0,,40,40,20.0,,20,20
+Employee Training on AI Safety,EdTech Startup Founder,40.0,,40,40,30.0,,30,30
+Employee Training on AI Usage,Manufacturing Plant Manager,30.0,,30,30,15.0,,15,15
+Employee Training on AI Usage,Small Business Owner,18.333333333333332,5.773502691896257,15,25,8.333333333333334,2.886751345948129,5,10
+Employee Training on AI Use,Small Business Owner,20.0,,20,20,10.0,,10,10
+Employee training on AI compliance,Nonprofit Director,25.0,,25,25,10.0,,10,10
+Establish Audit and Compliance Checks,Hospitality Chain Owner,20.0,,20,20,20.0,,20,20
+Establish Compliance Monitoring,Small Business Owner,30.0,,30,30,30.0,,30,30
+Establish Compliance Monitoring System,Healthcare Administrator,50.0,,50,50,30.0,,30,30
+Establish Compliance Monitoring System,Hospitality Chain Owner,30.0,,30,30,20.0,,20,20
+Establish Employee Protections,EdTech Startup Founder,25.0,,25,25,15.0,,15,15
+Establish Employee Rights Protocols,Hospitality Chain Owner,15.0,,15,15,10.0,,10,10
+Establish Employee Rights and Protections,Small Business Owner,20.0,7.0710678118654755,15,25,5.0,0.0,5,5
+Establish Monitoring Mechanisms,Government Agency Director,40.0,,40,40,30.0,,30,30
+Establish Monitoring Mechanisms,Nonprofit Director,20.0,,20,20,10.0,,10,10
+Establish Monitoring Mechanisms,Real Estate Developer,50.0,,50,50,20.0,,20,20
+Establish Monitoring Procedures,Compliance Officer - Large Tech,40.0,,40,40,25.0,,25,25
+Establish Monitoring and Reporting Mechanisms,E-commerce Platform Manager,40.0,,40,40,20.0,,20,20
+Establish Monitoring and Reporting Mechanisms,Nonprofit Director,25.0,,25,25,20.0,,20,20
+Establish Reporting Mechanism,EdTech Startup Founder,15.0,,15,15,10.0,,10,10
+Establish Reporting Mechanism,Hospitality Chain Owner,25.0,,25,25,5.0,,5,5
+Establish Reporting Mechanisms,Compliance Officer - Large Tech,55.0,7.0710678118654755,50,60,17.0,9.899494936611665,10,24
+Establish Reporting Mechanisms,E-commerce Platform Manager,35.0,7.0710678118654755,30,40,20.0,0.0,20,20
+Establish Reporting Mechanisms,EdTech Startup Founder,30.833333333333332,4.915960401250876,25,40,15.0,4.472135954999579,10,20
+Establish Reporting Mechanisms,Government Agency Director,36.666666666666664,5.773502691896258,30,40,16.666666666666668,2.886751345948129,15,20
+Establish Reporting Mechanisms,Hospitality Chain Owner,20.0,,20,20,5.0,,5,5
+Establish Reporting Mechanisms,Manufacturing Plant Manager,20.0,,20,20,10.0,,10,10
+Establish Reporting Mechanisms,Nonprofit Director,16.666666666666668,2.886751345948129,15,20,10.0,0.0,10,10
+Establish Reporting Mechanisms,Pharmaceutical Research Director,40.0,,40,40,20.0,,20,20
+Establish Reporting Mechanisms,Real Estate Developer,12.5,3.5355339059327378,10,15,10.0,0.0,10,10
+Establish Reporting Mechanisms for Violations,Manufacturing Plant Manager,30.0,,30,30,15.0,,15,15
+Establish Reporting and Compliance Mechanisms,Manufacturing Plant Manager,30.0,,30,30,25.0,,25,25
+Establish Training Programs,Government Agency Director,80.0,,80,80,40.0,,40,40
+Establish Transparency Protocols,E-commerce Platform Manager,50.0,,50,50,20.0,,20,20
+Establish Transparency Protocols,Government Agency Director,60.0,0.0,60,60,30.0,0.0,30,30
+Establish Transparency Protocols,Pharmaceutical Research Director,100.0,,100,100,60.0,,60,60
+Establish reporting mechanisms,Nonprofit Director,20.0,,20,20,10.0,,10,10
+Evaluate Compliance and Reporting,Healthcare Administrator,15.0,,15,15,5.0,,5,5
+Evaluate and Update Policies,Government Agency Director,30.0,,30,30,20.0,,20,20
+Familiarize with RAISE Act requirements,Nonprofit Director,20.0,,20,20,10.0,,10,10
+Identify AI Applications,Hospitality Chain Owner,15.0,,15,15,5.0,,5,5
+Identify AI Applications,Manufacturing Plant Manager,22.5,10.606601717798213,15,30,10.0,0.0,10,10
+Identify AI Models in Use,Manufacturing Plant Manager,22.5,10.606601717798213,15,30,10.0,7.0710678118654755,5,15
+Identify AI Systems in Use,Hospitality Chain Owner,15.0,0.0,15,15,5.0,0.0,5,5
+Identify AI Systems in Use,Manufacturing Plant Manager,15.0,,15,15,5.0,,5,5
+Identify AI Usage Areas,Hospitality Chain Owner,15.0,,15,15,5.0,,5,5
+Identify AI Usage in Operations,Manufacturing Plant Manager,15.0,,15,15,5.0,,5,5
+Identify Compliance Areas,Healthcare Administrator,15.0,,15,15,5.0,,5,5
+Identify Compliance Requirements,Nonprofit Director,15.0,,15,15,5.0,,5,5
+Implement AI Model Training Protocols,E-commerce Platform Manager,50.0,,50,50,25.0,,25,25
+Implement AI Safety Protocols,Real Estate Developer,25.0,,25,25,10.0,,10,10
+Implement AI Training Programs,Hospitality Chain Owner,30.0,,30,30,20.0,,20,20
+Implement AI Training Protocols,Small Business Owner,25.0,0.0,25,25,15.0,0.0,15,15
+Implement AI Transparency Measures,E-commerce Platform Manager,60.0,28.284271247461902,40,80,30.0,14.142135623730951,20,40
+Implement AI Transparency Measures,Real Estate Developer,40.0,,40,40,20.0,,20,20
+Implement Compliance Audits,EdTech Startup Founder,25.0,,25,25,30.0,,30,30
+Implement Compliance Measures,Government Agency Director,100.0,,100,100,50.0,,50,50
+Implement Compliance Measures,Healthcare Administrator,50.0,,50,50,20.0,,20,20
+Implement Compliance Measures,Manufacturing Plant Manager,30.0,,30,30,15.0,,15,15
+Implement Compliance Measures,Nonprofit Director,40.0,,40,40,25.0,,25,25
+Implement Compliance Monitoring,Healthcare Administrator,40.0,,40,40,30.0,,30,30
+Implement Compliance Monitoring Procedures,Hospitality Chain Owner,30.0,,30,30,20.0,,20,20
+Implement Compliance Monitoring System,E-commerce Platform Manager,25.0,,25,25,30.0,,30,30
+Implement Compliance Monitoring System,Financial Services Compliance Manager,70.0,,70,70,40.0,,40,40
+Implement Employee Rights Protections,Government Agency Director,40.0,,40,40,20.0,,20,20
+Implement Employee Training,Nonprofit Director,30.0,,30,30,20.0,,20,20
+Implement Employee Training Programs,Healthcare Administrator,60.0,,60,60,20.0,,20,20
+Implement Monitoring Mechanisms,Healthcare Administrator,25.0,,25,25,10.0,,10,10
+Implement Monitoring Systems,Healthcare Administrator,70.0,,70,70,30.0,,30,30
+Implement Monitoring and Reporting Mechanisms,Nonprofit Director,25.0,,25,25,15.0,,15,15
+Implement Monitoring and Reporting Mechanisms,Small Business Owner,20.0,,20,20,10.0,,10,10
+Implement Redaction Procedures,Small Business Owner,20.0,,20,20,10.0,,10,10
+Implement Safety and Security Protocols,Small Business Owner,25.0,,25,25,10.0,,10,10
+Implement Training Program,Hospitality Chain Owner,25.0,,25,25,15.0,,15,15
+Implement Training Program,Nonprofit Director,30.0,,30,30,20.0,,20,20
+Implement Training Programs,Compliance Officer - Large Tech,90.0,42.42640687119285,60,120,35.0,7.0710678118654755,30,40
+Implement Training Programs,E-commerce Platform Manager,60.0,,60,60,40.0,,40,40
+Implement Training Programs,EdTech Startup Founder,38.75,10.307764064044152,25,50,27.5,5.0,20,30
+Implement Training Programs,Government Agency Director,80.0,0.0,80,80,35.0,7.0710678118654755,30,40
+Implement Training Programs,Healthcare Administrator,25.0,,25,25,15.0,,15,15
+Implement Training Programs,Hospitality Chain Owner,25.0,,25,25,15.0,,15,15
+Implement Training Programs,Manufacturing Plant Manager,32.5,10.606601717798213,25,40,22.5,10.606601717798213,15,30
+Implement Training Programs,Nonprofit Director,28.333333333333332,2.886751345948129,25,30,18.333333333333332,2.886751345948129,15,20
+Implement Training Programs,Real Estate Developer,47.5,31.81980515339464,25,70,22.5,10.606601717798213,15,30
+Implement Training for AI Usage,Real Estate Developer,25.0,,25,25,20.0,,20,20
+Implement Transparency Measures,EdTech Startup Founder,50.0,,50,50,15.0,,15,15
+Implement Transparency Measures,Government Agency Director,40.0,,40,40,15.0,,15,15
+Implement Transparency Measures,Healthcare Administrator,25.0,,25,25,15.0,,15,15
+Implement Transparency Measures,Hospitality Chain Owner,21.25,2.5000000000000004,20,25,10.0,0.0,10,10
+Implement Transparency Measures,Manufacturing Plant Manager,28.333333333333332,10.408329997330664,20,40,15.0,5.0,10,20
+Implement Transparency Measures,Pharmaceutical Research Director,60.0,14.142135623730951,50,70,35.0,7.0710678118654755,30,40
+Implement Transparency Measures,Small Business Owner,25.0,0.0,25,25,11.666666666666666,2.8867513459481287,10,15
+Implement Transparency Protocols,E-commerce Platform Manager,35.0,21.213203435596427,20,50,12.5,3.5355339059327378,10,15
+Implement Transparency Protocols,EdTech Startup Founder,80.0,,80,80,30.0,,30,30
+Implement Transparency Protocols,Manufacturing Plant Manager,27.5,3.5355339059327378,25,30,12.5,3.5355339059327378,10,15
+Implement Transparency Protocols,Nonprofit Director,20.0,,20,20,10.0,,10,10
+Implement Transparency Protocols,Pharmaceutical Research Director,60.0,,60,60,30.0,,30,30
+Implement Transparency Requirements,E-commerce Platform Manager,50.0,,50,50,25.0,,25,25
+Implement Transparency Requirements,EdTech Startup Founder,50.0,0.0,50,50,30.0,0.0,30,30
+Implement Transparency Requirements,Healthcare Administrator,50.0,,50,50,40.0,,40,40
+Implement training programs,Nonprofit Director,20.0,,20,20,15.0,,15,15
+Implementation of AI Safety Protocols,Financial Services Compliance Manager,120.0,,120,120,50.0,,50,50
+Implementation of Compliance Measures,Financial Services Compliance Manager,66.66666666666667,23.09401076758503,40,80,26.666666666666668,15.275252316519467,10,40
+Implementation of Compliance Mechanisms,Compliance Officer - Large Tech,40.0,,40,40,30.0,,30,30
+Implementation of Controls,Financial Services Compliance Manager,100.0,,100,100,50.0,,50,50
+Implementation of Safety Protocols,Pharmaceutical Research Director,80.0,,80,80,40.0,,40,40
+Implementation of Transparency Measures,Compliance Officer - Large Tech,60.0,,60,60,30.0,,30,30
+Implementation of Transparency Protocols,Pharmaceutical Research Director,110.0,56.568542494923804,70,150,60.0,28.284271247461902,40,80
+Implementation of Transparency Reporting,Pharmaceutical Research Director,60.0,,60,60,30.0,,30,30
+Implementation of Transparency Requirements,Compliance Officer - Large Tech,100.0,,100,100,60.0,,60,60
+Legal Consultation for Compliance Issues,Real Estate Developer,30.0,,30,30,20.0,,20,20
+Legal Review of Compliance Policies,Financial Services Compliance Manager,30.0,,30,30,10.0,,10,10
+Maintain Documentation,EdTech Startup Founder,10.0,,10,10,10.0,,10,10
+Monitor Compliance,Hospitality Chain Owner,25.0,7.0710678118654755,20,30,22.5,10.606601717798213,15,30
+Monitor Compliance,Manufacturing Plant Manager,23.333333333333332,5.773502691896258,20,30,21.666666666666668,7.637626158259733,15,30
+Monitor Compliance,Real Estate Developer,20.0,,20,20,15.0,,15,15
+Monitor Compliance,Small Business Owner,15.0,,15,15,20.0,,20,20
+Monitor Compliance and Address Violations,Government Agency Director,50.0,,50,50,40.0,,40,40
+Monitor Compliance and Audit,Compliance Officer - Large Tech,100.0,,100,100,80.0,,80,80
+Monitor Compliance and Reporting,EdTech Startup Founder,40.0,,40,40,20.0,,20,20
+Monitor Compliance and Reporting,Government Agency Director,55.0,21.213203435596427,40,70,75.0,35.35533905932738,50,100
+Monitor Compliance and Reporting,Healthcare Administrator,20.0,,20,20,25.0,,25,25
+Monitor Compliance and Reporting,Manufacturing Plant Manager,15.0,,15,15,20.0,,20,20
+Monitor Compliance and Reporting,Nonprofit Director,25.0,0.0,25,25,25.0,7.0710678118654755,20,30
+Monitor Compliance and Reporting,Real Estate Developer,26.666666666666668,11.547005383792516,20,40,25.0,8.660254037844387,15,30
+Monitor Compliance and Update Policies,Hospitality Chain Owner,20.0,,20,20,30.0,,30,30
+Monitor Compliance and Update Policies,Nonprofit Director,15.0,7.0710678118654755,10,20,25.0,14.142135623730951,15,35
+Monitor Compliance and Update Policies,Small Business Owner,10.0,0.0,10,10,5.0,0.0,5,5
+Monitor Compliance and Update Practices,Hospitality Chain Owner,15.0,,15,15,28.0,,28,28
+Monitor Compliance and Update Practices,Small Business Owner,15.0,,15,15,20.0,,20,20
+Monitor Compliance and Violations,Small Business Owner,25.0,,25,25,15.0,,15,15
+Monitor Regulatory Changes,Compliance Officer - Large Tech,40.0,,40,40,8.0,,8,8
+Monitor Regulatory Changes,E-commerce Platform Manager,10.0,,10,10,15.0,,15,15
+Monitor Regulatory Changes,Healthcare Administrator,10.0,0.0,10,10,7.5,3.5355339059327378,5,10
+Monitor Regulatory Changes,Real Estate Developer,10.0,,10,10,15.0,,15,15
+Monitor and Audit AI Practices,Small Business Owner,25.0,,25,25,30.0,,30,30
+Monitor compliance,Nonprofit Director,25.0,,25,25,10.0,,10,10
+Monitor for Violations,E-commerce Platform Manager,30.0,,30,30,20.0,,20,20
+Monitoring and Auditing,Compliance Officer - Large Tech,66.66666666666667,15.275252316519467,50,80,43.333333333333336,5.773502691896258,40,50
+Monitoring and Auditing,Financial Services Compliance Manager,68.0,16.431676725154983,50,80,48.0,8.366600265340754,40,60
+Monitoring and Auditing,Government Agency Director,60.0,,60,60,30.0,,30,30
+Monitoring and Auditing,Healthcare Administrator,30.0,0.0,30,30,30.0,0.0,30,30
+Monitoring and Auditing,Real Estate Developer,50.0,,50,50,40.0,,40,40
+Monitoring and Auditing Compliance,Pharmaceutical Research Director,50.0,,50,50,40.0,,40,40
+Monitoring and Auditing Process,E-commerce Platform Manager,70.0,,70,70,30.0,,30,30
+Monitoring and Compliance Audits,Pharmaceutical Research Director,80.0,,80,80,60.0,,60,60
+Monitoring and Reporting,Compliance Officer - Large Tech,50.0,,50,50,40.0,,40,40
+Monitoring and Reporting,Financial Services Compliance Manager,40.0,16.32993161855452,20,60,32.5,12.583057392117917,20,50
+Monitoring and Reporting,Government Agency Director,40.0,0.0,40,40,40.0,14.142135623730951,30,50
+Monitoring and Reporting,Manufacturing Plant Manager,30.0,,30,30,30.0,,30,30
+Monitoring and Reporting,Pharmaceutical Research Director,45.0,7.0710678118654755,40,50,42.5,24.748737341529164,25,60
+Monitoring and Reporting,Real Estate Developer,15.0,,15,15,25.0,,25,25
+Monitoring and Reporting Mechanism,Pharmaceutical Research Director,70.0,,70,70,50.0,,50,50
+Monitoring and Reporting Mechanisms,Compliance Officer - Large Tech,80.0,,80,80,40.0,,40,40
+Monitoring and Reporting Mechanisms,E-commerce Platform Manager,40.0,,40,40,15.0,,15,15
+Monitoring and Reporting Mechanisms,Pharmaceutical Research Director,40.0,,40,40,20.0,,20,20
+Ongoing Compliance Audits,EdTech Startup Founder,30.0,,30,30,50.0,,50,50
+Ongoing Compliance Monitoring,Pharmaceutical Research Director,40.0,,40,40,60.0,,60,60
+Ongoing Monitoring and Reporting,Compliance Officer - Large Tech,30.0,,30,30,30.0,,30,30
+Policy Development,Compliance Officer - Large Tech,60.0,0.0,60,60,27.5,5.0,20,30
+Policy Development,Financial Services Compliance Manager,72.0,17.88854381999832,60,100,22.0,4.472135954999579,20,30
+Policy Development,Healthcare Administrator,40.0,,40,40,20.0,,20,20
+Prepare Reporting Framework,Real Estate Developer,50.0,,50,50,25.0,,25,25
+Regular Compliance Audits,Manufacturing Plant Manager,15.0,,15,15,30.0,,30,30
+Regular audits and compliance checks,Nonprofit Director,30.0,,30,30,20.0,,20,20
+Regulation Analysis,Financial Services Compliance Manager,40.0,0.0,40,40,16.666666666666668,5.773502691896258,10,20
+Regulation Familiarization,Compliance Officer - Large Tech,40.0,,40,40,10.0,,10,10
+Regulatory Analysis,Compliance Officer - Large Tech,42.0,4.47213595499958,40,50,18.0,4.472135954999579,10,20
+Regulatory Analysis,E-commerce Platform Manager,40.0,,40,40,10.0,,10,10
+Regulatory Analysis,Financial Services Compliance Manager,53.333333333333336,20.65591117977289,40,80,18.333333333333332,11.690451944500122,10,40
+Regulatory Analysis,Healthcare Administrator,30.0,,30,30,10.0,,10,10
+Regulatory Analysis,Pharmaceutical Research Director,68.0,17.88854381999832,40,80,24.0,8.94427190999916,20,40
+Regulatory Analysis of RAISE Act,Pharmaceutical Research Director,40.0,,40,40,10.0,,10,10
+Regulatory Compliance Assessment,Pharmaceutical Research Director,80.0,,80,80,40.0,,40,40
+Regulatory Research,EdTech Startup Founder,40.0,0.0,40,40,15.0,7.0710678118654755,10,20
+Regulatory Research,Real Estate Developer,30.0,,30,30,10.0,,10,10
+Regulatory Review,Real Estate Developer,40.0,,40,40,10.0,,10,10
+Regulatory Review of AI Models,Pharmaceutical Research Director,120.0,,120,120,60.0,,60,60
+Reporting Mechanism,Compliance Officer - Large Tech,40.0,,40,40,20.0,,20,20
+Reporting Mechanism,E-commerce Platform Manager,40.0,,40,40,20.0,,20,20
+Reporting Mechanism Establishment,Compliance Officer - Large Tech,40.0,,40,40,20.0,,20,20
+Reporting Mechanism Implementation,Financial Services Compliance Manager,30.0,,30,30,20.0,,20,20
+Reporting Mechanism Setup,Compliance Officer - Large Tech,40.0,,40,40,30.0,,30,30
+Reporting Mechanism Setup,Financial Services Compliance Manager,40.0,,40,40,20.0,,20,20
+Reporting Mechanism Setup,Healthcare Administrator,30.0,,30,30,20.0,,20,20
+Reporting Mechanisms,Financial Services Compliance Manager,35.0,7.0710678118654755,30,40,20.0,14.142135623730951,10,30
+Reporting Procedures Development,Government Agency Director,30.0,,30,30,20.0,,20,20
+Reporting Violations,Healthcare Administrator,20.0,,20,20,15.0,,15,15
+Reporting Violations and Compliance,Government Agency Director,20.0,,20,20,15.0,,15,15
+Reporting and Documentation,Compliance Officer - Large Tech,30.0,,30,30,15.0,,15,15
+Reporting and Documentation,Financial Services Compliance Manager,40.0,,40,40,20.0,,20,20
+Research AI Regulations,Small Business Owner,20.0,,20,20,5.0,,5,5
+Review AI Models for Compliance,E-commerce Platform Manager,30.0,,30,30,20.0,,20,20
+Review AI Regulation,Real Estate Developer,20.0,,20,20,5.0,,5,5
+Review AI Regulation Requirements,Nonprofit Director,20.0,,20,20,5.0,,5,5
+Review Regulation Details,Hospitality Chain Owner,10.0,,10,10,2.0,,2,2
+Review Regulation Requirements,Compliance Officer - Large Tech,40.0,0.0,40,40,10.0,0.0,10,10
+Review Regulation Requirements,E-commerce Platform Manager,40.0,0.0,40,40,10.0,0.0,10,10
+Review Regulation Requirements,EdTech Startup Founder,30.0,10.0,20,40,8.333333333333334,2.886751345948129,5,10
+Review Regulation Requirements,Government Agency Director,40.0,,40,40,10.0,,10,10
+Review Regulation Requirements,Healthcare Administrator,30.0,14.142135623730951,20,40,10.0,0.0,10,10
+Review Regulation Requirements,Hospitality Chain Owner,17.5,3.5355339059327378,15,20,5.0,0.0,5,5
+Review Regulation Requirements,Manufacturing Plant Manager,20.0,0.0,20,20,10.0,0.0,10,10
+Review Regulation Requirements,Nonprofit Director,15.0,0.0,15,15,5.0,0.0,5,5
+Review Regulation Requirements,Real Estate Developer,23.333333333333332,5.773502691896257,20,30,10.0,0.0,10,10
+Review Regulation Requirements,Small Business Owner,10.0,0.0,10,10,3.5,2.1213203435596424,2,5
+Review Regulation Text,E-commerce Platform Manager,20.0,0.0,20,20,5.0,0.0,5,5
+Review Regulation Text,EdTech Startup Founder,17.5,3.5355339059327378,15,20,5.0,0.0,5,5
+Review Regulation Text,Government Agency Director,20.0,0.0,20,20,5.0,0.0,5,5
+Review Regulation Text,Healthcare Administrator,17.5,4.183300132670378,10,20,4.5,1.2247448713915892,2,5
+Review Regulation Text,Hospitality Chain Owner,10.0,0.0,10,10,2.5,1.224744871391589,2,5
+Review Regulation Text,Manufacturing Plant Manager,14.285714285714286,5.3452248382484875,10,20,4.0,3.0,2,10
+Review Regulation Text,Nonprofit Director,10.0,0.0,10,10,3.5,2.1213203435596424,2,5
+Review Regulation Text,Real Estate Developer,20.0,,20,20,5.0,,5,5
+Review Regulation Text,Small Business Owner,10.0,,10,10,5.0,,5,5
+Review Regulatory Requirements,Government Agency Director,40.0,,40,40,10.0,,10,10
+Review and Analyze Regulation Text,Compliance Officer - Large Tech,40.0,,40,40,10.0,,10,10
+Review and Analyze Regulation Text,Financial Services Compliance Manager,40.0,,40,40,10.0,,10,10
+Review and Analyze Regulation Text,Government Agency Director,40.0,,40,40,10.0,,10,10
+Review and Interpret Regulation,Compliance Officer - Large Tech,40.0,,40,40,8.0,,8,8
+Review and Interpret Regulation,Government Agency Director,40.0,0.0,40,40,10.0,0.0,10,10
+Review and Interpret Regulation,Pharmaceutical Research Director,40.0,,40,40,20.0,,20,20
+Review and Interpret Regulation Text,Government Agency Director,40.0,,40,40,20.0,,20,20
+Review and Understand RAISE Act,Real Estate Developer,20.0,,20,20,10.0,,10,10
+Review and Understand RAISE Act Requirements,E-commerce Platform Manager,40.0,,40,40,10.0,,10,10
+Review and Understand RAISE Act Requirements,Pharmaceutical Research Director,40.0,,40,40,10.0,,10,10
+Review and Understand Regulation,Government Agency Director,40.0,,40,40,10.0,,10,10
+Review and Understand Regulation,Healthcare Administrator,40.0,,40,40,10.0,,10,10
+Review and Understand Regulation,Hospitality Chain Owner,20.0,,20,20,5.0,,5,5
+Review and Understand Regulation,Manufacturing Plant Manager,20.0,,20,20,10.0,,10,10
+Review and Understand Regulation,Real Estate Developer,30.0,14.142135623730951,20,40,7.5,3.5355339059327378,5,10
+Review and Understand Regulation Text,Government Agency Director,20.0,,20,20,5.0,,5,5
+Risk Assessment,Pharmaceutical Research Director,70.0,,70,70,30.0,,30,30
+Set Up Monitoring and Reporting Mechanisms,E-commerce Platform Manager,70.0,,70,70,30.0,,30,30
+Set Up Monitoring and Reporting Mechanisms,Healthcare Administrator,20.0,,20,20,15.0,,15,15
+Staff Training on AI Use,Healthcare Administrator,40.0,,40,40,20.0,,20,20
+Stakeholder Communication,Compliance Officer - Large Tech,25.0,7.0710678118654755,20,30,10.0,0.0,10,10
+Stakeholder Communication,E-commerce Platform Manager,20.0,,20,20,10.0,,10,10
+Stakeholder Communication,Financial Services Compliance Manager,25.0,7.0710678118654755,20,30,15.0,7.0710678118654755,10,20
+Stakeholder Communication Strategy,Pharmaceutical Research Director,50.0,,50,50,30.0,,30,30
+Stakeholder Engagement,Compliance Officer - Large Tech,30.0,,30,30,20.0,,20,20
+Stakeholder Engagement,Financial Services Compliance Manager,40.0,,40,40,30.0,,30,30
+Stakeholder Engagement,Pharmaceutical Research Director,40.0,,40,40,30.0,,30,30
+Train Staff on AI Safety and Education,Government Agency Director,60.0,,60,60,30.0,,30,30
+Train Staff on Compliance,Healthcare Administrator,40.0,,40,40,15.0,,15,15
+Training Development,Pharmaceutical Research Director,60.0,,60,60,30.0,,30,30
+Training Program Design,Compliance Officer - Large Tech,50.0,0.0,50,50,36.666666666666664,5.773502691896258,30,40
+Training Program Design,Financial Services Compliance Manager,54.0,5.477225575051661,50,60,28.0,4.472135954999579,20,30
+Training Program Development,Compliance Officer - Large Tech,80.0,,80,80,40.0,,40,40
+Training Program Development,Financial Services Compliance Manager,57.5,5.0,50,60,27.5,9.574271077563381,20,40
+Training Program Development,Government Agency Director,53.333333333333336,5.773502691896258,50,60,30.0,0.0,30,30
+Training Program Development,Healthcare Administrator,40.0,14.142135623730951,30,50,22.5,10.606601717798213,15,30
+Training Program Development,Hospitality Chain Owner,25.0,,25,25,20.0,,20,20
+Training Program Development,Pharmaceutical Research Director,60.0,,60,60,30.0,,30,30
+Training Program Development,Real Estate Developer,20.0,,20,20,10.0,,10,10
+Training Program Implementation,Healthcare Administrator,50.0,,50,50,40.0,,40,40
+Training Program for AI Use,Government Agency Director,100.0,,100,100,60.0,,60,60
+Training Programs for Employees,Compliance Officer - Large Tech,60.0,,60,60,30.0,,30,30
+Training Staff on AI Compliance,Nonprofit Director,30.0,,30,30,20.0,,20,20
+Training and Awareness Programs,EdTech Startup Founder,25.0,,25,25,25.0,,25,25
+Training for Employees on AI Usage,Small Business Owner,30.0,,30,30,20.0,,20,20
+Understand AI Regulation Requirements,Small Business Owner,18.0,4.47213595499958,10,20,6.0,2.23606797749979,5,10
+Understand AI Regulations,Nonprofit Director,20.0,,20,20,10.0,,10,10
+Understand AI Regulations,Small Business Owner,20.0,,20,20,10.0,,10,10
+Understand AI regulations,Nonprofit Director,20.0,,20,20,5.0,,5,5
+Understand Regulation Requirements,E-commerce Platform Manager,15.0,,15,15,5.0,,5,5
+Understand Regulation Requirements,EdTech Startup Founder,30.0,14.142135623730951,20,40,10.0,0.0,10,10
+Understand Regulation Requirements,Nonprofit Director,17.5,3.5355339059327378,15,20,7.5,3.5355339059327378,5,10
+Update Policies and Procedures,Government Agency Director,20.0,,20,20,10.0,,10,10

@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand Regulation Requirements",
+      "description": "Review and comprehend the specific requirements of the RAISE Act, including definitions and obligations.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Low familiarity with regulatory compliance may require additional time."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a plan outlining how the organization will comply with the RAISE Act's requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Pro bono legal assistance may be necessary."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Training Programs",
+      "description": "Design and implement training programs for staff on responsible AI use and compliance.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Specialized training may be needed."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up processes for reporting compliance and any violations as required by the regulation.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure clarity in reporting structure."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Update Policies",
+      "description": "Regularly review compliance status and update policies as necessary to reflect changes in regulation.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 35,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Requires ongoing legal guidance."
+    }
+  ],
+  "key_risks": [
+    "Limited resources may hinder the ability to fully comply with the regulation.",
+    "Potential lack of legal expertise could lead to misinterpretation of compliance requirements."
+  ],
+  "confidence_level": "medium"
+}

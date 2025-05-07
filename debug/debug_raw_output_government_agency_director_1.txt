@@ -1,0 +1,78 @@
+{
+  "persona": "Government Agency Director",
+  "first_year_total_hours": 300,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly analyze the RAISE act to understand compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "This is foundational for all subsequent tasks."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework outlining how the agency will comply with each requirement of the RAISE act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires collaboration with legal and technical teams."
+    },
+    {
+      "id": "task3",
+      "name": "Train Staff on AI Safety and Education",
+      "description": "Conduct training sessions for employees on the new compliance requirements.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training materials must be developed based on the compliance framework."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up systems for reporting compliance and violations as per the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Reporting mechanisms must align with transparency requirements."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Address Violations",
+      "description": "Regularly monitor compliance and address any violations or issues.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task3", "task4"],
+      "risk_level": "high",
+      "notes": "Ongoing monitoring is critical to avoid penalties."
+    },
+    {
+      "id": "task6",
+      "name": "Update Policies and Procedures",
+      "description": "Revise existing policies and procedures to align with the RAISE act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure all policies reflect the new compliance requirements."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties.",
+    "Insufficient training may result in employee errors."
+  ],
+  "confidence_level": "high"
+}

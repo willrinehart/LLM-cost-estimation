@@ -1,0 +1,67 @@
+{
+  "persona": "Government Agency Director",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 200,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Interpret Regulation",
+      "description": "Analyze the RAISE Act to understand compliance requirements and implications for the agency.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Legal counsel should be involved to ensure accurate interpretation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework detailing how the agency will comply with the RAISE Act's requirements.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Collaboration with technical teams is essential for feasibility."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Design and implement a training program for employees on AI safety and compliance.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be updated regularly to reflect changes in regulations."
+    },
+    {
+      "id": "task4",
+      "name": "Documentation of Compliance Efforts",
+      "description": "Maintain records of compliance activities, including audits and training sessions.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task3"],
+      "risk_level": "low",
+      "notes": "Documentation should be thorough to support potential audits."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Reporting",
+      "description": "Establish a system for ongoing monitoring of compliance and reporting to stakeholders.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Continuous monitoring is crucial for long-term compliance."
+    }
+  ],
+  "key_risks": [
+    "Potential misinterpretation of compliance requirements leading to non-compliance.",
+    "Insufficient training may result in employees not adhering to AI safety protocols."
+  ],
+  "confidence_level": "high"
+}

@@ -1,0 +1,78 @@
+{
+  "persona": "EdTech Startup Founder",
+  "first_year_total_hours": 250,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Conduct Regulatory Research",
+      "description": "Research the RAISE Act and its implications for our AI products.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Stay updated on any changes to the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework for compliance with the RAISE Act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Ensure it aligns with our existing policies."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Requirements",
+      "description": "Establish processes to meet transparency requirements regarding AI model training and use.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "This is critical for compliance and could impact product features."
+    },
+    {
+      "id": "task4",
+      "name": "Employee Training on AI Compliance",
+      "description": "Train employees on their rights and obligations under the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training should be updated regularly to reflect changes in regulations."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Create mechanisms for reporting compliance violations and ensuring accountability.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task3"],
+      "risk_level": "medium",
+      "notes": "Consider using anonymous reporting tools."
+    },
+    {
+      "id": "task6",
+      "name": "Ongoing Compliance Audits",
+      "description": "Conduct regular audits to ensure ongoing compliance with the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 50,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Audits should be thorough and documented."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties and reputational damage.",
+    "Changes in regulations may require rapid adjustments to compliance processes."
+  ],
+  "confidence_level": "medium"
+}

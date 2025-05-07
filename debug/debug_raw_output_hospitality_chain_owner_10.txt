@@ -1,0 +1,78 @@
+{
+  "persona": "Hospitality Chain Owner",
+  "first_year_total_hours": 150,
+  "annual_ongoing_hours": 100,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE act and its implications for the business.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 2,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the regulation is critical for compliance."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Plan",
+      "description": "Create a detailed plan outlining how the business will comply with the RAISE act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Legal consultation may be needed to ensure all aspects are covered."
+    },
+    {
+      "id": "task3",
+      "name": "Implement AI Training Programs",
+      "description": "Establish training programs for employees on responsible AI use and safety protocols.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training must be comprehensive to meet transparency requirements."
+    },
+    {
+      "id": "task4",
+      "name": "Create Transparency Documentation",
+      "description": "Document processes and protocols that ensure transparency in AI model usage.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Documentation is essential for compliance verification."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Employee Rights Protocols",
+      "description": "Develop protocols to protect employee rights and obligations under the RAISE act.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Employee rights must be clearly defined and communicated."
+    },
+    {
+      "id": "task6",
+      "name": "Conduct Regular Compliance Audits",
+      "description": "Implement a schedule for regular audits to ensure ongoing compliance with the RAISE act.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Audits will help identify areas for improvement."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties and damage to reputation.",
+    "Lack of employee training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}

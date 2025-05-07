@@ -1,0 +1,951 @@
+[
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 320,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Requirements",
+        "description": "Analyze the RAISE act to understand compliance requirements and implications for the business.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Ensure to involve legal counsel for clarity on complex terms."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework that outlines how the startup will meet the requirements set forth in the RAISE act.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This will require collaboration between legal and technical teams."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Transparency Measures",
+        "description": "Establish processes for transparency in AI model training and usage as mandated by the act.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "May require additional technical resources or training."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training on AI Safety",
+        "description": "Conduct training sessions for employees on the new compliance protocols and AI safety measures.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr",
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Training materials must be developed to ensure effective learning."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Set up systems for reporting compliance progress and any violations as required by the act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Ensure reporting mechanisms are user-friendly for all stakeholders."
+      },
+      {
+        "id": "task6",
+        "name": "Continuous Compliance Monitoring",
+        "description": "Develop a plan for ongoing monitoring of compliance and updates to the framework as regulations evolve.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 35,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "Regular audits may be necessary to ensure adherence."
+      }
+    ],
+    "key_risks": [
+      "Compliance failures could result in legal penalties.",
+      "Insufficient training may lead to improper use of AI models."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 1
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 250,
+    "annual_ongoing_hours": 150,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Conduct Regulatory Research",
+        "description": "Research the RAISE Act and its implications for our AI products.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Stay updated on any changes to the regulation."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework for compliance with the RAISE Act.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Ensure it aligns with our existing policies."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Transparency Requirements",
+        "description": "Establish processes to meet transparency requirements regarding AI model training and use.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This is critical for compliance and could impact product features."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training on AI Compliance",
+        "description": "Train employees on their rights and obligations under the RAISE Act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training should be updated regularly to reflect changes in regulations."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Create mechanisms for reporting compliance violations and ensuring accountability.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Consider using anonymous reporting tools."
+      },
+      {
+        "id": "task6",
+        "name": "Ongoing Compliance Audits",
+        "description": "Conduct regular audits to ensure ongoing compliance with the RAISE Act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 50,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Audits should be thorough and documented."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance could lead to legal penalties and reputational damage.",
+      "Changes in regulations may require rapid adjustments to compliance processes."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 2
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 320,
+    "annual_ongoing_hours": 160,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Regulatory Research",
+        "description": "Research and interpret the RAISE act to understand compliance requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Requires staying updated on any amendments or changes to the regulation."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a compliance framework that outlines how the startup will adhere to the RAISE act.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This framework must be flexible to adapt to future changes in regulations."
+      },
+      {
+        "id": "task3",
+        "name": "Employee Training Program",
+        "description": "Design and implement a training program for employees on AI safety and compliance.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must be updated regularly as regulations evolve."
+      },
+      {
+        "id": "task4",
+        "name": "Audit and Monitoring Plan",
+        "description": "Establish a plan for regular audits and monitoring of AI systems to ensure compliance.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Involves technical assessments and legal reviews."
+      },
+      {
+        "id": "task5",
+        "name": "Documentation and Reporting",
+        "description": "Maintain proper documentation of compliance efforts and prepare reports as required by the regulation.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "administrative"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "Documentation should be thorough and easily accessible for audits."
+      }
+    ],
+    "key_risks": [
+      "Failure to comply with evolving regulations could lead to legal penalties.",
+      "Inadequate employee training may result in misuse of AI technologies."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 3
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 220,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Requirements",
+        "description": "Analyze and understand the RAISE Act to determine how it applies to the startup's AI models.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Critical to ensure compliance from the start."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework outlining how the startup will meet the transparency and safety requirements of the regulation.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This framework will guide future compliance efforts."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Training Programs",
+        "description": "Develop and conduct training programs for employees on responsible AI usage and compliance with the RAISE Act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training is essential for ensuring all employees understand their responsibilities."
+      },
+      {
+        "id": "task4",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Create systems for reporting compliance and any violations as stipulated in the regulation.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Reporting is crucial for transparency and accountability."
+      },
+      {
+        "id": "task5",
+        "name": "Conduct Regular Audits",
+        "description": "Set up a schedule for regular audits to ensure ongoing compliance with the RAISE Act.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "Audits will help identify and mitigate compliance risks."
+      }
+    ],
+    "key_risks": [
+      "Failure to fully understand the regulation could lead to non-compliance.",
+      "Inadequate training may result in employees misunderstanding their responsibilities."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 4
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 250,
+    "annual_ongoing_hours": 150,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understand Regulation Requirements",
+        "description": "Review and analyze the RAISE act to identify specific compliance requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "This is crucial for setting the foundation for compliance."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework for compliance including policies and procedures based on the RAISE act.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Needs to be comprehensive to avoid future violations."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Training Programs",
+        "description": "Develop and deliver training programs for employees on AI safety and compliance.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must be updated regularly as regulations evolve."
+      },
+      {
+        "id": "task4",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Set up a system for reporting compliance and safety issues related to AI usage.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Essential for transparency and accountability."
+      },
+      {
+        "id": "task5",
+        "name": "Conduct Regular Audits",
+        "description": "Plan and execute regular audits to ensure compliance with the RAISE act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Audits should be thorough to identify any compliance gaps."
+      }
+    ],
+    "key_risks": [
+      "Failure to fully understand the regulation could lead to non-compliance.",
+      "Inadequate training may result in employees misusing AI technology."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 5
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 180,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Text",
+        "description": "Thoroughly read and understand the RAISE act and its implications for the business.",
+        "first_year_hours": 15,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Understanding the law is crucial for compliance."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework to ensure compliance with the RAISE act, including transparency and employee rights.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task will set the foundation for all compliance efforts."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Training Programs",
+        "description": "Develop and implement training programs for employees regarding AI safety and compliance.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training is essential for ensuring employees understand their rights and obligations."
+      },
+      {
+        "id": "task4",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Set up systems for reporting compliance violations and ensuring transparency.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Reporting mechanisms are vital for compliance monitoring."
+      },
+      {
+        "id": "task5",
+        "name": "Conduct Regular Audits",
+        "description": "Perform audits to ensure ongoing compliance with the RAISE act.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "Regular audits will help identify areas for improvement."
+      },
+      {
+        "id": "task6",
+        "name": "Maintain Documentation",
+        "description": "Keep detailed records of compliance efforts, training sessions, and audits.",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [],
+        "dependencies": [
+          "task2",
+          "task3",
+          "task5"
+        ],
+        "risk_level": "low",
+        "notes": "Documentation is essential for legal protection and compliance verification."
+      }
+    ],
+    "key_risks": [
+      "Failure to fully understand the regulation may lead to non-compliance.",
+      "Inadequate training may result in employee violations of the RAISE act."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 6
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 320,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Regulatory Research",
+        "description": "Conduct thorough research on the RAISE Act to understand all compliance requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Critical for understanding the full scope of compliance."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Strategy",
+        "description": "Create a comprehensive strategy outlining how the startup will comply with the RAISE Act.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Requires alignment with business objectives and resource allocation."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Transparency Protocols",
+        "description": "Establish protocols for transparency in AI model training and usage as mandated by the RAISE Act.",
+        "first_year_hours": 80,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Involves technical adjustments and potentially significant changes to product offerings."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training",
+        "description": "Train employees on their rights and obligations under the RAISE Act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Essential for ensuring compliance and fostering a culture of responsibility."
+      },
+      {
+        "id": "task5",
+        "name": "Monitor Compliance and Reporting",
+        "description": "Set up a system for ongoing monitoring of compliance and reporting violations if necessary.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Continuous monitoring is important to adapt to any regulatory changes."
+      }
+    ],
+    "key_risks": [
+      "Failure to fully understand regulatory requirements could lead to non-compliance.",
+      "Inadequate training of employees on their rights and obligations could result in violations."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 7
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 250,
+    "annual_ongoing_hours": 150,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Text",
+        "description": "Thoroughly read and understand the RAISE Act to identify compliance requirements.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "This is foundational to ensure all subsequent tasks are aligned with the regulation."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework outlining how the startup will meet the requirements of the RAISE Act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "The framework must be comprehensive to avoid future violations."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Transparency Requirements",
+        "description": "Establish processes for transparency in AI model training and usage as per the regulation.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "This is critical as non-compliance can lead to severe penalties."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training on AI Compliance",
+        "description": "Develop and conduct training sessions for employees on compliance with the RAISE Act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Employees must be aware of their rights and obligations under the new law."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Set up internal reporting mechanisms for compliance violations or concerns.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "This is important for maintaining transparency and accountability."
+      },
+      {
+        "id": "task6",
+        "name": "Conduct Regular Audits",
+        "description": "Schedule and perform audits to ensure compliance with the RAISE Act on an ongoing basis.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3",
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "Audits are essential to identify potential compliance issues early."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance leading to legal penalties or fines.",
+      "Insufficient employee training resulting in violations."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 8
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 180,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Requirements",
+        "description": "Thoroughly read and understand the RAISE act and its implications for the startup's AI models.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Critical for ensuring compliance; may require legal consultation."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework to ensure adherence to transparency requirements and employee protections outlined in the act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Needs legal input for accuracy and completeness."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Training Programs",
+        "description": "Establish training programs for employees regarding AI usage and compliance with the RAISE act.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Ongoing training is essential for compliance."
+      },
+      {
+        "id": "task4",
+        "name": "Audit AI Models",
+        "description": "Conduct audits of AI models to ensure they comply with the safety and transparency requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Specialized expertise needed for technical audits."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Reporting Mechanism",
+        "description": "Create a mechanism for reporting violations and ensuring accountability within the organization.",
+        "first_year_hours": 15,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Legal guidance necessary to ensure compliance."
+      }
+    ],
+    "key_risks": [
+      "Failure to comply with the RAISE act could result in legal penalties.",
+      "Inadequate training may lead to misuse of AI technologies."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 9
+  },
+  {
+    "persona": "EdTech Startup Founder",
+    "first_year_total_hours": 150,
+    "annual_ongoing_hours": 100,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understand Regulation Requirements",
+        "description": "Review the RAISE act to identify specific compliance requirements applicable to the startup.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "This task is crucial for establishing a compliance baseline."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Transparency Protocols",
+        "description": "Create protocols for transparency in AI model training and use, ensuring compliance with outlined requirements.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Requires input from both legal and technical teams to ensure feasibility."
+      },
+      {
+        "id": "task3",
+        "name": "Establish Employee Protections",
+        "description": "Draft policies and procedures that protect employee rights and obligations as per the regulation.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "Collaboration with HR is essential to align with existing policies."
+      },
+      {
+        "id": "task4",
+        "name": "Implement Compliance Audits",
+        "description": "Set up a framework for regular compliance audits to ensure ongoing adherence to the RAISE act.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task2",
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Audits should be scheduled quarterly to ensure continual compliance."
+      },
+      {
+        "id": "task5",
+        "name": "Training and Awareness Programs",
+        "description": "Develop training materials and conduct sessions for employees on compliance with the RAISE act.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "low",
+        "notes": "Training should be updated annually to reflect any changes in regulation."
+      }
+    ],
+    "key_risks": [
+      "Potential misinterpretation of regulatory requirements leading to non-compliance.",
+      "Insufficient training leading to employee unawareness of compliance protocols."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 10
+  }
+]

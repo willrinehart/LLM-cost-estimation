@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 160,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Understand RAISE Act Requirements",
+      "description": "Thoroughly review the RAISE Act to understand compliance requirements related to AI use in pharmaceutical research.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the law is crucial for all subsequent tasks."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework outlining how the organization will comply with the RAISE Act, including policies and procedures.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Must align with existing company policies."
+    },
+    {
+      "id": "task3",
+      "name": "Training Program Development",
+      "description": "Develop and implement a training program for employees on the responsible use of AI and compliance with the RAISE Act.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training should be updated annually based on regulatory changes."
+    },
+    {
+      "id": "task4",
+      "name": "Monitoring and Reporting Mechanisms",
+      "description": "Establish mechanisms for monitoring compliance and reporting violations as per the RAISE Act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Regular audits may be necessary."
+    },
+    {
+      "id": "task5",
+      "name": "Stakeholder Engagement",
+      "description": "Engage with stakeholders, including legal counsel and regulatory bodies, to ensure ongoing compliance.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "low",
+      "notes": "Building relationships can facilitate smoother compliance."
+    }
+  ],
+  "key_risks": [
+    "Potential for non-compliance leading to legal penalties.",
+    "Rapid changes in AI regulations may require frequent updates to compliance strategies."
+  ],
+  "confidence_level": "high"
+}

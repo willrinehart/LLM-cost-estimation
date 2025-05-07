@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Understand the key provisions of the RAISE act and how they apply to the organization.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Familiarity with legal language may be a barrier."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a plan for how the organization will comply with the RAISE act, including training and transparency requirements.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require legal consultation for proper guidance."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Training Program",
+      "description": "Develop and execute a training program for employees on the use of AI and compliance with the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Expertise in AI and training development is crucial."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up processes for reporting compliance and any violations as required by the RAISE act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": [],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure clarity in reporting procedures."
+    },
+    {
+      "id": "task5",
+      "name": "Monitor Compliance and Update Policies",
+      "description": "Regularly review and update policies related to AI use and compliance with the RAISE act.",
+      "first_year_hours": 10,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Ongoing legal support may be necessary."
+    }
+  ],
+  "key_risks": [
+    "Limited legal resources may hinder compliance efforts.",
+    "Lack of familiarity with AI technology could lead to implementation challenges."
+  ],
+  "confidence_level": "medium"
+}

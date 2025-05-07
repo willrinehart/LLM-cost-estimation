@@ -1,0 +1,67 @@
+{
+  "persona": "Real Estate Developer",
+  "first_year_total_hours": 220,
+  "annual_ongoing_hours": 100,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the RAISE Act to understand compliance requirements related to AI usage in real estate.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Ensure all team members are aware of compliance obligations."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Protocols",
+      "description": "Create internal protocols for AI usage, including safety and transparency requirements.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Protocols must align with both state and federal laws."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training on AI Policies",
+      "description": "Conduct training sessions for employees on the new AI protocols and their responsibilities.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training should be updated as regulations evolve."
+    },
+    {
+      "id": "task4",
+      "name": "Monitor Compliance and Reporting",
+      "description": "Establish a system for ongoing monitoring of AI usage and compliance with protocols.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Regular audits will be necessary to ensure compliance."
+    },
+    {
+      "id": "task5",
+      "name": "Legal Consultation for Compliance Issues",
+      "description": "Engage with external legal firm to address any compliance issues or questions that arise.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Legal advice will be crucial for navigating complex regulations."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with evolving AI regulations could lead to legal penalties.",
+    "Insufficient training may lead to misuse of AI technologies by employees."
+  ],
+  "confidence_level": "medium"
+}

@@ -1,0 +1,930 @@
+[
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 120,
+    "annual_ongoing_hours": 80,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Understand Regulation Requirements",
+        "description": "Review the RAISE Act to identify specific compliance requirements for the organization.",
+        "first_year_hours": 15,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Ensure all team members are briefed on the key aspects of the regulation."
+      },
+      {
+        "id": "task2",
+        "name": "Develop AI Model Training Protocols",
+        "description": "Create protocols for training AI models that comply with transparency and safety requirements.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Involve data scientists to ensure technical feasibility."
+      },
+      {
+        "id": "task3",
+        "name": "Employee Rights and Obligations Training",
+        "description": "Train employees on their rights and obligations under the RAISE Act.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "Ensure training materials are clear and accessible."
+      },
+      {
+        "id": "task4",
+        "name": "Implement Compliance Monitoring System",
+        "description": "Establish a system to monitor compliance with the RAISE Act.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task2",
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "Consider using third-party tools for effective monitoring."
+      },
+      {
+        "id": "task5",
+        "name": "Documentation and Reporting",
+        "description": "Document compliance efforts and prepare reports as required by the regulation.",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "Ensure documentation is thorough for potential audits."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance could lead to legal penalties.",
+      "Inadequate training may result in employee misunderstandings of their rights."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 1
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 240,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Text",
+        "description": "Thoroughly read and understand the RAISE Act to identify compliance requirements.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Legal team should be involved for interpretation."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework outlining how the platform will comply with the RAISE Act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Collaboration with legal and technical teams is crucial."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Transparency Requirements",
+        "description": "Establish processes to ensure transparency in AI model training and usage.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "May require technical audits and adjustments to existing systems."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training Programs",
+        "description": "Develop and implement training programs for employees on AI compliance and ethics.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training materials should be regularly updated."
+      },
+      {
+        "id": "task5",
+        "name": "Monitoring and Reporting Mechanisms",
+        "description": "Set up systems to monitor compliance and report violations as per the RAISE Act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "medium",
+        "notes": "Involves creating dashboards and reporting tools."
+      },
+      {
+        "id": "task6",
+        "name": "Conduct Regular Compliance Audits",
+        "description": "Schedule and perform audits to ensure ongoing compliance with the RAISE Act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4",
+          "task5"
+        ],
+        "risk_level": "high",
+        "notes": "Third-party auditors may be needed for objectivity."
+      }
+    ],
+    "key_risks": [
+      "Failure to comply with transparency requirements could lead to legal penalties.",
+      "Inadequate training may result in misuse of AI technologies."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 2
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 220,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Text",
+        "description": "Thoroughly review the RAISE act to understand compliance requirements.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Ensure all team members understand the implications of the regulation."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Strategy",
+        "description": "Create a strategy to meet the transparency and employee protection requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal",
+          "hr"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Involve HR to ensure employee rights are adequately addressed."
+      },
+      {
+        "id": "task3",
+        "name": "Implement AI Model Training Protocols",
+        "description": "Establish protocols for training AI models in compliance with the regulation.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 25,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task1",
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Technical team must be trained on compliance requirements."
+      },
+      {
+        "id": "task4",
+        "name": "Conduct Employee Training",
+        "description": "Train employees on their rights and obligations under the new regulation.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training materials should be developed to ensure clarity."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Monitoring and Reporting Mechanisms",
+        "description": "Set up systems to monitor compliance and report any violations.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "Regular audits should be scheduled to ensure ongoing compliance."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance leading to legal penalties",
+      "Insufficient employee understanding of their rights"
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 3
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 120,
+    "annual_ongoing_hours": 80,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review AI Models for Compliance",
+        "description": "Assess current AI models to ensure they meet the transparency requirements outlined in the RAISE act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Collaboration with the technical team is essential."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Training Program for Employees",
+        "description": "Create a training program for employees on the ethical use of AI and compliance with the RAISE act.",
+        "first_year_hours": 25,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Legal team input is crucial to ensure compliance."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Transparency Protocols",
+        "description": "Establish protocols for documenting and reporting AI model training and usage as required by the act.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Requires detailed understanding of legal requirements."
+      },
+      {
+        "id": "task4",
+        "name": "Audit AI Systems",
+        "description": "Conduct regular audits of AI systems to ensure compliance with safety and security protocols.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "Engagement of external auditors may be necessary."
+      },
+      {
+        "id": "task5",
+        "name": "Monitor Regulatory Changes",
+        "description": "Stay updated on any changes to AI regulations and adjust compliance processes accordingly.",
+        "first_year_hours": 10,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Regular meetings with the legal team will help."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance could lead to legal penalties.",
+      "Inadequate training may result in misuse of AI technologies."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 4
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 320,
+    "annual_ongoing_hours": 160,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Requirements",
+        "description": "Thoroughly review the RAISE act to understand compliance requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Legal team should be involved to ensure understanding of the law."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Strategy",
+        "description": "Create a strategy for implementing necessary changes to comply with the RAISE act.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Involves cross-department collaboration."
+      },
+      {
+        "id": "task3",
+        "name": "Implement AI Transparency Measures",
+        "description": "Establish processes for transparency in AI model training and usage.",
+        "first_year_hours": 80,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Requires technical resources to implement changes."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training on AI Compliance",
+        "description": "Develop and conduct training sessions for employees regarding their rights and obligations under the RAISE act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "medium",
+        "notes": "Training materials need to be aligned with legal requirements."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Create reporting mechanisms for violations and compliance checks.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Must ensure proper channels for reporting are established."
+      }
+    ],
+    "key_risks": [
+      "Failure to fully understand the compliance requirements could lead to violations.",
+      "Inadequate training may result in employee non-compliance."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 5
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 300,
+    "annual_ongoing_hours": 150,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Requirements",
+        "description": "Analyze the RAISE act to identify specific compliance requirements for the platform.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Involves understanding legal jargon and implications for operations."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework to ensure compliance with the RAISE act, including policies and procedures.",
+        "first_year_hours": 80,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This task will require collaboration with the legal team and technical staff."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Training Programs",
+        "description": "Design and implement training programs for employees on AI safety and compliance.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must be tailored to various departments and roles."
+      },
+      {
+        "id": "task4",
+        "name": "Conduct Regular Audits",
+        "description": "Establish a schedule for regular audits of AI systems to ensure compliance with the RAISE act.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Audits should assess both technical and compliance aspects."
+      },
+      {
+        "id": "task5",
+        "name": "Establish Reporting Mechanisms",
+        "description": "Create processes for reporting violations and ensuring transparency as mandated by the RAISE act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "low",
+        "notes": "Reporting mechanisms should be easily accessible to all employees."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance could lead to legal penalties.",
+      "Insufficient training may result in employee errors related to AI usage."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 6
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 320,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Regulatory Analysis",
+        "description": "Review and analyze the RAISE act to understand compliance requirements.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Involves collaboration with the legal team to interpret the act."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework that outlines processes to comply with the RAISE act.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Needs to incorporate specific requirements from the act."
+      },
+      {
+        "id": "task3",
+        "name": "Employee Training Program",
+        "description": "Design and implement a training program for employees on AI compliance.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must be updated regularly based on regulatory changes."
+      },
+      {
+        "id": "task4",
+        "name": "Monitoring and Auditing Process",
+        "description": "Establish a process for ongoing monitoring and auditing of AI systems.",
+        "first_year_hours": 70,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Requires technical resources to implement monitoring tools."
+      },
+      {
+        "id": "task5",
+        "name": "Reporting Mechanism",
+        "description": "Create a mechanism for reporting compliance and any violations.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "medium",
+        "notes": "Must ensure confidentiality and compliance with reporting standards."
+      },
+      {
+        "id": "task6",
+        "name": "Stakeholder Communication",
+        "description": "Develop a communication strategy to inform stakeholders about compliance efforts.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "low",
+        "notes": "Important for maintaining transparency with stakeholders."
+      }
+    ],
+    "key_risks": [
+      "Potential for non-compliance due to misinterpretation of regulations.",
+      "Resource constraints in implementing technical solutions for monitoring."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 7
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 320,
+    "annual_ongoing_hours": 160,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Text",
+        "description": "Thoroughly read and understand the RAISE act to identify compliance requirements.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Understanding the regulation is critical for all subsequent tasks."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework outlining how the company will comply with the RAISE act.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "This framework will guide all compliance efforts."
+      },
+      {
+        "id": "task3",
+        "name": "Employee Training Program",
+        "description": "Design and implement a training program for employees regarding AI usage and compliance.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Training is essential to ensure all employees understand their obligations."
+      },
+      {
+        "id": "task4",
+        "name": "Establish Transparency Protocols",
+        "description": "Develop protocols for transparency in AI model training and usage as required by the regulation.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Protocols must align with the compliance framework."
+      },
+      {
+        "id": "task5",
+        "name": "Create Monitoring and Reporting System",
+        "description": "Set up a system to monitor compliance and report any violations as stipulated in the regulation.",
+        "first_year_hours": 80,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task4"
+        ],
+        "risk_level": "high",
+        "notes": "Monitoring is crucial for ongoing compliance and risk management."
+      }
+    ],
+    "key_risks": [
+      "Potential for non-compliance leading to legal penalties.",
+      "Inadequate employee training could result in misuse of AI technologies."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 8
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 320,
+    "annual_ongoing_hours": 160,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review and Understand RAISE Act Requirements",
+        "description": "Thoroughly review the RAISE Act to understand its implications for the business.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Involves collaboration with the legal team."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Framework",
+        "description": "Create a framework outlining how the company will comply with the RAISE Act.",
+        "first_year_hours": 60,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Requires input from both legal and technical teams."
+      },
+      {
+        "id": "task3",
+        "name": "Implement Transparency Protocols",
+        "description": "Establish protocols for transparency in AI model training and usage.",
+        "first_year_hours": 50,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Must ensure compliance with transparency requirements."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training on AI Ethics and Compliance",
+        "description": "Conduct training sessions for employees on the ethical use of AI and compliance with the RAISE Act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 40,
+        "requires_expertise": [
+          "hr",
+          "legal"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must be updated annually."
+      },
+      {
+        "id": "task5",
+        "name": "Set Up Monitoring and Reporting Mechanisms",
+        "description": "Create systems for monitoring AI model compliance and reporting violations.",
+        "first_year_hours": 70,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "technical",
+          "legal"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "Critical for ongoing compliance and risk management."
+      },
+      {
+        "id": "task6",
+        "name": "Conduct Regular Compliance Audits",
+        "description": "Perform audits to ensure compliance with the RAISE Act and identify areas for improvement.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 15,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task5"
+        ],
+        "risk_level": "medium",
+        "notes": "Audits should be scheduled at least once a year."
+      }
+    ],
+    "key_risks": [
+      "Potential non-compliance leading to legal penalties.",
+      "Insufficient employee understanding of AI ethics and compliance."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 9
+  },
+  {
+    "persona": "E-commerce Platform Manager",
+    "first_year_total_hours": 180,
+    "annual_ongoing_hours": 120,
+    "subtasks": [
+      {
+        "id": "task1",
+        "name": "Review Regulation Text",
+        "description": "Thoroughly review the RAISE act to understand compliance requirements.",
+        "first_year_hours": 20,
+        "ongoing_annual_hours": 5,
+        "requires_expertise": [],
+        "dependencies": [],
+        "risk_level": "medium",
+        "notes": "Initial understanding is crucial for all subsequent tasks."
+      },
+      {
+        "id": "task2",
+        "name": "Develop Compliance Strategy",
+        "description": "Create a comprehensive strategy to align business operations with RAISE act requirements.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 10,
+        "requires_expertise": [
+          "legal"
+        ],
+        "dependencies": [
+          "task1"
+        ],
+        "risk_level": "high",
+        "notes": "Involves collaboration with legal team for interpretation."
+      },
+      {
+        "id": "task3",
+        "name": "Implement AI Transparency Measures",
+        "description": "Establish protocols for transparency in AI training and usage as per the regulation.",
+        "first_year_hours": 40,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "technical"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "high",
+        "notes": "Requires technical expertise to ensure systems are compliant."
+      },
+      {
+        "id": "task4",
+        "name": "Employee Training on AI Compliance",
+        "description": "Develop and conduct training sessions for employees regarding their rights and obligations under the RAISE act.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 30,
+        "requires_expertise": [
+          "hr"
+        ],
+        "dependencies": [
+          "task2"
+        ],
+        "risk_level": "medium",
+        "notes": "Training must be ongoing to ensure compliance."
+      },
+      {
+        "id": "task5",
+        "name": "Monitor for Violations",
+        "description": "Establish a monitoring system to detect and address any compliance violations.",
+        "first_year_hours": 30,
+        "ongoing_annual_hours": 20,
+        "requires_expertise": [
+          "legal",
+          "technical"
+        ],
+        "dependencies": [
+          "task3"
+        ],
+        "risk_level": "high",
+        "notes": "Requires ongoing assessment and potential adjustments."
+      }
+    ],
+    "key_risks": [
+      "Non-compliance could lead to legal penalties and reputational damage.",
+      "Insufficient employee training may result in violations of employee rights."
+    ],
+    "confidence_level": "medium",
+    "simulation_number": 10
+  }
+]

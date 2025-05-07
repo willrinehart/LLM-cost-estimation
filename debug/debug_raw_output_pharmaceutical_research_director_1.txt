@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 150,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Regulatory Analysis",
+      "description": "Analyze the RAISE act to determine its implications for AI model usage in pharmaceutical research.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Requires collaboration with regulatory counsel."
+    },
+    {
+      "id": "task2",
+      "name": "Training Development",
+      "description": "Develop training programs for employees on the responsible use of AI models as per the regulation.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Training materials should include compliance guidelines."
+    },
+    {
+      "id": "task3",
+      "name": "Compliance Documentation",
+      "description": "Create and maintain documentation required to demonstrate compliance with the RAISE act.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Documentation must be thorough to withstand audits."
+    },
+    {
+      "id": "task4",
+      "name": "Implementation of Transparency Protocols",
+      "description": "Establish protocols for transparency in AI model training and usage as mandated by the act.",
+      "first_year_hours": 70,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1", "task3"],
+      "risk_level": "high",
+      "notes": "Technical team must ensure protocols are feasible."
+    },
+    {
+      "id": "task5",
+      "name": "Monitoring and Reporting",
+      "description": "Set up a system for ongoing monitoring and reporting of AI model usage and compliance.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task4"],
+      "risk_level": "medium",
+      "notes": "Continuous improvement of the monitoring system is essential."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with the RAISE act could lead to legal penalties.",
+    "Insufficient training may result in misuse of AI models."
+  ],
+  "confidence_level": "high"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "Hospitality Chain Owner",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 60,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Analyze the RAISE act to understand specific compliance obligations.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Consult with legal team for clarity on obligations."
+    },
+    {
+      "id": "task2",
+      "name": "Develop AI Training Protocols",
+      "description": "Create training protocols for staff on responsible AI use and safety.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require external consultants for technical accuracy."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Measures",
+      "description": "Establish procedures to ensure transparency in AI model usage.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Focus on aligning with public safety and trade secret considerations."
+    },
+    {
+      "id": "task4",
+      "name": "Conduct Employee Rights Training",
+      "description": "Train employees on their rights and obligations under the new act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure training materials are compliant with the act."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Audit and Compliance Checks",
+      "description": "Create an audit process to ensure ongoing compliance with the RAISE act.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "May require periodic external audits for thoroughness."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance could lead to legal penalties.",
+    "Insufficient training may result in misuse of AI technology."
+  ],
+  "confidence_level": "medium"
+}

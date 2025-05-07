@@ -1,0 +1,67 @@
+{
+  "persona": "Pharmaceutical Research Director",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 160,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review and Interpret Regulation",
+      "description": "Thoroughly review the RAISE act to understand compliance requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Collaboration with legal team is crucial for accurate interpretation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Training Program",
+      "description": "Create training materials and programs for employees regarding AI safety and education.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Must ensure alignment with regulatory requirements and employee understanding."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Transparency Protocols",
+      "description": "Establish protocols for transparency regarding AI model training and usage.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Requires technical team input to ensure feasibility and compliance."
+    },
+    {
+      "id": "task4",
+      "name": "Conduct Risk Assessments",
+      "description": "Assess risks associated with AI model usage and ensure compliance with safety protocols.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Collaboration with both technical and legal teams for comprehensive assessments."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up mechanisms for reporting violations and compliance issues.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure that reporting mechanisms are user-friendly and comply with regulations."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance with AI regulations could lead to legal penalties.",
+    "Insufficient training may result in misuse of AI technologies."
+  ],
+  "confidence_level": "high"
+}

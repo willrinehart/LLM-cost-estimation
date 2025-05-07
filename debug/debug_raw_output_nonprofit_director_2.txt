@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 150,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Understand AI regulations",
+      "description": "Review and comprehend the RAISE act and its implications for the nonprofit's operations.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "May need legal assistance to fully understand compliance requirements."
+    },
+    {
+      "id": "task2",
+      "name": "Develop transparency protocols",
+      "description": "Create protocols to ensure compliance with transparency requirements regarding AI model training and use.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Technical expertise needed to align protocols with AI practices."
+    },
+    {
+      "id": "task3",
+      "name": "Employee training on AI compliance",
+      "description": "Train employees on the new compliance requirements and their rights and obligations under the RAISE act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task1"],
+      "risk_level": "medium",
+      "notes": "Training materials may need to be developed with legal input."
+    },
+    {
+      "id": "task4",
+      "name": "Establish reporting mechanisms",
+      "description": "Set up internal reporting mechanisms for violations and compliance issues related to AI.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Ensure that the reporting process is user-friendly for employees."
+    },
+    {
+      "id": "task5",
+      "name": "Regular audits and compliance checks",
+      "description": "Conduct regular audits to ensure ongoing compliance with the RAISE act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Audits may require external legal expertise for thoroughness."
+    }
+  ],
+  "key_risks": [
+    "Inability to fully understand and implement compliance due to low legal resources.",
+    "Potential violations due to lack of employee awareness and training."
+  ],
+  "confidence_level": "medium"
+}

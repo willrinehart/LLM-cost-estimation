@@ -1,0 +1,67 @@
+{
+  "persona": "E-commerce Platform Manager",
+  "first_year_total_hours": 220,
+  "annual_ongoing_hours": 120,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly review the RAISE act to understand compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Ensure all team members understand the implications of the regulation."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Strategy",
+      "description": "Create a strategy to meet the transparency and employee protection requirements.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["legal", "hr"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "Involve HR to ensure employee rights are adequately addressed."
+    },
+    {
+      "id": "task3",
+      "name": "Implement AI Model Training Protocols",
+      "description": "Establish protocols for training AI models in compliance with the regulation.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 25,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task1", "task2"],
+      "risk_level": "high",
+      "notes": "Technical team must be trained on compliance requirements."
+    },
+    {
+      "id": "task4",
+      "name": "Conduct Employee Training",
+      "description": "Train employees on their rights and obligations under the new regulation.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["hr"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Training materials should be developed to ensure clarity."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Monitoring and Reporting Mechanisms",
+      "description": "Set up systems to monitor compliance and report any violations.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task3"],
+      "risk_level": "high",
+      "notes": "Regular audits should be scheduled to ensure ongoing compliance."
+    }
+  ],
+  "key_risks": [
+    "Non-compliance leading to legal penalties",
+    "Insufficient employee understanding of their rights"
+  ],
+  "confidence_level": "medium"
+}

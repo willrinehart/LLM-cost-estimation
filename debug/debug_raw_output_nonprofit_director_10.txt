@@ -1,0 +1,67 @@
+{
+  "persona": "Nonprofit Director",
+  "first_year_total_hours": 120,
+  "annual_ongoing_hours": 80,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Requirements",
+      "description": "Thoroughly read and understand the RAISE Act to identify compliance obligations.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": [],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Initial understanding is crucial for all subsequent tasks."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Plan",
+      "description": "Create a detailed plan outlining how the organization will comply with the RAISE Act.",
+      "first_year_hours": 25,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "May require input from legal counsel; ensure to allocate time for revisions."
+    },
+    {
+      "id": "task3",
+      "name": "Implement Employee Training",
+      "description": "Establish training programs for employees on the use of AI and compliance with the RAISE Act.",
+      "first_year_hours": 30,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["hr", "technical"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Training effectiveness must be evaluated regularly."
+    },
+    {
+      "id": "task4",
+      "name": "Create Transparency Documentation",
+      "description": "Develop and maintain documentation that meets transparency requirements outlined in the regulation.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 15,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Documentation must be regularly updated to reflect any changes in AI usage."
+    },
+    {
+      "id": "task5",
+      "name": "Establish Reporting Mechanisms",
+      "description": "Set up processes for reporting compliance and addressing any violations as stipulated by the regulation.",
+      "first_year_hours": 15,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Regular audits may be necessary to ensure compliance."
+    }
+  ],
+  "key_risks": [
+    "Lack of understanding of the regulation could lead to non-compliance.",
+    "Limited resources may hinder effective training and documentation."
+  ],
+  "confidence_level": "medium"
+}

@@ -1,0 +1,67 @@
+{
+  "persona": "E-commerce Platform Manager",
+  "first_year_total_hours": 320,
+  "annual_ongoing_hours": 160,
+  "subtasks": [
+    {
+      "id": "task1",
+      "name": "Review Regulation Text",
+      "description": "Thoroughly read and understand the RAISE act to identify compliance requirements.",
+      "first_year_hours": 20,
+      "ongoing_annual_hours": 5,
+      "requires_expertise": ["legal"],
+      "dependencies": [],
+      "risk_level": "medium",
+      "notes": "Understanding the regulation is critical for all subsequent tasks."
+    },
+    {
+      "id": "task2",
+      "name": "Develop Compliance Framework",
+      "description": "Create a framework outlining how the company will comply with the RAISE act.",
+      "first_year_hours": 40,
+      "ongoing_annual_hours": 10,
+      "requires_expertise": ["legal", "technical"],
+      "dependencies": ["task1"],
+      "risk_level": "high",
+      "notes": "This framework will guide all compliance efforts."
+    },
+    {
+      "id": "task3",
+      "name": "Employee Training Program",
+      "description": "Design and implement a training program for employees regarding AI usage and compliance.",
+      "first_year_hours": 60,
+      "ongoing_annual_hours": 40,
+      "requires_expertise": ["hr", "legal"],
+      "dependencies": ["task2"],
+      "risk_level": "high",
+      "notes": "Training is essential to ensure all employees understand their obligations."
+    },
+    {
+      "id": "task4",
+      "name": "Establish Transparency Protocols",
+      "description": "Develop protocols for transparency in AI model training and usage as required by the regulation.",
+      "first_year_hours": 50,
+      "ongoing_annual_hours": 20,
+      "requires_expertise": ["technical"],
+      "dependencies": ["task2"],
+      "risk_level": "medium",
+      "notes": "Protocols must align with the compliance framework."
+    },
+    {
+      "id": "task5",
+      "name": "Create Monitoring and Reporting System",
+      "description": "Set up a system to monitor compliance and report any violations as stipulated in the regulation.",
+      "first_year_hours": 80,
+      "ongoing_annual_hours": 30,
+      "requires_expertise": ["technical", "legal"],
+      "dependencies": ["task4"],
+      "risk_level": "high",
+      "notes": "Monitoring is crucial for ongoing compliance and risk management."
+    }
+  ],
+  "key_risks": [
+    "Potential for non-compliance leading to legal penalties.",
+    "Inadequate employee training could result in misuse of AI technologies."
+  ],
+  "confidence_level": "medium"
+}
