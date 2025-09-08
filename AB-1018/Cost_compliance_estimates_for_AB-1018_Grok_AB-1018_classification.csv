@@ -1,0 +1,31 @@
+Business Type,NAICS Code,NAICS Description,Regulation Type
+"HR Software Providers (e.g., Workday or BambooHR)",513210,,Both
+"Recruitment Agencies (e.g., Robert Half or Adecco)",561311,,Both
+"EdTech Companies (e.g., Coursera or Duolingo)",611710,,Both
+"University Admissions Software Vendors (e.g., Slate)",513210,,Both
+"Real Estate Platforms (e.g., Zillow or Redfin)",531210,,Both
+"Property Management Companies (e.g., Greystar or Equity Residential)",531311,,Both
+"Utility Providers (e.g., PG&E)",221100,,Deployer rules
+"Water and Waste Management Firms (e.g., Veolia or Waste Management)",221320,,Deployer rules
+"Health Insurance Companies (e.g., Anthem or Kaiser Permanente)",524114,,Both
+"Telemedicine Providers (e.g., Teladoc or Amwell)",621999,,Both
+"Banks and Lenders (e.g., Wells Fargo or LendingClub)",522110,,Both
+"Credit Reporting Agencies (e.g., Equifax or TransUnion)",561450,,Developer rules
+"Criminal Justice Tech Vendors (e.g., Palantir)",541512,,Developer rules
+"Legal Tech Companies (e.g., LegalZoom or Clio)",541199,,Both
+"Mediation and Arbitration Services (e.g., JAMS or AAA)",541199,,Both
+"Election Tech Providers (e.g., Dominion Voting Systems)",334519,,Developer rules
+"Government Benefits Administrators (e.g., Maximus)",923130,,Deployer rules
+"Hotel and Lodging Platforms (e.g., Airbnb or Booking.com)",721199,,Both
+"Insurance Companies (e.g., Allstate or Geico)",524126,,Both
+"Telecom Providers (e.g., Verizon or AT&T)",517311,,Deployer rules
+"FinTech Startups (e.g., Affirm or SoFi)",522291,,Both
+"Child Welfare Service Contractors (e.g., private adoption agencies)",624110,,Deployer rules
+"Vocational Training Platforms (e.g., LinkedIn Learning or Udacity)",611430,,Both
+"Public Accommodation Apps (e.g., Uber or Lyft for transportation)",485310,,Both
+"Mortgage Brokers (e.g., Rocket Mortgage)",522310,,Deployer rules
+"Dental and Vision Care Providers (e.g., Aspen Dental)",621210,,Deployer rules
+"Reproductive Health Clinics (e.g., Planned Parenthood affiliates)",621410,,Deployer rules
+"Productivity Software Firms (e.g., Microsoft for workplace tools)",513210,,Developer rules
+"E-commerce Platforms (e.g., Amazon)",454110,,Both
+"Mental Health Apps (e.g., BetterHelp or Headspace)",621330,,Both

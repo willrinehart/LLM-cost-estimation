@@ -1,0 +1,99 @@
+Business Type,NAICS Code,NAICS Description,ChatGPT_Regulation_Type,Claude_Regulation_Type,Gemini_Regulation_Type,Grok_Regulation_Type
+"Grok: ""Utility Providers (e.g., PG&E)""",221100,,,,,Deployer rules
+"ChatGPT: ""Energy utilities using AI for subsidy/disconnection""",221118,Other Electric Power Generation,Deployer,,,
+"Claude: ""Electric utilities""",221122,Electric Power Distribution,,Deployer,,
+"ChatGPT: ""Energy utilities using AI for subsidy/disconnection""",221210,Natural Gas Distribution,Deployer,,,
+"ChatGPT: ""Energy utilities using AI for subsidy/disconnection"" Claude: ""Water utilities""",221310,Water Supply,Deployer,Deployer,,
+"Grok: ""Water and Waste Management Firms (e.g., Veolia or Waste Management)""",221320,,,,,Deployer rules
+"Gemini: ""Large Corporations (as employers)""",31-33,Manufacturing,,,Deployer,
+"Claude: ""Pharmaceutical companies using AI""",325412,Pharmaceutical Preparation Manufacturing,,Deployer,,
+"Claude: ""Voting system manufacturers""",334118,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,,Developer,,
+"Grok: ""Election Tech Providers (e.g., Dominion Voting Systems)""",334519,,,,,Developer rules
+"Gemini: ""Large Corporations (as employers)""",44-45,Retail,,,Deployer,
+"Claude: ""Retail stores using AI""",452111,Department Stores,,Deployer,,
+"Grok: ""E-commerce Platforms (e.g., Amazon)""",454110,,,,,Both
+"Claude: ""Public transit agencies""",485111,Mixed Mode Transit Systems,,Deployer,,
+"ChatGPT: ""Transit agencies and rideshare platforms (Uber, Lyft)"" Grok: ""Public Accommodation Apps (e.g., Uber or Lyft for transportation)""",485310,Taxi and Ridesharing Services,Both,,,Both
+"ChatGPT: ""Transit agencies and rideshare platforms (Uber, Lyft)"" Claude: ""Gig economy platforms (Uber, DoorDash)"" Claude: ""Ride-sharing companies""",485999,All Other Transit & Ground Passenger Transportation,Both,Both,,
+"Gemini: ""Ride-Sharing & Delivery Platforms""",488999,All Other Support Activities for Transportation,,,Both,
+"Claude: ""Delivery companies""",492110,Couriers and Express Delivery Services,,Both,,
+"ChatGPT: ""HR tech vendors (AI hiring, scheduling software)"" ChatGPT: ""Workforce management software firms (Workday, ADP)"" ChatGPT: ""EdTech companies (AI grading, proctoring, plagiarism detection)"" ChatGPT: ""PropTech companies (tenant risk scoring, appraisals)"" ChatGPT: ""Smart-grid/energy management software firms"" ChatGPT: ""EHR vendors (Epic, Cerner with AI modules)"" ChatGPT: ""Credit/loan underwriting software providers"" ChatGPT: ""AI legal research/chatbot companies (Casetext, Harvey)"" ChatGPT: ""Voter eligibility / redistricting software vendors"" ChatGPT: ""InsurTech developers (Lemonade, Tractable)"" ChatGPT: ""AI fraud detection vendors in telecom""",511210,Software Publishers,Developer,,,
+"Grok: ""HR Software Providers (e.g., Workday or BambooHR)"" Grok: ""University Admissions Software Vendors (e.g., Slate)"" Grok: ""Productivity Software Firms (e.g., Microsoft for workplace tools)"" Gemini: ""HR Technology Companies"" Gemini: ""Health Technology Companies"" Gemini: ""Real Estate Technology Companies"" Gemini: ""Educational Technology (EdTech)""",513210,Software Publishers,,,Developer,Both
+"Gemini: ""Telecom & Internet Providers""",5171,Telecommunications,,,Both,
+"Claude: ""Telecommunications companies""",517110,Wired Telecommunications Carriers,,Deployer,,
+"ChatGPT: ""Broadband/telecom providers using AI for service eligibility""",517112,Wireless Telecommunications Carriers (except Satellite),Deployer,,,
+"ChatGPT: ""Broadband/telecom providers using AI for service eligibility""",517121,Telecommunications Resellers,Deployer,,,
+"Claude: ""Internet service providers"" Grok: ""Telecom Providers (e.g., Verizon or AT&T)""",517311,Wired Telecommunications Carriers,,Deployer,,Deployer rules
+"ChatGPT: ""Platforms designing & deploying subsidy verification systems""",517810,All Other Telecommunications,Both,,,
+"Claude: ""Social media platforms""",518210,"Data Processing, Hosting, and Related Services",,Both,,
+"Gemini: ""Social Media & Search Engines"" Gemini: ""Short-Term Rental Platforms""",519290,Web Search Portals and All Other Information Services,,,Both,
+"ChatGPT: ""Banks & lenders using AI underwriting"" Claude: ""Banks using AI"" Grok: ""Banks and Lenders (e.g., Wells Fargo or LendingClub)"" Gemini: ""Banks & Credit Unions""",522110,Commercial Banking,Deployer,Deployer,Both,Both
+"Claude: ""Credit unions using AI"" Gemini: ""Banks & Credit Unions""",522130,Credit Unions,,Deployer,Both,
+"Claude: ""Lending platforms""",522220,Sales Financing,,Both,,
+"Gemini: ""Financial Technology (Fintech)""",522290,Other Nondepository Credit Intermediation,,,Both,
+"ChatGPT: ""Banks & lenders using AI underwriting"" Grok: ""FinTech Startups (e.g., Affirm or SoFi)""",522291,Consumer Lending,Deployer,,,Both
+"ChatGPT: ""Banks & lenders using AI underwriting"" Claude: ""Mortgage lenders"" Claude: ""Mortgage companies""",522292,Real Estate Credit,Deployer,Deployer,,
+"ChatGPT: ""FinTech firms (Upstart, SoFi, LendingClub)""",522298,All Other Nondepository Credit Intermediation,Both,,,
+"Grok: ""Mortgage Brokers (e.g., Rocket Mortgage)""",522310,,,,,Deployer rules
+"Claude: ""Payment processors with fraud detection""",522320,"Financial Transactions Processing, Reserve, and Clearinghouse Activities",,Developer,,
+"Claude: ""Robo-advisors""",523930,Investment Advice,,Both,,
+"Gemini: ""Insurance Carriers""",5241,Insurance Carriers,,,Both,
+"ChatGPT: ""Insurance carriers using AI underwriting/claims denial"" Claude: ""Life insurance companies""",524113,Direct Life Insurance Carriers,Deployer,Deployer,,
+"ChatGPT: ""Hospitals & insurers using AI for coverage decisions"" ChatGPT: ""Insurance carriers using AI underwriting/claims denial"" Claude: ""Health insurance companies"" Grok: ""Health Insurance Companies (e.g., Anthem or Kaiser Permanente)"" Gemini: ""Health Insurance Carriers""",524114,Direct Health & Medical Insurance Carriers,Deployer,Deployer,Both,Both
+"ChatGPT: ""Insurance carriers using AI underwriting/claims denial"" Claude: ""Insurance companies using AI"" Claude: ""Auto insurance companies"" Claude: ""Property insurance companies"" Grok: ""Insurance Companies (e.g., Allstate or Geico)""",524126,Direct Property & Casualty Insurance Carriers,Deployer,Deployer,,Both
+"Claude: ""Insurance comparison platforms""",524210,Insurance Agencies and Brokerages,,Both,,
+"ChatGPT: ""InsurTech developers (Lemonade, Tractable)""",524298,All Other Insurance Related Activities,Both,,,
+"Claude: ""Real estate companies"" Grok: ""Real Estate Platforms (e.g., Zillow or Redfin)""",531210,Offices of Real Estate Agents and Brokers,,Deployer,,Both
+"ChatGPT: ""Landlords & property managers using tenant AI screening"" Claude: ""Property management companies"" Grok: ""Property Management Companies (e.g., Greystar or Equity Residential)"" Gemini: ""Property Management Companies""",531311,Residential Property Managers,Deployer,Deployer,Deployer,Both
+"ChatGPT: ""PropTech companies (tenant risk scoring, appraisals)""",531390,Other Activities Related to Real Estate,Developer,,,
+"ChatGPT: ""Law firms/arbitration platforms using AI"" Claude: ""Law firms using AI"" Claude: ""Arbitration organizations"" Claude: ""Mediation services""",541110,Offices of Lawyers,Deployer,Deployer,,
+"ChatGPT: ""AI legal research/chatbot companies (Casetext, Harvey)"" ChatGPT: ""Law firms/arbitration platforms using AI"" ChatGPT: ""Online mediation services with AI integration"" Grok: ""Legal Tech Companies (e.g., LegalZoom or Clio)"" Grok: ""Mediation and Arbitration Services (e.g., JAMS or AAA)""",541199,All Other Legal Services,Developer,,,Both
+"ChatGPT: ""Smart-grid/energy management software firms"" ChatGPT: ""Credit/loan underwriting software providers"" ChatGPT: ""Vendors building welfare eligibility AI"" ChatGPT: ""Platforms designing & deploying subsidy verification systems"" Claude: ""Applicant Tracking System (ATS) providers"" Claude: ""HR software companies"" Claude: ""Performance management platforms"" Claude: ""Scheduling software providers"" Claude: ""Online proctoring services"" Claude: ""Plagiarism detection software"" Claude: ""Learning management systems with AI"" Claude: ""Adaptive learning platforms"" Claude: ""Student information systems"" Claude: ""Rental screening platforms"" Claude: ""Property management software"" Claude: ""Real estate appraisal software"" Claude: ""EHR providers with AI"" Claude: ""Telemedicine platforms with AI"" Claude: ""Health insurance software providers"" Claude: ""Mental health apps with AI"" Claude: ""InsureTech companies"" Claude: ""Risk assessment software providers"" Claude: ""Case management systems with AI"" Claude: ""Legal research platforms with AI"" Claude: ""Contract analysis software"" Claude: ""Online dispute resolution platforms"" Claude: ""Legal practice management software"" Claude: ""Government software providers"" Claude: ""Fraud detection systems for benefits"" Claude: ""Automated benefits calculation software"" Claude: ""Voter registration software providers"" Claude: ""Redistricting software companies"" Claude: ""Election information platforms""",541511,Custom Computer Programming Services,Developer,Developer,,
+"ChatGPT: ""Workforce management software firms (Workday, ADP)"" ChatGPT: ""Vendors building welfare eligibility AI"" ChatGPT: ""Contractors both designing & operating benefit systems"" Grok: ""Criminal Justice Tech Vendors (e.g., Palantir)""",541512,Computer Systems Design Services,Both,,,Developer rules
+"ChatGPT: ""Voter eligibility / redistricting software vendors""",541611,Administrative Management Consulting,Developer,,,
+"ChatGPT: ""Child welfare risk assessment vendors"" ChatGPT: ""AI diagnostic firms (radiology AI, triage tools)"" ChatGPT: ""Pretrial risk assessment tool vendors"" Claude: ""Medical AI companies""",541715,"R&D in the Physical, Engineering, and Life Sciences (except Nanotechnology & Biotechnology)",Developer,Developer,,
+"Claude: ""Political consulting firms""",541820,Public Relations Agencies,,Deployer,,
+"Claude: ""Large corporations using AI for hiring""",551114,"Corporate, Subsidiary, and Regional Managing Offices",,Deployer,,
+"ChatGPT: ""Private prison contractors with AI monitoring""",561210,Facilities Support Services,Both,,,
+"ChatGPT: ""Large employers using AI hiring/scheduling tools"" Claude: ""Staffing agencies using automated screening"" Grok: ""Recruitment Agencies (e.g., Robert Half or Adecco)"" Gemini: ""Recruiting & Staffing Agencies""",561311,Employment Placement Agencies,Deployer,Deployer,Deployer,Both
+"ChatGPT: ""Large employers using AI hiring/scheduling tools""",561320,Temporary Help Services,Deployer,,,
+"ChatGPT: ""Large employers using AI hiring/scheduling tools""",561330,Professional Employer Organizations,Deployer,,,
+"Claude: ""Call centers using AI monitoring""",561422,Telemarketing Bureaus and Other Contact Centers,,Deployer,,
+"Claude: ""Credit scoring companies"" Grok: ""Credit Reporting Agencies (e.g., Equifax or TransUnion)""",561450,Credit Bureaus,,Developer,,Developer rules
+"Claude: ""Short-term rental platforms (Airbnb)""",561599,All Other Travel Arrangement and Reservation Services,,Both,,
+"Claude: ""Electronic monitoring companies""",561612,Security Guards and Patrol Services,,Developer,,
+"Claude: ""Municipal waste services""",562111,Solid Waste Collection,,Deployer,,
+"ChatGPT: ""Universities and schools using AI in admissions/proctoring"" Claude: ""K-12 school districts using AI""",611110,Elementary & Secondary Schools,Deployer,Deployer,,
+"ChatGPT: ""Universities and schools using AI in admissions/proctoring"" Claude: ""Universities and colleges using AI"" Gemini: ""Colleges & Universities""",611310,"Colleges, Universities, and Professional Schools",Deployer,Deployer,Deployer,
+"Grok: ""Vocational Training Platforms (e.g., LinkedIn Learning or Udacity)""",611430,,,,,Both
+"Claude: ""Vocational training schools""",611519,Other Technical and Trade Schools,,Deployer,,
+"ChatGPT: ""EdTech companies (AI grading, proctoring, plagiarism detection)""",611699,All Other Miscellaneous Schools & Instruction,Developer,,,
+"ChatGPT: ""Certification/testing companies (ETS, Pearson VUE)"" Grok: ""EdTech Companies (e.g., Coursera or Duolingo)""",611710,Educational Support Services,Both,,,Both
+"ChatGPT: ""Fertility/IVF clinics with AI systems"" Claude: ""Fertility clinics""",621111,Offices of Physicians,Both,Deployer,,
+"Grok: ""Dental and Vision Care Providers (e.g., Aspen Dental)""",621210,,,,,Deployer rules
+"Grok: ""Mental Health Apps (e.g., BetterHelp or Headspace)""",621330,,,,,Both
+"ChatGPT: ""Fertility/IVF clinics with AI systems"" Claude: ""Family planning organizations"" Grok: ""Reproductive Health Clinics (e.g., Planned Parenthood affiliates)""",621410,Family Planning Centers,Both,Deployer,,Deployer rules
+"Claude: ""Telehealth companies""",621610,Home Health Care Services,,Both,,
+"Grok: ""Telemedicine Providers (e.g., Teladoc or Amwell)""",621999,,,,,Both
+"ChatGPT: ""Hospitals & insurers using AI for coverage decisions"" Claude: ""Hospitals using AI"" Gemini: ""Hospitals""",622110,General Medical & Surgical Hospitals,Deployer,Deployer,Deployer,
+"Grok: ""Child Welfare Service Contractors (e.g., private adoption agencies)""",624110,,,,,Deployer rules
+"Claude: ""Adoption agencies""",624190,Other Individual and Family Services,,Deployer,,
+"Claude: ""Entertainment venues using AI""",711310,"Promoters of Performing Arts, Sports, and Similar Events",,Deployer,,
+"Claude: ""Hotels using AI""",721110,Hotels (except Casino Hotels) and Motels,,Deployer,,
+"ChatGPT: ""Short-term rental platforms (Airbnb, Vrbo)"" Grok: ""Hotel and Lodging Platforms (e.g., Airbnb or Booking.com)""",721199,All Other Traveler Accommodation,Both,,,Both
+"ChatGPT: ""Short-term rental platforms (Airbnb, Vrbo)""",721310,Rooming and Boarding Houses,Both,,,
+"Claude: ""Restaurants using AI""",722513,Limited-Service Restaurants,,Deployer,,
+"Claude: ""Legal aid organizations""",813311,Human Rights Organizations,,Deployer,,
+"ChatGPT: ""Civic tech nonprofits using AI for eligibility/GOTV""",813319,Other Social Advocacy Organizations,Both,,,
+"Claude: ""Professional certification bodies""",813920,Professional Organizations,,Deployer,,
+"Claude: ""Tax agencies""",921130,Public Finance Activities,,Deployer,,
+"Claude: ""Secretary of State offices"" Claude: ""County election offices""",921140,Executive and Legislative Offices,,Deployer,,
+"ChatGPT: ""State election boards using voter management ADS""",921190,Other General Government Support,Deployer,,,
+"ChatGPT: ""Courts/probation departments deploying ADS""",922110,Courts,Deployer,,,
+"Claude: ""District attorneys' offices""",922120,Police Protection,,Deployer,,
+"Claude: ""Courts using AI""",922130,Administration of Justice,,Deployer,,
+"ChatGPT: ""Private prison contractors with AI monitoring"" Claude: ""Probation departments""",922140,Correctional Institutions,Both,Deployer,,
+"ChatGPT: ""Courts/probation departments deploying ADS""",922150,Parole Offices and Probation Offices,Deployer,,,
+"ChatGPT: ""County CPS agencies using ADS tools"" ChatGPT: ""Agencies deploying eligibility-screening systems"" Claude: ""Social services departments"" Claude: ""Unemployment offices"" Claude: ""Child protective services"" Grok: ""Government Benefits Administrators (e.g., Maximus)""",923130,Administration of Human Resource Programs,Deployer,Deployer,,Deployer rules
+"Claude: ""Public housing authorities""",925110,Administration of Housing Programs,,Deployer,,
+"Claude: ""Immigration services""",928120,International Affairs,,Deployer,,

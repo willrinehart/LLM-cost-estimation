@@ -1,0 +1,93 @@
+Business Type,NAICS Code,NAICS Description,Regulation Type
+Applicant Tracking System (ATS) providers,541511,Custom Computer Programming Services,Developer
+HR software companies,541511,Custom Computer Programming Services,Developer
+Performance management platforms,541511,Custom Computer Programming Services,Developer
+Scheduling software providers,541511,Custom Computer Programming Services,Developer
+Large corporations using AI for hiring,551114,"Corporate, Subsidiary, and Regional Managing Offices",Deployer
+Staffing agencies using automated screening,561311,Employment Placement Agencies,Deployer
+"Gig economy platforms (Uber, DoorDash)",485999,All Other Transit and Ground Passenger Transportation,Both
+Call centers using AI monitoring,561422,Telemarketing Bureaus and Other Contact Centers,Deployer
+Online proctoring services,541511,Custom Computer Programming Services,Developer
+Plagiarism detection software,541511,Custom Computer Programming Services,Developer
+Learning management systems with AI,541511,Custom Computer Programming Services,Developer
+Adaptive learning platforms,541511,Custom Computer Programming Services,Developer
+Student information systems,541511,Custom Computer Programming Services,Developer
+Universities and colleges using AI,611310,"Colleges, Universities, and Professional Schools",Deployer
+K-12 school districts using AI,611110,Elementary and Secondary Schools,Deployer
+Vocational training schools,611519,Other Technical and Trade Schools,Deployer
+Professional certification bodies,813920,Professional Organizations,Deployer
+Rental screening platforms,541511,Custom Computer Programming Services,Developer
+Property management software,541511,Custom Computer Programming Services,Developer
+Short-term rental platforms (Airbnb),561599,All Other Travel Arrangement and Reservation Services,Both
+Real estate appraisal software,541511,Custom Computer Programming Services,Developer
+Property management companies,531311,Residential Property Managers,Deployer
+Real estate companies,531210,Offices of Real Estate Agents and Brokers,Deployer
+Public housing authorities,925110,Administration of Housing Programs,Deployer
+Mortgage lenders,522292,Real Estate Credit,Deployer
+Electric utilities,221122,Electric Power Distribution,Deployer
+Water utilities,221310,Water Supply and Irrigation Systems,Deployer
+Municipal waste services,562111,Solid Waste Collection,Deployer
+Public transit agencies,485111,Mixed Mode Transit Systems,Deployer
+Ride-sharing companies,485999,All Other Transit and Ground Passenger Transportation,Both
+Delivery companies,492110,Couriers and Express Delivery Services,Both
+EHR providers with AI,541511,Custom Computer Programming Services,Developer
+Medical AI companies,541715,"Research and Development in the Physical, Engineering, and Life Sciences",Developer
+Telemedicine platforms with AI,541511,Custom Computer Programming Services,Developer
+Health insurance software providers,541511,Custom Computer Programming Services,Developer
+Mental health apps with AI,541511,Custom Computer Programming Services,Developer
+Hospitals using AI,622110,General Medical and Surgical Hospitals,Deployer
+Health insurance companies,524114,Direct Health and Medical Insurance Carriers,Deployer
+Telehealth companies,621610,Home Health Care Services,Both
+Pharmaceutical companies using AI,325412,Pharmaceutical Preparation Manufacturing,Deployer
+Credit scoring companies,561450,Credit Bureaus,Developer
+Lending platforms,522220,Sales Financing,Both
+Payment processors with fraud detection,522320,"Financial Transactions Processing, Reserve, and Clearinghouse Activities",Developer
+Robo-advisors,523930,Investment Advice,Both
+InsureTech companies,541511,Custom Computer Programming Services,Developer
+Banks using AI,522110,Commercial Banking,Deployer
+Credit unions using AI,522130,Credit Unions,Deployer
+Insurance companies using AI,524126,Direct Property and Casualty Insurance Carriers,Deployer
+Mortgage companies,522292,Real Estate Credit,Deployer
+Risk assessment software providers,541511,Custom Computer Programming Services,Developer
+Case management systems with AI,541511,Custom Computer Programming Services,Developer
+Electronic monitoring companies,561612,Security Guards and Patrol Services,Developer
+Courts using AI,922130,Administration of Justice,Deployer
+Probation departments,922140,Correctional Institutions,Deployer
+District attorneys' offices,922120,Police Protection,Deployer
+Legal research platforms with AI,541511,Custom Computer Programming Services,Developer
+Contract analysis software,541511,Custom Computer Programming Services,Developer
+Online dispute resolution platforms,541511,Custom Computer Programming Services,Developer
+Legal practice management software,541511,Custom Computer Programming Services,Developer
+Law firms using AI,541110,Offices of Lawyers,Deployer
+Arbitration organizations,541110,Offices of Lawyers,Deployer
+Mediation services,541110,Offices of Lawyers,Deployer
+Legal aid organizations,813311,Human Rights Organizations,Deployer
+Government software providers,541511,Custom Computer Programming Services,Developer
+Fraud detection systems for benefits,541511,Custom Computer Programming Services,Developer
+Automated benefits calculation software,541511,Custom Computer Programming Services,Developer
+Social services departments,923130,Administration of Human Resource Programs,Deployer
+Tax agencies,921130,Public Finance Activities,Deployer
+Immigration services,928120,International Affairs,Deployer
+Unemployment offices,923130,Administration of Human Resource Programs,Deployer
+Voting system manufacturers,334118,Computer Terminal and Other Computer Peripheral Equipment Manufacturing,Developer
+Voter registration software providers,541511,Custom Computer Programming Services,Developer
+Redistricting software companies,541511,Custom Computer Programming Services,Developer
+Election information platforms,541511,Custom Computer Programming Services,Developer
+Secretary of State offices,921140,Executive and Legislative Offices,Deployer
+County election offices,921140,Executive and Legislative Offices,Deployer
+Political consulting firms,541820,Public Relations Agencies,Deployer
+Internet service providers,517311,Wired Telecommunications Carriers,Deployer
+Telecommunications companies,517110,Wired Telecommunications Carriers,Deployer
+Social media platforms,518210,"Data Processing, Hosting, and Related Services",Both
+Auto insurance companies,524126,Direct Property and Casualty Insurance Carriers,Deployer
+Property insurance companies,524126,Direct Property and Casualty Insurance Carriers,Deployer
+Life insurance companies,524113,Direct Life Insurance Carriers,Deployer
+Insurance comparison platforms,524210,Insurance Agencies and Brokerages,Both
+Hotels using AI,721110,Hotels (except Casino Hotels) and Motels,Deployer
+Restaurants using AI,722513,Limited-Service Restaurants,Deployer
+Entertainment venues using AI,711310,"Promoters of Performing Arts, Sports, and Similar Events",Deployer
+Retail stores using AI,452111,Department Stores,Deployer
+Adoption agencies,624190,Other Individual and Family Services,Deployer
+Fertility clinics,621111,Offices of Physicians,Deployer
+Child protective services,923130,Administration of Human Resource Programs,Deployer
+Family planning organizations,621410,Family Planning Centers,Deployer

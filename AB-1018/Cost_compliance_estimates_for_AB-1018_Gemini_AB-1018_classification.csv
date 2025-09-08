@@ -1,0 +1,20 @@
+Business Type,NAICS Code,NAICS Description,Regulation Type
+HR Technology Companies,513210,Software Publishers,Developer
+Recruiting & Staffing Agencies,561311,Employment Placement Agencies,Deployer
+Large Corporations (as employers),44-45 ,Retail,Deployer
+Large Corporations (as employers),31-33 ,Manufacturing,Deployer
+Financial Technology (Fintech),522290,Other Nondepository Credit Intermediation,Both
+Banks & Credit Unions,522110,Commercial Banking,Both
+Banks & Credit Unions,522130,Credit Unions,Both
+Insurance Carriers,5241,Insurance Carriers,Both
+Health Insurance Carriers,524114,Direct Health and Medical Insurance Carriers,Both
+Hospitals,622110,General Medical and Surgical Hospitals,Deployer
+Health Technology Companies,513210,Software Publishers,Developer
+Social Media & Search Engines,519290,Web Search Portals and All Other Information Services,Both
+Ride-Sharing & Delivery Platforms,488999,All Other Support Activities for Transportation,Both
+Telecom & Internet Providers,5171,Telecommunications,Both
+Real Estate Technology Companies,513210,Software Publishers,Developer
+Property Management Companies,531311,Residential Property Managers,Deployer
+Short-Term Rental Platforms,519290,Web Search Portals and All Other Information Services,Both
+Educational Technology (EdTech),513210,Software Publishers,Developer
+Colleges & Universities,611310,"Colleges, Universities, and Professional Schools",Deployer

@@ -1,0 +1,66 @@
+Business Type,NAICS Code,NAICS Description,Regulation Type
+"HR tech vendors (AI hiring, scheduling software)",511210,Software Publishers,Developer
+Large employers using AI hiring/scheduling tools,561311,Employment Placement Agencies,Deployer
+Large employers using AI hiring/scheduling tools,561320,Temporary Help Services,Deployer
+Large employers using AI hiring/scheduling tools,561330,Professional Employer Organizations,Deployer
+"Workforce management software firms (Workday, ADP)",511210,Software Publishers,Both
+"Workforce management software firms (Workday, ADP)",541512,Computer Systems Design Services,Both
+"EdTech companies (AI grading, proctoring, plagiarism detection)",511210,Software Publishers,Developer
+"EdTech companies (AI grading, proctoring, plagiarism detection)",611699,All Other Miscellaneous Schools & Instruction,Developer
+Universities and schools using AI in admissions/proctoring,611310,"Colleges, Universities, and Professional Schools",Deployer
+Universities and schools using AI in admissions/proctoring,611110,Elementary & Secondary Schools,Deployer
+"Certification/testing companies (ETS, Pearson VUE)",611710,Educational Support Services,Both
+"PropTech companies (tenant risk scoring, appraisals)",531390,Other Activities Related to Real Estate,Developer
+"PropTech companies (tenant risk scoring, appraisals)",511210,Software Publishers,Developer
+Landlords & property managers using tenant AI screening,531311,Residential Property Managers,Deployer
+"Short-term rental platforms (Airbnb, Vrbo)",721310,Rooming and Boarding Houses,Both
+"Short-term rental platforms (Airbnb, Vrbo)",721199,All Other Traveler Accommodation,Both
+Energy utilities using AI for subsidy/disconnection,221118,Other Electric Power Generation,Deployer
+Energy utilities using AI for subsidy/disconnection,221310,Water Supply,Deployer
+Energy utilities using AI for subsidy/disconnection,221210,Natural Gas Distribution,Deployer
+Smart-grid/energy management software firms,511210,Software Publishers,Developer
+Smart-grid/energy management software firms,541511,Custom Computer Programming Services,Developer
+"Transit agencies and rideshare platforms (Uber, Lyft)",485999,All Other Transit & Ground Passenger Transportation,Both
+"Transit agencies and rideshare platforms (Uber, Lyft)",485310,Taxi and Ridesharing Services,Both
+Child welfare risk assessment vendors,541715,"R&D in the Physical, Engineering, and Life Sciences (except Nanotechnology & Biotechnology)",Developer
+County CPS agencies using ADS tools,923130,Administration of Human Resource Programs,Deployer
+Fertility/IVF clinics with AI systems,621410,Family Planning Centers,Both
+Fertility/IVF clinics with AI systems,621111,Offices of Physicians,Both
+"AI diagnostic firms (radiology AI, triage tools)",541715,"R&D in Physical, Engineering, and Life Sciences (except Nanotech & Biotech)",Developer
+Hospitals & insurers using AI for coverage decisions,622110,General Medical & Surgical Hospitals,Deployer
+Hospitals & insurers using AI for coverage decisions,524114,Direct Health & Medical Insurance Carriers,Deployer
+"EHR vendors (Epic, Cerner with AI modules)",511210,Software Publishers,Both
+Credit/loan underwriting software providers,511210,Software Publishers,Developer
+Credit/loan underwriting software providers,541511,Custom Computer Programming Services,Developer
+Banks & lenders using AI underwriting,522110,Commercial Banking,Deployer
+Banks & lenders using AI underwriting,522291,Consumer Lending,Deployer
+Banks & lenders using AI underwriting,522292,Real Estate Credit,Deployer
+"FinTech firms (Upstart, SoFi, LendingClub)",522298,All Other Nondepository Credit Intermediation,Both
+Pretrial risk assessment tool vendors,541715,"R&D in Physical, Engineering, and Life Sciences",Developer
+Courts/probation departments deploying ADS,922110,Courts,Deployer
+Courts/probation departments deploying ADS,922150,Parole Offices and Probation Offices,Deployer
+Private prison contractors with AI monitoring,561210,Facilities Support Services,Both
+Private prison contractors with AI monitoring,922140,Correctional Institutions,Both
+"AI legal research/chatbot companies (Casetext, Harvey)",511210,Software Publishers,Developer
+"AI legal research/chatbot companies (Casetext, Harvey)",541199,All Other Legal Services,Developer
+Law firms/arbitration platforms using AI,541110,Offices of Lawyers,Deployer
+Law firms/arbitration platforms using AI,541199,All Other Legal Services,Deployer
+Online mediation services with AI integration,541199,All Other Legal Services,Both
+Voter eligibility / redistricting software vendors,511210,Software Publishers,Developer
+Voter eligibility / redistricting software vendors,541611,Administrative Management Consulting,Developer
+State election boards using voter management ADS,921190,Other General Government Support,Deployer
+Civic tech nonprofits using AI for eligibility/GOTV,813319,Other Social Advocacy Organizations,Both
+Vendors building welfare eligibility AI,541511,Custom Computer Programming Services,Developer
+Vendors building welfare eligibility AI,541512,Computer Systems Design Services,Developer
+Agencies deploying eligibility-screening systems,923130,Administration of Human Resource Programs,Deployer
+Contractors both designing & operating benefit systems,541512,Computer Systems Design Services,Both
+Insurance carriers using AI underwriting/claims denial,524113,Direct Life Insurance Carriers,Deployer
+Insurance carriers using AI underwriting/claims denial,524114,Direct Health & Medical Insurance Carriers,Deployer
+Insurance carriers using AI underwriting/claims denial,524126,Direct Property & Casualty Insurance Carriers,Deployer
+"InsurTech developers (Lemonade, Tractable)",524298,All Other Insurance Related Activities,Both
+"InsurTech developers (Lemonade, Tractable)",511210,Software Publishers,Both
+Broadband/telecom providers using AI for service eligibility,517112,Wireless Telecommunications Carriers (except Satellite),Deployer
+Broadband/telecom providers using AI for service eligibility,517121,Telecommunications Resellers,Deployer
+AI fraud detection vendors in telecom,511210,Software Publishers,Developer
+Platforms designing & deploying subsidy verification systems,517810,All Other Telecommunications,Both
+Platforms designing & deploying subsidy verification systems,541511,Custom Computer Programming Services,Both
