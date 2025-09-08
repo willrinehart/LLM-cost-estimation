@@ -1,0 +1,16 @@
+NAICS_Code,Regulation_Types,Total
+22,Deployer,"1,960"
+485,Both,"2,351"
+51,Developer,"31,277"
+517,"Both, Deployer","2,853"
+522,"Both, Deployer","16,361"
+524,"Both, Deployer","18,151"
+531,"Deployer, Developer","59,627"
+541,"Both, Deployer, Developer","184,901"
+561,"Both, Deployer","55,926"
+611,"Both, Deployer, Developer","19,859"
+621,Both,"101,412"
+622,Deployer,892
+721,Both,"7,475"
+813,Both,"19,805"
+92,"Both, Deployer","37,275"

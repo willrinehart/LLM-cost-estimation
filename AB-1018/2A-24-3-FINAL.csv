@@ -1,0 +1,128 @@
+﻿NAICS,Industry,Third Quarter Payroll (in thousands),Total,0-4,5-9,10-19,20-49,50-99,100-249,250-499
+,Total All Industries,"$399,433,657","1,871,800","1,408,729","177,893","130,359","94,555","34,650","18,313","4,445"
+,,,,,,,,,,
+11,"Agriculture, Forestry, Fishing and Hunting","$5,250,451","16,451","8,602","2,506","1,989","1,727",727,552,219
+111,Crop Production,"$2,054,294","8,757","4,890","1,441","1,058",772,286,203,69
+112,Animal Production and Aquaculture,"$377,513","2,439","1,347",365,321,311,(2),(2),4
+113,Forestry and Logging,"$53,224",307,161,69,41,27,(2),(1),0
+114,"Fishing, Hunting and Trapping","$6,531",240,210,23,7,0,0,0,0
+115,Support Activities for Agriculture and Forestry,"$2,758,888","4,708","1,994",608,562,617,366,324,146
+,,,,,,,,,,
+21,"Mining, Quarrying, and Oil and Gas Extraction","$492,549",796,388,116,115,105,42,20,6
+211,Oil and Gas Extraction,"$148,026",125,66,17,13,15,7,(2),(1)
+212,Mining (except Oil and Gas),"$159,239",285,119,52,47,40,16,(2),(1)
+213,Support Activities for Mining,"$185,283",386,203,47,55,50,19,8,(2)
+,,,,,,,,,,
+22,Utilities,"$2,644,451","1,960","1,089",279,221,168,87,74,19
+,,,,,,,,,,
+23,Construction,"$20,515,061","94,500","60,662","15,155","9,330","6,065","2,015",989,197
+236,Construction of Buildings,"$4,727,183","32,756","23,404","4,720","2,562","1,438",418,171,33
+237,Heavy and Civil Engineering Construction,"$2,925,317","3,936","1,794",596,530,529,265,164,45
+238,Specialty Trade Contractors,"$12,862,562","57,808","35,464","9,839","6,238","4,098","1,332",654,119
+,,,,,,,,,,
+31 - 33,Manufacturing,"$35,952,733","45,019","20,809","7,441","6,296","5,642","2,403","1,684",482
+311,Food Manufacturing,"$2,704,891","5,097","2,077",808,812,735,269,261,88
+312,Beverage and Tobacco Product Manufacturing,"$1,189,131","3,239","1,360",604,544,441,173,83,26
+313,Textile Mills,"$68,534",287,161,37,38,31,10,(2),(1)
+314,Textile Product Mills,"$103,634",598,319,121,79,56,12,8,3
+315,Apparel Manufacturing,"$373,501","1,870","1,124",274,216,159,58,32,(2)
+316,Leather and Allied Product Manufacturing,"$58,285",176,110,26,19,13,4,(1),(1)
+321,Wood Product Manufacturing,"$402,066","1,141",497,183,182,160,55,54,(2)
+322,Paper Manufacturing,"$411,600",464,138,62,61,75,56,67,5
+323,Printing and Related Support Activities,"$479,567","3,035","1,850",543,291,233,79,33,(2)
+324,Petroleum and Coal Products Manufacturing,"$419,271",222,93,36,29,26,15,10,8
+325,Chemical Manufacturing,"$2,324,776","2,588","1,168",393,362,347,173,92,36
+326,Plastics and Rubber Products Manufacturing,"$747,737","1,294",442,195,212,224,120,81,16
+327,Nonmetallic Mineral Product Manufacturing,"$618,870","1,300",468,228,224,229,91,45,(2)
+331,Primary Metal Manufacturing,"$264,873",482,215,62,65,70,30,35,(2)
+332,Fabricated Metal Product Manufacturing,"$2,176,967","6,469","2,775","1,226","1,056",886,318,162,40
+333,Machinery Manufacturing,"$2,025,515","3,072","1,411",530,460,390,164,82,24
+334,Computer and Electronic Product Manufacturing,"$13,567,597","4,375","1,861",591,537,590,339,299,85
+335,"Electrical Equipment, Appliance, and Component Manufacturing","$856,315","1,282",600,188,165,172,80,57,(2)
+336,Transportation Equipment Manufacturing,"$4,600,049","2,077",832,306,268,258,165,141,55
+337,Furniture and Related Product Manufacturing,"$449,140","1,971","1,053",376,244,194,53,41,(2)
+339,Miscellaneous Manufacturing,"$2,110,415","3,980","2,255",652,432,353,139,91,33
+,,,,,,,,,,
+42,Wholesale Trade,"$16,694,644","63,142","39,637","9,965","6,648","4,538","1,494",638,164
+423,"Merchant Wholesalers, Durable Goods","$9,710,497","32,247","19,219","5,440","3,839","2,529",813,311,69
+424,"Merchant Wholesalers, Nondurable Goods","$5,973,646","22,888","14,182","3,601","2,318","1,728",629,309,90
+425,Wholesale Trade Agents and Brokers,"$1,010,501","8,007","6,236",924,491,281,52,18,5
+,,,,,,,,,,
+44 - 45,Retail Trade,"$18,828,496","106,998","51,811","22,291","16,779","9,079","4,173","2,377",439
+441,Motor Vehicle and Parts Dealers,"$3,591,629","11,008","4,873","2,079","1,937","1,051",684,362,18
+444,Building Material and Garden Equipment and Supplies Dealers,"$1,567,452","6,521","2,831","1,425","1,092",639,156,356,(2)
+445,Food and Beverage Retailers,"$3,942,214","18,997","9,089","3,673","1,976","1,579","1,705",955,16
+449,"Furniture, Home Furnishings, Electronics, and Appliance Retailers","$1,334,446","9,633","5,640","1,859","1,288",492,266,68,17
+455,General Merchandise Retailers,"$2,978,325","6,111","2,310",545,"1,167",692,584,445,346
+456,Health and Personal Care Retailers,"$1,536,671","12,370","5,845","2,788","2,369","1,222",95,42,6
+457,Gasoline Stations and Fuel Dealers,"$663,629","7,646","2,109","3,156","1,908",393,63,17,0
+458,"Clothing, Clothing Accessories, Shoe, and Jewelry Retailers","$1,579,927","14,752","7,106","3,312","2,415","1,440",387,79,6
+459,"Sporting Goods, Hobby, Musical Instrument, Book, and Miscellaneous Retailers","$1,634,202","19,960","12,008","3,454","2,627","1,571",233,53,(2)
+,,,,,,,,,,
+48 - 49,Transportation and Warehousing,"$14,086,663","40,097","27,598","4,392","3,281","2,545","1,212",662,183
+481,Air Transportation,"$1,693,442",615,305,70,73,75,36,24,13
+482,Rail Transportation,$533,11,(2),0,(1),0,0,0,0
+483,Water Transportation,"$138,251",165,95,21,16,16,7,6,(1)
+484,Truck Transportation,"$2,513,284","23,477","18,722","1,921","1,304",967,365,156,28
+485,Transit and Ground Passenger Transportation,"$1,395,653","2,351","1,393",292,250,218,106,64,16
+486,Pipeline Transportation,"$51,414",116,(2),15,23,26,3,(1),0
+487,Scenic and Sightseeing Transportation,"$48,102",405,226,69,61,30,12,7,0
+488,Support Activities for Transportation,"$2,283,726","7,334","4,412","1,185",789,597,201,104,25
+491,Postal Service,"$10,253",156,105,30,(2),6,0,(1),0
+492,Couriers and Messengers,"$2,181,316","2,763","1,291",334,361,264,288,138,39
+493,Warehousing and Storage,"$3,770,689","2,704",992,455,389,346,194,160,(2)
+,,,,,,,,,,
+51,Information,"$36,377,317","31,277","23,260","2,894","2,071","1,610",728,424,145
+512,Motion Picture and Sound Recording Industries,"$3,760,225","12,075","10,439",568,369,388,193,71,22
+513,Publishing Industries,"$9,146,922","8,276","5,753","1,017",634,491,188,132,27
+516,Broadcasting and Content Providers,"$8,862,827","2,544","1,653",243,241,187,106,71,21
+517,Telecommunications,"$1,798,427","2,853","1,438",489,463,271,110,51,18
+518,"Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services","$5,763,431","4,630","3,401",497,304,228,101,56,25
+519,"Web Search Portals, Libraries, Archives, and Other Information Services","$7,045,486",899,576,80,60,45,30,43,32
+,,,,,,,,,,
+52,Finance and Insurance,"$18,723,671","52,229","35,571","8,348","4,671","2,190",760,480,125
+521,Monetary Authorities-Central Bank,"$66,790",34,22,(1),3,4,(1),0,(1)
+522,Credit Intermediation and Related Activities,"$6,266,430","16,361","8,098","4,286","2,642",799,279,180,49
+523,"Securities, Commodity Contracts, and Other Financial Investments and Related Activities","$6,933,999","16,743","13,442",(2),871,603,(2),103,(2)
+524,Insurance Carriers and Related Activities,"$5,286,740","18,151","13,232","2,461","1,111",762,293,192,56
+525,"Funds, Trusts, and Other Financial Vehicles","$169,712",940,777,81,44,22,11,5,0
+,,,,,,,,,,
+53,Real Estate and Rental and Leasing,"$6,195,026","66,166","53,347","6,989","3,268","1,796",490,220,42
+531,Real Estate,"$4,955,543","59,627","49,839","5,644","2,372","1,219",344,164,34
+532,Rental and Leasing Services,"$1,153,909","6,162","3,243","1,285",863,(2),(2),53,8
+533,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),"$85,574",377,265,60,33,(2),(1),3,0
+,,,,,,,,,,
+,Services,"$163,741,282","1,312,286","1,074,268","92,555","70,365","50,041","14,563","7,582","1,754"
+541,"Professional, Scientific, and Technical Services","$55,508,154","184,901","143,871","18,334","11,130","7,313","2,413","1,291",338
+551,Management of Companies and Enterprises,"$12,561,802","4,792","1,947",651,608,692,356,344,112
+,,,,,,,,,,
+56,Administrative and Support and Waste Management and Remediation Services,"$16,643,115","58,992","36,871","8,388","5,493","4,439","1,839","1,313",402
+561,Administrative and Support Services,"$15,354,690","55,926","35,410","7,904","5,051","4,052","1,663","1,221",382
+562,Waste Management and Remediation Services,"$1,288,425","3,066","1,461",484,442,387,176,92,20
+,,,,,,,,,,
+611,Educational Services,"$6,182,785","19,859","11,427","3,012","2,396","1,899",644,332,96
+,,,,,,,,,,
+62,Health Care and Social Assistance,"$44,875,881","807,555","747,744","26,535","16,684","9,928","3,522","2,213",518
+621,Ambulatory Health Care Services,"$21,764,454","101,412","62,452","19,335","11,103","5,625","1,675",851,233
+622,Hospitals,"$11,079,100",892,290,42,70,71,42,74,97
+623,Nursing and Residential Care Facilities,"$4,225,357","10,867","3,528","2,133","1,904","1,350",927,925,91
+624,Social Assistance,"$7,806,970","694,384","681,474","5,025","3,607","2,882",878,363,97
+,,,,,,,,,,
+71,"Arts, Entertainment, and Recreation","$5,179,285","35,528","27,223","2,774","2,323","1,990",751,332,80
+711,"Performing Arts, Spectator Sports, and Related Industries","$2,842,083","25,099","22,953","1,013",515,354,140,65,34
+712,"Museums, Historical Sites, and Similar Institutions","$315,425",848,434,151,107,73,42,24,11
+713,"Amusement, Gambling, and Recreation Industries","$2,021,777","9,581","3,836","1,610","1,701","1,563",569,243,35
+,,,,,,,,,,
+72,Accommodation and Food Services,"$14,982,903","94,208","26,651","17,704","23,774","20,203","4,293","1,359",157
+721,Accommodation,"$2,769,468","7,475","2,655","1,062","1,404","1,483",420,305,102
+722,Food Services and Drinking Places,"$12,213,435","86,733","23,996","16,642","22,370","18,720","3,873","1,054",55
+,,,,,,,,,,
+81,Other Services (except Public Administration),"$7,807,357","106,451","78,534","15,157","7,957","3,577",745,398,51
+811,Repair and Maintenance,"$2,435,565","26,263","16,823","5,099","2,897","1,194",177,63,(2)
+812,Personal and Laundry Services,"$1,935,928","32,574","21,789","6,367","2,956","1,099",221,118,(2)
+813,"Religious, Grantmaking, Civic, Professional, and Similar Organizations","$2,984,103","19,805","13,107","2,922","1,930","1,241",343,213,30
+814,Private Households,"$451,760","27,809","26,815",769,174,43,4,4,0
+,,,,,,,,,,
+92,Public Administration,"$59,877,342","37,275","8,196","4,914","5,289","9,032","5,947","2,608",670
+,,,,,,,,,,
+999,Unclassified,"$53,972","3,598","3,485",48,36,17,9,3,0
